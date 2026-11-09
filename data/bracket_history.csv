@@ -1,0 +1,694 @@
+team_id,team,conf,p_field,p_auto,avg_seed,p_top4_seed,rating,asof,games_played
+150,Duke Blue Devils,ACC,100.0,65.0,1.6,97.0,40.6,2026-10-28,0
+57,Florida Gators,SEC,99.9,40.6,2.0,92.8,37.6,2026-10-28,0
+356,Illinois Fighting Illini,Big Ten,99.6,29.0,2.6,84.4,34.6,2026-10-28,0
+130,Michigan Wolverines,Big Ten,99.2,22.3,3.0,78.6,32.9,2026-10-28,0
+248,Houston Cougars,Big 12,99.1,24.1,3.0,80.5,33.6,2026-10-28,0
+12,Arizona Wildcats,Big 12,98.8,22.3,3.1,76.3,32.9,2026-10-28,0
+2641,Texas Tech Red Raiders,Big 12,98.1,18.3,3.8,67.5,31.8,2026-10-28,0
+333,Alabama Crimson Tide,SEC,96.5,11.7,4.0,62.5,29.4,2026-10-28,0
+66,Iowa State Cyclones,Big 12,96.3,12.8,4.7,51.4,29.9,2026-10-28,0
+2250,Gonzaga Bulldogs,Pac-12,96.0,56.7,6.2,30.9,28.4,2026-10-28,0
+2633,Tennessee Volunteers,SEC,95.8,11.1,4.4,56.4,29.4,2026-10-28,0
+127,Michigan State Spartans,Big Ten,94.9,12.8,4.2,58.0,29.7,2026-10-28,0
+251,Texas Longhorns,SEC,94.9,10.9,4.8,51.4,29.1,2026-10-28,0
+41,UConn Huskies,Big East,94.7,30.7,5.0,48.3,28.7,2026-10-28,0
+2305,Kansas Jayhawks,Big 12,94.2,9.5,4.7,51.4,28.3,2026-10-28,0
+158,Nebraska Cornhuskers,Big Ten,90.6,6.9,5.8,35.5,26.5,2026-10-28,0
+97,Louisville Cardinals,ACC,89.2,8.5,6.1,30.4,25.4,2026-10-28,0
+2509,Purdue Boilermakers,Big Ten,88.7,6.3,5.5,39.2,26.0,2026-10-28,0
+2599,St. John's Red Storm,Big East,88.4,20.1,6.1,30.3,25.2,2026-10-28,0
+2,Auburn Tigers,SEC,88.3,6.0,5.8,35.0,26.3,2026-10-28,0
+2390,Miami Hurricanes,ACC,88.2,8.0,6.9,20.6,25.2,2026-10-28,0
+258,Virginia Cavaliers,ACC,86.3,6.9,6.5,25.6,24.9,2026-10-28,0
+96,Kentucky Wildcats,SEC,85.7,5.0,6.1,29.8,25.1,2026-10-28,0
+201,Oklahoma Sooners,SEC,83.2,4.3,6.7,23.7,24.6,2026-10-28,0
+2272,High Point Panthers,Big South,82.8,78.4,12.4,0.0,15.4,2026-10-28,0
+194,Ohio State Buckeyes,Big Ten,82.6,5.4,6.5,25.3,24.7,2026-10-28,0
+222,Villanova Wildcats,Big East,80.6,13.3,7.3,17.0,22.9,2026-10-28,0
+156,Creighton Bluejays,Big East,79.4,12.9,7.0,19.3,22.8,2026-10-28,0
+26,UCLA Bruins,Big Ten,78.3,3.9,6.9,19.5,23.2,2026-10-28,0
+238,Vanderbilt Commodores,SEC,78.0,3.2,7.1,17.1,23.3,2026-10-28,0
+252,BYU Cougars,Big 12,77.8,3.5,6.7,19.6,23.2,2026-10-28,0
+228,Clemson Tigers,ACC,76.3,4.5,7.7,10.7,22.0,2026-10-28,0
+239,Baylor Bears,Big 12,76.2,2.8,7.0,16.6,23.0,2026-10-28,0
+275,Wisconsin Badgers,Big Ten,76.0,3.7,6.7,20.9,22.9,2026-10-28,0
+2670,VCU Rams,A-10,74.9,34.6,9.7,1.5,20.3,2026-10-28,0
+8,Arkansas Razorbacks,SEC,74.0,3.0,7.1,16.8,22.8,2026-10-28,0
+2294,Iowa Hawkeyes,Big Ten,73.5,3.0,7.1,16.8,22.6,2026-10-28,0
+139,Saint Louis Billikens,A-10,73.1,32.7,9.4,2.0,20.0,2026-10-28,0
+84,Indiana Hoosiers,Big Ten,72.2,2.2,7.3,15.3,21.7,2026-10-28,0
+269,Marquette Golden Eagles,Big East,69.1,8.8,7.8,11.3,20.9,2026-10-28,0
+328,Utah State Aggies,Pac-12,69.0,19.5,9.0,3.2,20.0,2026-10-28,0
+2132,Cincinnati Bearcats,Big 12,68.3,2.3,7.5,12.3,21.2,2026-10-28,0
+2752,Xavier Musketeers,Big East,65.8,7.5,7.9,9.8,20.1,2026-10-28,0
+245,Texas A&M Aggies,SEC,63.1,1.1,7.9,9.5,20.4,2026-10-28,0
+30,USC Trojans,Big Ten,60.6,1.7,8.1,8.0,19.6,2026-10-28,0
+61,Georgia Bulldogs,SEC,59.0,1.7,8.1,7.2,20.4,2026-10-28,0
+120,Maryland Terrapins,Big Ten,58.2,1.7,8.0,7.2,19.6,2026-10-28,0
+152,NC State Wolfpack,ACC,56.9,2.3,8.4,4.4,18.9,2026-10-28,0
+2377,McNeese Cowboys,Southland,56.7,54.4,13.5,0.0,8.5,2026-10-28,0
+197,Oklahoma State Cowboys,Big 12,56.5,1.3,7.8,8.2,19.4,2026-10-28,0
+277,West Virginia Mountaineers,Big 12,55.4,1.2,8.2,5.8,19.1,2026-10-28,0
+47,Howard Bison,MEAC,48.9,48.8,15.3,0.0,-4.6,2026-10-28,0
+2253,Grand Canyon Lopes,Mountain West,48.6,27.0,11.0,0.1,15.2,2026-10-28,0
+2507,Providence Friars,Big East,48.5,3.7,8.8,3.3,17.2,2026-10-28,0
+2628,TCU Horned Frogs,Big 12,47.7,0.9,8.5,4.1,17.8,2026-10-28,0
+145,Ole Miss Rebels,SEC,47.4,0.5,8.6,3.7,17.9,2026-10-28,0
+2608,Saint Mary's Gaels,WCC,47.4,37.5,11.7,0.1,13.0,2026-10-28,0
+259,Virginia Tech Hokies,ACC,45.7,1.0,9.3,2.3,16.0,2026-10-28,0
+167,New Mexico Lobos,Mountain West,43.9,23.0,11.1,0.2,14.0,2026-10-28,0
+153,North Carolina Tar Heels,ACC,43.9,1.2,8.6,3.3,16.9,2026-10-28,0
+2168,Dayton Flyers,A-10,43.1,15.9,10.5,0.3,15.2,2026-10-28,0
+2440,Nevada Wolf Pack,Mountain West,42.1,23.0,10.8,0.1,14.2,2026-10-28,0
+235,Memphis Tigers,American,41.1,27.0,11.2,0.3,13.5,2026-10-28,0
+142,Missouri Tigers,SEC,40.6,0.7,8.3,4.3,17.8,2026-10-28,0
+9,Arizona State Sun Devils,Big 12,40.0,0.5,8.7,2.6,16.7,2026-10-28,0
+261,Vermont Catamounts,America East,38.2,38.1,15.2,0.0,-3.6,2026-10-28,0
+2724,Wichita State Shockers,American,37.8,24.0,11.4,0.0,12.7,2026-10-28,0
+2900,St. Thomas-Minnesota Tommies,Summit,34.8,34.5,14.6,0.0,0.7,2026-10-28,0
+2541,Santa Clara Broncos,WCC,34.7,27.7,12.1,0.0,10.1,2026-10-28,0
+2439,UNLV Rebels,Mountain West,34.0,18.3,11.2,0.0,12.5,2026-10-28,0
+2567,SMU Mustangs,ACC,33.9,0.6,9.3,1.2,15.0,2026-10-28,0
+147,Montana State Bobcats,Big Sky,33.5,32.7,14.1,0.0,3.1,2026-10-28,0
+2483,Oregon Ducks,Big Ten,33.4,0.5,8.9,1.5,15.7,2026-10-28,0
+2116,UCF Knights,Big 12,31.9,0.3,8.6,2.6,15.9,2026-10-28,0
+68,Boise State Broncos,Pac-12,31.8,8.0,9.9,0.4,14.2,2026-10-28,0
+112358,Long Island University Sharks,NEC,31.6,31.5,15.7,0.0,-8.8,2026-10-28,0
+2511,Queens University Royals,ASUN,31.0,30.9,15.1,0.0,-2.3,2026-10-28,0
+350,UNC Wilmington Seahawks,CAA,30.8,28.5,13.4,0.0,6.1,2026-10-28,0
+82,UIC Flames,MVC,30.6,25.7,12.6,0.0,8.7,2026-10-28,0
+232,Charleston Cougars,CAA,30.5,27.9,13.3,0.0,6.0,2026-10-28,0
+231,Furman Paladins,SoCon,30.1,29.5,14.1,0.0,2.4,2026-10-28,0
+2634,Tennessee State Tigers,OVC,30.1,30.0,15.0,0.0,-5.6,2026-10-28,0
+3084,Utah Valley Wolverines,Big West,29.5,26.3,13.1,0.0,7.0,2026-10-28,0
+36,Colorado State Rams,Pac-12,29.1,7.5,10.0,0.3,13.9,2026-10-28,0
+183,Syracuse Orange,ACC,28.9,0.6,9.8,0.9,13.9,2026-10-28,0
+2065,Bethune-Cookman Wildcats,SWAC,28.5,28.5,15.7,0.0,-6.8,2026-10-28,0
+288,Lipscomb Bisons,ASUN,28.4,28.3,14.9,0.0,-2.7,2026-10-28,0
+2450,Norfolk State Spartans,MEAC,26.2,26.2,15.7,0.0,-9.9,2026-10-28,0
+98,Western Kentucky Hilltoppers,CUSA,26.2,24.9,13.5,0.0,4.9,2026-10-28,0
+2142,Colgate Raiders,Patriot,26.1,26.1,15.2,0.0,-3.9,2026-10-28,0
+2750,Wright State Raiders,Horizon,26.0,25.5,14.4,0.0,1.0,2026-10-28,0
+43,Yale Bulldogs,Ivy,25.0,24.3,13.8,0.0,2.9,2026-10-28,0
+2006,Akron Zips,MAC,24.9,23.1,13.2,0.0,5.5,2026-10-28,0
+44,American University Eagles,Patriot,24.9,24.9,15.3,0.0,-4.1,2026-10-28,0
+21,San Diego State Aztecs,Pac-12,23.1,5.4,10.0,0.3,12.4,2026-10-28,0
+193,Miami (OH) RedHawks,MAC,22.3,20.3,13.4,0.0,4.8,2026-10-28,0
+2523,Robert Morris Colonials,Horizon,22.1,21.9,14.6,0.0,0.0,2026-10-28,0
+2110,Central Arkansas Bears,UAC,21.8,21.7,14.8,0.0,-2.5,2026-10-28,0
+314,Iona Gaels,MAAC,21.5,21.3,15.1,0.0,-3.7,2026-10-28,0
+28,UC San Diego Tritons,Big West,21.4,19.5,13.3,0.0,5.1,2026-10-28,0
+58,South Florida Bulls,American,21.2,13.9,12.0,0.0,9.3,2026-10-28,0
+300,UC Irvine Anteaters,Big West,21.0,19.2,13.4,0.0,4.8,2026-10-28,0
+2546,Southeast Missouri State Redhawks,OVC,21.0,20.9,15.4,0.0,-8.0,2026-10-28,0
+108,Harvard Crimson,Ivy,20.9,20.3,14.0,0.0,1.5,2026-10-28,0
+219,Pennsylvania Quakers,Ivy,20.9,20.4,13.8,0.0,1.4,2026-10-28,0
+2571,South Dakota State Jackrabbits,Summit,20.4,20.2,14.7,0.0,-3.1,2026-10-28,0
+331,Eastern Washington Eagles,Big Sky,20.2,19.8,14.7,0.0,-0.6,2026-10-28,0
+2617,Stephen F. Austin Lumberjacks,Southland,20.1,19.6,14.2,0.0,0.2,2026-10-28,0
+2193,East Tennessee State Buccaneers,SoCon,19.7,19.5,14.4,0.0,-0.5,2026-10-28,0
+2046,Austin Peay Governors,UAC,19.6,19.5,14.9,0.0,-3.2,2026-10-28,0
+93,Murray State Racers,MVC,19.5,16.8,12.9,0.0,6.2,2026-10-28,0
+77,Northwestern Wildcats,Big Ten,18.7,0.2,9.5,0.6,12.4,2026-10-28,0
+2540,UC Santa Barbara Gauchos,Big West,18.6,17.0,13.3,0.0,4.5,2026-10-28,0
+2449,North Dakota State Bison,Summit,18.5,18.4,15.1,0.0,-3.7,2026-10-28,0
+87,Notre Dame Fighting Irish,ACC,17.6,0.5,9.7,0.3,11.9,2026-10-28,0
+250,UT Arlington Mavericks,UAC,17.6,17.6,15.1,0.0,-4.0,2026-10-28,0
+2378,UMBC Retrievers,America East,17.4,17.4,15.6,0.0,-9.4,2026-10-28,0
+166,New Mexico State Aggies,CUSA,17.3,16.6,13.7,0.0,2.5,2026-10-28,0
+305,DePaul Blue Demons,Big East,17.3,1.0,9.9,0.4,11.6,2026-10-28,0
+2550,Seton Hall Pirates,Big East,17.2,0.9,9.9,0.3,12.1,2026-10-28,0
+2653,Troy Trojans,Sun Belt,17.0,16.9,14.2,0.0,-0.4,2026-10-28,0
+2771,Merrimack Warriors,MAAC,16.8,16.8,15.2,0.0,-4.7,2026-10-28,0
+2287,Illinois State Redbirds,MVC,16.8,14.4,13.2,0.0,5.2,2026-10-28,0
+154,Wake Forest Demon Deacons,ACC,16.7,0.2,10.1,0.2,11.6,2026-10-28,0
+46,Georgetown Hoyas,Big East,16.7,0.8,9.9,0.3,11.4,2026-10-28,0
+2681,Wagner Seahawks,NEC,16.6,16.6,15.7,0.0,-13.0,2026-10-28,0
+2426,Navy Midshipmen,Patriot,16.1,16.1,15.4,0.0,-7.3,2026-10-28,0
+344,Mississippi State Bulldogs,SEC,16.1,0.1,9.6,0.4,12.3,2026-10-28,0
+2627,Tarleton State Texans,UAC,15.8,15.8,15.1,0.0,-4.6,2026-10-28,0
+221,Pittsburgh Panthers,ACC,15.1,0.3,9.8,0.3,11.2,2026-10-28,0
+256,James Madison Dukes,Sun Belt,14.9,14.8,14.4,0.0,-1.3,2026-10-28,0
+338,Kennesaw State Owls,CUSA,14.8,14.3,13.8,0.0,1.3,2026-10-28,0
+2458,Northern Colorado Bears,Big Sky,14.8,14.7,14.6,0.0,-2.6,2026-10-28,0
+254,Utah Utes,Big 12,14.6,0.2,9.5,0.4,11.4,2026-10-28,0
+294,Jacksonville Dolphins,ASUN,14.6,14.6,15.2,0.0,-7.1,2026-10-28,0
+2309,Kent State Golden Flashes,MAC,14.4,13.7,13.6,0.0,2.4,2026-10-28,0
+2565,SIU Edwardsville Cougars,OVC,14.4,14.4,15.6,0.0,-10.5,2026-10-28,0
+135,Minnesota Golden Gophers,Big Ten,14.4,0.1,9.8,0.3,11.2,2026-10-28,0
+2330,Le Moyne Dolphins,NEC,14.2,14.2,15.8,0.0,-14.0,2026-10-28,0
+2226,Florida Atlantic Owls,American,14.2,9.8,12.1,0.0,6.8,2026-10-28,0
+2244,George Mason Patriots,A-10,14.0,5.4,11.5,0.0,9.1,2026-10-28,0
+2032,Arkansas State Red Wolves,Sun Belt,13.9,13.7,14.3,0.0,-1.5,2026-10-28,0
+24,Stanford Cardinal,ACC,13.9,0.2,9.8,0.2,10.7,2026-10-28,0
+2115,Central Connecticut Blue Devils,NEC,13.6,13.6,15.8,0.0,-14.2,2026-10-28,0
+2473,Oakland Golden Grizzlies,Horizon,13.5,13.5,15.0,0.0,-3.2,2026-10-28,0
+2649,Toledo Rockets,MAC,13.5,13.0,13.9,0.0,2.1,2026-10-28,0
+2535,Samford Bulldogs,SoCon,13.4,13.3,14.7,0.0,-2.6,2026-10-28,0
+264,Washington Huskies,Big Ten,13.2,0.1,9.6,0.3,11.2,2026-10-28,0
+2247,Georgia State Panthers,Sun Belt,13.0,12.8,14.3,0.0,-1.5,2026-10-28,0
+2349,UMass Lowell River Hawks,America East,13.0,13.0,15.7,0.0,-11.2,2026-10-28,0
+2335,Liberty Flames,CUSA,13.0,12.8,14.0,0.0,0.4,2026-10-28,0
+38,Colorado Buffaloes,Big 12,12.7,0.0,9.6,0.3,11.2,2026-10-28,0
+2630,UT Martin Skyhawks,OVC,12.7,12.7,15.7,0.0,-11.8,2026-10-28,0
+2582,Southern Jaguars,SWAC,12.6,12.6,15.8,0.0,-11.7,2026-10-28,0
+163,Princeton Tigers,Ivy,12.6,12.3,14.4,0.0,-1.9,2026-10-28,0
+2011,Alabama State Hornets,SWAC,12.4,12.4,15.8,0.0,-12.3,2026-10-28,0
+2217,Fairfield Stags,MAAC,12.3,12.3,15.1,0.0,-6.4,2026-10-28,0
+119,Towson Tigers,CAA,12.2,11.5,14.0,0.0,0.4,2026-10-28,0
+2275,Hofstra Pride,CAA,12.1,11.5,14.3,0.0,-0.0,2026-10-28,0
+2368,Marist Red Foxes,MAAC,12.0,12.0,15.2,0.0,-7.0,2026-10-28,0
+164,Rutgers Scarlet Knights,Big Ten,12.0,0.0,10.0,0.3,10.6,2026-10-28,0
+2534,Sam Houston Bearkats,CUSA,11.6,11.2,14.3,0.0,0.0,2026-10-28,0
+2717,Western Carolina Catamounts,SoCon,11.4,11.3,14.7,0.0,-3.5,2026-10-28,0
+2031,Little Rock Trojans,UAC,11.4,11.4,15.3,0.0,-6.3,2026-10-28,0
+2181,Drake Bulldogs,MVC,11.4,10.2,13.3,0.0,3.4,2026-10-28,0
+2351,Loyola Marymount Lions,WCC,11.4,10.0,13.1,0.0,3.7,2026-10-28,0
+2329,Lehigh Mountain Hawks,Patriot,11.2,11.2,15.4,0.0,-9.2,2026-10-28,0
+25,California Golden Bears,ACC,11.1,0.1,10.0,0.1,9.9,2026-10-28,0
+249,North Texas Mean Green,American,10.9,7.7,12.3,0.0,6.1,2026-10-28,0
+2057,Belmont Bruins,MVC,10.9,9.8,13.3,0.0,3.4,2026-10-28,0
+2306,Kansas State Wildcats,Big 12,10.4,0.1,9.7,0.2,10.5,2026-10-28,0
+2547,Seattle U Redhawks,WCC,10.2,9.2,13.1,0.0,3.6,2026-10-28,0
+56,Stetson Hatters,ASUN,9.9,9.9,15.5,0.0,-9.2,2026-10-28,0
+2514,Quinnipiac Bobcats,MAAC,9.9,9.9,15.3,0.0,-8.2,2026-10-28,0
+2460,Northern Iowa Panthers,MVC,9.7,9.0,13.5,0.0,2.8,2026-10-28,0
+172,Cornell Big Red,Ivy,9.6,9.4,14.6,0.0,-2.8,2026-10-28,0
+104,Boston University Terriers,Patriot,9.6,9.6,15.7,0.0,-10.0,2026-10-28,0
+2016,Alcorn State Braves,SWAC,9.4,9.4,15.9,0.0,-13.7,2026-10-28,0
+213,Penn State Nittany Lions,Big Ten,9.0,0.1,9.9,0.1,9.7,2026-10-28,0
+2803,Bryant Bulldogs,America East,8.7,8.7,15.8,0.0,-13.3,2026-10-28,0
+2393,Middle Tennessee Blue Raiders,CUSA,8.5,8.2,14.1,0.0,-1.6,2026-10-28,0
+2130,Chicago State Cougars,NEC,8.3,8.3,16.0,0.0,-16.6,2026-10-28,0
+198,Oral Roberts Golden Eagles,Summit,8.3,8.3,15.2,0.0,-8.6,2026-10-28,0
+94,Northern Kentucky Norse,Horizon,8.3,8.2,15.0,0.0,-6.0,2026-10-28,0
+171,Columbia Lions,Ivy,8.2,8.1,14.4,0.0,-3.7,2026-10-28,0
+99,LSU Tigers,SEC,8.1,0.0,9.6,0.2,9.9,2026-10-28,0
+2755,Grambling Tigers,SWAC,8.1,8.1,15.7,0.0,-14.0,2026-10-28,0
+2572,Southern Miss Golden Eagles,Sun Belt,8.1,8.0,14.8,0.0,-4.2,2026-10-28,0
+2739,Green Bay Phoenix,Horizon,8.0,8.0,15.2,0.0,-5.8,2026-10-28,0
+284,Stonehill Skyhawks,NEC,8.0,8.0,15.9,0.0,-17.3,2026-10-28,0
+161,Fairleigh Dickinson Knights,NEC,7.8,7.8,15.9,0.0,-17.1,2026-10-28,0
+2504,Prairie View A&M Panthers,SWAC,7.6,7.6,15.8,0.0,-14.8,2026-10-28,0
+399,UAlbany Great Danes,America East,7.5,7.5,15.9,0.0,-14.0,2026-10-28,0
+52,Florida State Seminoles,ACC,7.5,0.0,10.0,0.1,9.4,2026-10-28,0
+357,Texas A&M-Corpus Christi Islanders,Southland,7.5,7.4,15.2,0.0,-5.4,2026-10-28,0
+6,South Alabama Jaguars,Sun Belt,7.3,7.2,14.9,0.0,-5.2,2026-10-28,0
+88,Southern Indiana Screaming Eagles,OVC,7.3,7.3,15.8,0.0,-14.2,2026-10-28,0
+2382,Mercer Bears,SoCon,7.2,7.1,15.1,0.0,-5.4,2026-10-28,0
+526,Florida Gulf Coast Eagles,ASUN,7.1,7.1,15.6,0.0,-10.6,2026-10-28,0
+2437,Omaha Mavericks,Summit,7.0,7.0,15.2,0.0,-9.4,2026-10-28,0
+2674,Valparaiso Beacons,MVC,6.7,6.2,13.6,0.0,0.6,2026-10-28,0
+2737,Winthrop Eagles,Big South,6.7,6.6,14.5,0.0,-3.6,2026-10-28,0
+2569,South Carolina State Bulldogs,MEAC,6.7,6.7,15.9,0.0,-18.6,2026-10-28,0
+195,Ohio Bobcats,MAC,6.5,6.5,14.2,0.0,-1.6,2026-10-28,0
+2413,Morehead State Eagles,OVC,6.5,6.5,15.7,0.0,-15.2,2026-10-28,0
+2711,Western Michigan Broncos,MAC,6.4,6.2,14.1,0.0,-1.6,2026-10-28,0
+236,Chattanooga Mocs,SoCon,6.4,6.4,15.0,0.0,-6.6,2026-10-28,0
+2539,San Francisco Dons,WCC,6.3,5.8,13.6,0.0,1.4,2026-10-28,0
+2640,Texas Southern Tigers,SWAC,6.3,6.3,15.9,0.0,-15.6,2026-10-28,0
+2815,Lindenwood Lions,OVC,6.2,6.2,15.8,0.0,-15.0,2026-10-28,0
+3101,Utah Tech Trailblazers,Big Sky,6.1,6.1,15.3,0.0,-7.2,2026-10-28,0
+218,Temple Owls,American,6.1,4.6,12.6,0.0,3.4,2026-10-28,0
+2751,Wyoming Cowboys,Mountain West,6.1,3.7,12.2,0.0,4.3,2026-10-28,0
+149,Montana Grizzlies,Big Sky,6.0,6.0,15.2,0.0,-7.1,2026-10-28,0
+202,Tulsa Golden Hurricane,American,5.9,4.5,12.6,0.0,3.6,2026-10-28,0
+2502,Portland State Vikings,Big Sky,5.9,5.9,15.2,0.0,-7.1,2026-10-28,0
+2428,North Carolina Central Eagles,MEAC,5.8,5.8,16.0,0.0,-19.0,2026-10-28,0
+116,Mount St. Mary's Mountaineers,MAAC,5.8,5.8,15.5,0.0,-10.4,2026-10-28,0
+70,Idaho Vandals,Big Sky,5.5,5.5,15.1,0.0,-7.6,2026-10-28,0
+276,Marshall Thundering Herd,Sun Belt,5.5,5.4,14.8,0.0,-6.0,2026-10-28,0
+2754,Youngstown State Penguins,Horizon,5.5,5.4,15.3,0.0,-7.9,2026-10-28,0
+309,Louisiana Ragin' Cajuns,Sun Belt,5.4,5.4,14.9,0.0,-6.5,2026-10-28,0
+311,Maine Black Bears,America East,5.4,5.4,15.9,0.0,-16.0,2026-10-28,0
+91,Bellarmine Knights,ASUN,5.4,5.4,15.7,0.0,-12.6,2026-10-28,0
+2405,Monmouth Hawks,CAA,5.4,5.3,14.8,0.0,-3.5,2026-10-28,0
+2612,Saint Peter's Peacocks,MAAC,5.3,5.3,15.5,0.0,-10.8,2026-10-28,0
+2230,Fordham Rams,A-10,5.2,1.9,12.0,0.0,4.9,2026-10-28,0
+5,UAB Blazers,American,5.2,3.9,12.7,0.0,2.9,2026-10-28,0
+2463,Cal State Northridge Matadors,Big West,5.2,5.0,14.3,0.0,-2.2,2026-10-28,0
+50,Florida A&M Rattlers,SWAC,5.1,5.1,15.9,0.0,-16.1,2026-10-28,0
+2000,Abilene Christian Wildcats,UAC,5.0,5.0,15.4,0.0,-10.5,2026-10-28,0
+2415,Morgan State Bears,MEAC,5.0,5.0,15.9,0.0,-20.3,2026-10-28,0
+13,Cal Poly Mustangs,Big West,4.9,4.8,14.3,0.0,-3.0,2026-10-28,0
+2198,Eastern Kentucky Colonels,UAC,4.9,4.9,15.5,0.0,-11.3,2026-10-28,0
+140,Kansas City Roos,Summit,4.8,4.8,15.5,0.0,-11.8,2026-10-28,0
+2084,Buffalo Bulls,MAC,4.8,4.7,14.6,0.0,-3.4,2026-10-28,0
+2166,Davidson Wildcats,A-10,4.7,1.8,11.6,0.0,5.2,2026-10-28,0
+45,George Washington Revolutionaries,A-10,4.6,2.0,11.6,0.0,4.6,2026-10-28,0
+71,Bradley Braves,MVC,4.6,4.2,13.7,0.0,-0.6,2026-10-28,0
+324,Coastal Carolina Chanticleers,Sun Belt,4.6,4.6,14.9,0.0,-6.5,2026-10-28,0
+233,South Dakota Coyotes,Summit,4.5,4.5,15.5,0.0,-11.2,2026-10-28,0
+2561,Siena Saints,MAAC,4.5,4.5,15.7,0.0,-11.6,2026-10-28,0
+2515,Radford Highlanders,Big South,4.4,4.3,15.1,0.0,-5.8,2026-10-28,0
+2870,Purdue Fort Wayne Mastodons,Horizon,4.4,4.4,15.2,0.0,-8.9,2026-10-28,0
+2010,Alabama A&M Bulldogs,SWAC,4.3,4.3,15.9,0.0,-17.1,2026-10-28,0
+55,Jacksonville State Gamecocks,CUSA,4.2,4.2,14.7,0.0,-4.9,2026-10-28,0
+2453,North Alabama Lions,UAC,4.1,4.1,15.5,0.0,-12.5,2026-10-28,0
+2635,Tennessee Tech Golden Eagles,SoCon,4.0,4.0,15.2,0.0,-8.2,2026-10-28,0
+2296,Jackson State Tigers,SWAC,4.0,4.0,16.0,0.0,-17.3,2026-10-28,0
+2229,Florida International Panthers,CUSA,4.0,3.9,14.6,0.0,-5.1,2026-10-28,0
+2545,SE Louisiana Lions,Southland,4.0,3.9,15.5,0.0,-8.8,2026-10-28,0
+2692,Weber State Wildcats,Big Sky,4.0,4.0,15.4,0.0,-8.8,2026-10-28,0
+160,New Hampshire Wildcats,America East,3.9,3.9,15.9,0.0,-17.1,2026-10-28,0
+2182,Drexel Dragons,CAA,3.9,3.8,14.8,0.0,-4.8,2026-10-28,0
+253,Southern Utah Thunderbirds,Big Sky,3.9,3.9,15.2,0.0,-8.2,2026-10-28,0
+2579,South Carolina Gamecocks,SEC,3.9,0.1,10.4,0.0,7.0,2026-10-28,0
+295,Old Dominion Monarchs,Sun Belt,3.9,3.8,14.9,0.0,-6.2,2026-10-28,0
+2430,UNC Greensboro Spartans,SoCon,3.8,3.8,15.4,0.0,-8.5,2026-10-28,0
+2454,North Florida Ospreys,ASUN,3.8,3.8,15.6,0.0,-13.5,2026-10-28,0
+2174,Detroit Mercy Titans,Horizon,3.8,3.8,15.2,0.0,-9.6,2026-10-28,0
+2379,Maryland Eastern Shore Hawks,MEAC,3.8,3.8,16.0,0.0,-20.4,2026-10-28,0
+113,Massachusetts Minutemen,MAC,3.8,3.6,14.5,0.0,-4.1,2026-10-28,0
+292,UT Rio Grande Valley Vaqueros,Southland,3.8,3.7,15.4,0.0,-9.1,2026-10-28,0
+322,Lafayette Leopards,Patriot,3.7,3.7,15.8,0.0,-15.0,2026-10-28,0
+2026,App State Mountaineers,Sun Belt,3.7,3.7,15.0,0.0,-7.7,2026-10-28,0
+257,Richmond Spiders,A-10,3.6,1.5,11.9,0.0,4.3,2026-10-28,0
+62,Hawai'i Rainbow Warriors,Mountain West,3.6,2.5,12.5,0.0,2.6,2026-10-28,0
+270,Milwaukee Panthers,Horizon,3.6,3.6,15.5,0.0,-9.2,2026-10-28,0
+2747,Wofford Terriers,SoCon,3.6,3.6,15.4,0.0,-8.4,2026-10-28,0
+225,Brown Bears,Ivy,3.6,3.6,15.0,0.0,-8.7,2026-10-28,0
+103,Boston College Eagles,ACC,3.5,0.0,10.9,0.0,5.8,2026-10-28,0
+2529,Sacred Heart Pioneers,MAAC,3.5,3.5,15.6,0.0,-12.5,2026-10-28,0
+2050,Ball State Cardinals,MAC,3.5,3.4,14.5,0.0,-4.4,2026-10-28,0
+2099,Canisius Golden Griffins,MAAC,3.3,3.3,15.7,0.0,-13.6,2026-10-28,0
+204,Oregon State Beavers,Pac-12,3.2,1.0,11.5,0.0,4.4,2026-10-28,0
+2427,UNC Asheville Bulldogs,Big South,3.2,3.2,15.2,0.0,-8.2,2026-10-28,0
+2350,Loyola Chicago Ramblers,A-10,3.2,1.3,11.8,0.0,3.3,2026-10-28,0
+2086,Butler Bulldogs,Big East,3.1,0.1,10.8,0.0,6.0,2026-10-28,0
+325,Cleveland State Vikings,Horizon,3.1,3.1,15.3,0.0,-9.4,2026-10-28,0
+2885,NJIT Highlanders,America East,3.1,3.1,16.0,0.0,-18.8,2026-10-28,0
+189,Bowling Green Falcons,MAC,3.1,3.0,14.4,0.0,-4.0,2026-10-28,0
+2506,Presbyterian Blue Hose,Big South,2.9,2.9,15.1,0.0,-7.7,2026-10-28,0
+2066,Binghamton Bearcats,America East,2.9,2.9,15.9,0.0,-18.6,2026-10-28,0
+301,San Diego Toreros,WCC,2.8,2.7,14.2,0.0,-2.5,2026-10-28,0
+2083,Bucknell Bison,Patriot,2.8,2.8,15.9,0.0,-16.3,2026-10-28,0
+2210,Elon Phoenix,CAA,2.7,2.6,15.1,0.0,-6.9,2026-10-28,0
+2344,Longwood Lancers,Big South,2.7,2.7,15.1,0.0,-7.4,2026-10-28,0
+2492,Pepperdine Waves,WCC,2.5,2.4,14.5,0.0,-3.3,2026-10-28,0
+2277,Houston Christian Huskies,Southland,2.5,2.5,15.5,0.0,-10.2,2026-10-28,0
+315,Niagara Purple Eagles,MAAC,2.5,2.5,15.7,0.0,-13.7,2026-10-28,0
+2603,Saint Joseph's Hawks,A-10,2.5,1.1,12.0,0.0,2.4,2026-10-28,0
+2348,Louisiana Tech Bulldogs,Sun Belt,2.5,2.4,15.0,0.0,-7.9,2026-10-28,0
+2199,Eastern Michigan Eagles,MAC,2.4,2.4,14.5,0.0,-5.4,2026-10-28,0
+326,Texas State Bobcats,Pac-12,2.4,0.8,11.6,0.0,3.9,2026-10-28,0
+2352,Loyola Maryland Greyhounds,Patriot,2.4,2.4,15.7,0.0,-16.0,2026-10-28,0
+265,Washington State Cougars,Pac-12,2.3,0.9,11.8,0.0,3.5,2026-10-28,0
+2320,Lamar Cardinals,Southland,2.3,2.3,15.5,0.0,-11.4,2026-10-28,0
+2184,Duquesne Dukes,A-10,2.2,0.9,11.8,0.0,2.9,2026-10-28,0
+155,North Dakota Fighting Hawks,Summit,2.2,2.2,15.8,0.0,-14.9,2026-10-28,0
+59,Georgia Tech Yellow Jackets,ACC,2.1,0.0,10.9,0.0,4.2,2026-10-28,0
+279,Pacific Tigers,WCC,2.1,2.0,14.3,0.0,-3.0,2026-10-28,0
+48,Delaware Blue Hens,CUSA,2.1,2.1,14.8,0.0,-7.2,2026-10-28,0
+2619,Stony Brook Seawolves,CAA,2.1,2.1,14.9,0.0,-7.5,2026-10-28,0
+16,Sacramento State Hornets,Big West,2.1,2.1,14.4,0.0,-5.2,2026-10-28,0
+2655,Tulane Green Wave,American,2.1,1.8,13.5,0.0,-0.6,2026-10-28,0
+2729,William & Mary Tribe,CAA,2.0,2.0,14.8,0.0,-6.8,2026-10-28,0
+2261,Hampton Pirates,CAA,2.0,2.0,15.1,0.0,-8.0,2026-10-28,0
+282,Indiana State Sycamores,MVC,2.0,1.9,14.4,0.0,-4.6,2026-10-28,0
+2459,Northern Illinois Huskies,Horizon,2.0,2.0,15.5,0.0,-11.4,2026-10-28,0
+2169,Delaware State Hornets,MEAC,1.9,1.9,16.0,0.0,-24.5,2026-10-28,0
+27,UC Riverside Highlanders,Big West,1.9,1.9,14.8,0.0,-6.4,2026-10-28,0
+2466,Northwestern State Demons,Southland,1.9,1.9,15.5,0.0,-11.6,2026-10-28,0
+349,Army Black Knights,Patriot,1.9,1.9,15.9,0.0,-17.8,2026-10-28,0
+2856,California Baptist Lancers,Big West,1.8,1.8,14.8,0.0,-5.8,2026-10-28,0
+2501,Portland Pilots,WCC,1.8,1.7,14.4,0.0,-3.8,2026-10-28,0
+2623,Missouri State Bears,CUSA,1.8,1.8,14.8,0.0,-7.7,2026-10-28,0
+2154,Coppin State Eagles,MEAC,1.8,1.8,16.0,0.0,-24.6,2026-10-28,0
+151,East Carolina Pirates,American,1.8,1.5,13.2,0.0,-1.3,2026-10-28,0
+2029,Arkansas-Pine Bluff Golden Lions,SWAC,1.8,1.8,16.0,0.0,-21.4,2026-10-28,0
+2363,Manhattan Jaspers,MAAC,1.7,1.7,15.7,0.0,-15.2,2026-10-28,0
+79,Southern Illinois Salukis,MVC,1.6,1.6,14.2,0.0,-4.0,2026-10-28,0
+159,Dartmouth Big Green,Ivy,1.6,1.6,15.2,0.0,-12.1,2026-10-28,0
+23,San José State Spartans,Mountain West,1.6,1.2,13.1,0.0,-0.4,2026-10-28,0
+2447,Nicholls Colonels,Southland,1.5,1.5,15.6,0.0,-12.7,2026-10-28,0
+2443,New Orleans Privateers,Southland,1.5,1.5,15.5,0.0,-12.3,2026-10-28,0
+107,Holy Cross Crusaders,Patriot,1.4,1.4,15.9,0.0,-18.4,2026-10-28,0
+2197,Eastern Illinois Panthers,OVC,1.4,1.4,16.0,0.0,-21.3,2026-10-28,0
+227,Rhode Island Rams,A-10,1.2,0.6,12.2,0.0,0.8,2026-10-28,0
+2127,Charleston Southern Buccaneers,Big South,1.2,1.2,15.6,0.0,-12.4,2026-10-28,0
+2520,Rider Broncs,MAAC,1.1,1.1,15.8,0.0,-16.3,2026-10-28,0
+2239,Cal State Fullerton Titans,Big West,1.1,1.0,15.0,0.0,-8.6,2026-10-28,0
+111,Northeastern Huskies,CAA,1.1,1.1,15.3,0.0,-10.0,2026-10-28,0
+2097,Campbell Fighting Camels,CAA,1.1,1.1,15.4,0.0,-10.7,2026-10-28,0
+290,Georgia Southern Eagles,Sun Belt,1.1,1.1,15.5,0.0,-13.1,2026-10-28,0
+2429,Charlotte 49ers,American,1.0,0.9,13.9,0.0,-2.5,2026-10-28,0
+2172,Denver Pioneers,WCC,1.0,1.0,15.0,0.0,-6.7,2026-10-28,0
+299,Long Beach State Beach,Big West,1.0,1.0,14.9,0.0,-8.1,2026-10-28,0
+2643,The Citadel Bulldogs,SoCon,1.0,1.0,15.7,0.0,-14.1,2026-10-28,0
+2638,UTEP Miners,Mountain West,0.8,0.7,13.1,0.0,-2.7,2026-10-28,0
+302,UC Davis Aggies,Mountain West,0.8,0.6,13.6,0.0,-2.4,2026-10-28,0
+2464,Northern Arizona Lumberjacks,Big Sky,0.7,0.7,15.7,0.0,-15.0,2026-10-28,0
+85,IU Indianapolis Jaguars,Horizon,0.7,0.7,15.7,0.0,-15.9,2026-10-28,0
+304,Idaho State Bengals,Big Sky,0.7,0.7,15.8,0.0,-15.7,2026-10-28,0
+2916,Incarnate Word Cardinals,Southland,0.7,0.7,15.8,0.0,-15.0,2026-10-28,0
+2837,East Texas A&M Lions,Southland,0.7,0.7,15.7,0.0,-14.4,2026-10-28,0
+2710,Western Illinois Leathernecks,OVC,0.6,0.6,16.0,0.0,-25.2,2026-10-28,0
+2678,VMI Keydets,SoCon,0.5,0.5,15.8,0.0,-17.1,2026-10-28,0
+150,Duke Blue Devils,ACC,100.0,64.0,1.6,96.7,40.6,2026-11-02,2
+57,Florida Gators,SEC,100.0,41.9,2.0,92.8,37.6,2026-11-02,2
+356,Illinois Fighting Illini,Big Ten,99.5,30.1,2.6,84.8,34.6,2026-11-02,2
+248,Houston Cougars,Big 12,99.1,22.1,3.1,79.6,33.6,2026-11-02,2
+130,Michigan Wolverines,Big Ten,98.8,23.2,3.0,79.0,32.9,2026-11-02,2
+12,Arizona Wildcats,Big 12,98.8,22.0,3.2,77.0,32.9,2026-11-02,2
+2641,Texas Tech Red Raiders,Big 12,98.1,18.7,3.8,67.2,31.8,2026-11-02,2
+66,Iowa State Cyclones,Big 12,96.4,13.4,4.6,56.5,29.9,2026-11-02,2
+2250,Gonzaga Bulldogs,Pac-12,96.3,56.8,6.1,32.1,28.4,2026-11-02,2
+333,Alabama Crimson Tide,SEC,95.9,11.3,4.1,62.3,29.4,2026-11-02,2
+41,UConn Huskies,Big East,95.7,31.6,5.1,48.9,28.7,2026-11-02,2
+2633,Tennessee Volunteers,SEC,95.7,10.8,4.5,55.7,29.4,2026-11-02,2
+251,Texas Longhorns,SEC,95.5,10.7,4.8,52.5,29.1,2026-11-02,2
+127,Michigan State Spartans,Big Ten,95.5,12.9,4.3,58.5,29.7,2026-11-02,2
+2305,Kansas Jayhawks,Big 12,93.7,9.9,4.7,51.2,28.3,2026-11-02,2
+158,Nebraska Cornhuskers,Big Ten,90.7,6.9,5.9,35.4,26.5,2026-11-02,2
+97,Louisville Cardinals,ACC,89.1,8.9,6.1,31.8,25.4,2026-11-02,2
+2509,Purdue Boilermakers,Big Ten,88.9,5.9,5.6,38.4,26.0,2026-11-02,2
+2,Auburn Tigers,SEC,88.8,6.2,5.8,34.3,26.3,2026-11-02,2
+2599,St. John's Red Storm,Big East,88.2,20.4,6.1,30.2,25.2,2026-11-02,2
+2390,Miami Hurricanes,ACC,87.0,7.9,7.0,21.4,25.2,2026-11-02,2
+258,Virginia Cavaliers,ACC,86.8,7.1,6.5,26.4,24.9,2026-11-02,2
+2272,High Point Panthers,Big South,84.2,79.3,11.8,0.0,16.2,2026-11-02,2
+96,Kentucky Wildcats,SEC,84.1,4.5,6.2,28.7,25.1,2026-11-02,2
+194,Ohio State Buckeyes,Big Ten,83.2,5.6,6.5,26.5,24.7,2026-11-02,2
+201,Oklahoma Sooners,SEC,82.4,3.9,6.8,23.5,24.6,2026-11-02,2
+156,Creighton Bluejays,Big East,80.5,13.1,7.1,19.2,22.8,2026-11-02,2
+252,BYU Cougars,Big 12,78.4,3.6,6.7,20.4,23.2,2026-11-02,2
+26,UCLA Bruins,Big Ten,77.8,3.3,7.0,18.5,23.2,2026-11-02,2
+238,Vanderbilt Commodores,SEC,77.7,2.9,7.2,17.7,23.3,2026-11-02,2
+239,Baylor Bears,Big 12,76.5,3.5,7.0,18.1,23.0,2026-11-02,2
+228,Clemson Tigers,ACC,76.5,4.5,7.8,12.1,22.0,2026-11-02,2
+275,Wisconsin Badgers,Big Ten,76.3,2.9,6.9,20.3,22.9,2026-11-02,2
+2670,VCU Rams,A-10,75.6,33.5,9.7,1.7,20.3,2026-11-02,2
+139,Saint Louis Billikens,A-10,73.7,34.2,9.5,1.5,20.0,2026-11-02,2
+2294,Iowa Hawkeyes,Big Ten,73.5,2.9,7.4,15.4,22.6,2026-11-02,2
+8,Arkansas Razorbacks,SEC,73.0,2.8,7.3,16.8,22.8,2026-11-02,2
+84,Indiana Hoosiers,Big Ten,72.0,2.3,7.5,15.0,21.7,2026-11-02,2
+222,Villanova Wildcats,Big East,70.2,10.3,8.3,9.0,21.5,2026-11-02,2
+269,Marquette Golden Eagles,Big East,69.1,9.0,7.9,10.8,20.9,2026-11-02,2
+328,Utah State Aggies,Pac-12,68.5,20.4,9.2,2.9,20.0,2026-11-02,2
+2132,Cincinnati Bearcats,Big 12,66.6,2.1,7.6,12.2,21.2,2026-11-02,2
+2752,Xavier Musketeers,Big East,65.1,8.4,8.1,9.3,20.1,2026-11-02,2
+245,Texas A&M Aggies,SEC,63.6,1.4,8.2,8.9,20.4,2026-11-02,2
+30,USC Trojans,Big Ten,59.8,1.4,8.3,7.7,19.6,2026-11-02,2
+120,Maryland Terrapins,Big Ten,58.8,1.3,8.2,8.1,19.6,2026-11-02,2
+61,Georgia Bulldogs,SEC,58.6,1.5,8.2,7.2,20.4,2026-11-02,2
+2377,McNeese Cowboys,Southland,58.2,55.7,13.3,0.0,8.5,2026-11-02,2
+152,NC State Wolfpack,ACC,57.2,2.4,8.6,4.2,18.9,2026-11-02,2
+197,Oklahoma State Cowboys,Big 12,56.7,1.1,8.1,8.2,19.4,2026-11-02,2
+277,West Virginia Mountaineers,Big 12,55.0,1.2,8.4,5.4,19.1,2026-11-02,2
+47,Howard Bison,MEAC,50.2,50.1,15.4,0.0,-4.6,2026-11-02,2
+2253,Grand Canyon Lopes,Mountain West,49.9,27.9,10.8,0.1,15.2,2026-11-02,2
+2608,Saint Mary's Gaels,WCC,48.4,39.0,11.4,0.0,13.0,2026-11-02,2
+145,Ole Miss Rebels,SEC,48.1,1.0,8.8,3.8,17.9,2026-11-02,2
+2628,TCU Horned Frogs,Big 12,47.8,1.0,8.8,3.7,17.8,2026-11-02,2
+2507,Providence Friars,Big East,46.3,3.9,8.9,3.5,17.2,2026-11-02,2
+167,New Mexico Lobos,Mountain West,44.3,23.5,11.0,0.1,14.0,2026-11-02,2
+259,Virginia Tech Hokies,ACC,44.3,1.1,9.6,2.1,16.0,2026-11-02,2
+153,North Carolina Tar Heels,ACC,43.7,1.2,8.7,3.7,16.9,2026-11-02,2
+2168,Dayton Flyers,A-10,42.6,14.8,10.5,0.4,15.2,2026-11-02,2
+235,Memphis Tigers,American,42.4,27.5,11.0,0.1,13.5,2026-11-02,2
+2440,Nevada Wolf Pack,Mountain West,42.4,23.1,10.8,0.1,14.2,2026-11-02,2
+142,Missouri Tigers,SEC,41.8,0.8,8.5,5.0,17.8,2026-11-02,2
+9,Arizona State Sun Devils,Big 12,39.1,0.7,9.0,2.3,16.7,2026-11-02,2
+2724,Wichita State Shockers,American,38.2,25.5,11.1,0.0,12.7,2026-11-02,2
+261,Vermont Catamounts,America East,37.2,37.2,15.2,0.0,-3.6,2026-11-02,2
+2900,St. Thomas-Minnesota Tommies,Summit,35.2,34.9,14.5,0.0,0.7,2026-11-02,2
+147,Montana State Bobcats,Big Sky,33.7,33.2,14.1,0.0,3.1,2026-11-02,2
+2483,Oregon Ducks,Big Ten,33.1,0.5,9.0,2.0,15.7,2026-11-02,2
+68,Boise State Broncos,Pac-12,32.9,7.8,10.1,0.4,14.2,2026-11-02,2
+2567,SMU Mustangs,ACC,32.9,0.8,9.6,1.2,15.0,2026-11-02,2
+2541,Santa Clara Broncos,WCC,32.5,25.8,11.9,0.0,10.1,2026-11-02,2
+2116,UCF Knights,Big 12,32.0,0.4,9.0,2.2,15.9,2026-11-02,2
+2511,Queens University Royals,ASUN,32.0,31.9,15.1,0.0,-2.3,2026-11-02,2
+2439,UNLV Rebels,Mountain West,31.9,16.8,11.0,0.0,12.5,2026-11-02,2
+232,Charleston Cougars,CAA,31.6,29.2,13.1,0.0,6.0,2026-11-02,2
+112358,Long Island University Sharks,NEC,31.4,31.4,15.7,0.0,-8.8,2026-11-02,2
+3084,Utah Valley Wolverines,Big West,30.6,27.1,12.9,0.0,7.0,2026-11-02,2
+2634,Tennessee State Tigers,OVC,30.6,30.5,15.0,0.0,-5.6,2026-11-02,2
+82,UIC Flames,MVC,30.5,25.3,12.4,0.0,8.7,2026-11-02,2
+350,UNC Wilmington Seahawks,CAA,30.0,28.1,13.3,0.0,6.1,2026-11-02,2
+36,Colorado State Rams,Pac-12,29.8,7.5,10.2,0.3,13.9,2026-11-02,2
+231,Furman Paladins,SoCon,29.8,29.1,14.1,0.0,2.4,2026-11-02,2
+87,Notre Dame Fighting Irish,ACC,29.3,0.6,9.9,0.8,13.3,2026-11-02,2
+288,Lipscomb Bisons,ASUN,28.6,28.6,15.0,0.0,-2.7,2026-11-02,2
+2065,Bethune-Cookman Wildcats,SWAC,28.6,28.6,15.7,0.0,-6.8,2026-11-02,2
+183,Syracuse Orange,ACC,26.9,0.5,10.2,0.8,13.9,2026-11-02,2
+2142,Colgate Raiders,Patriot,26.6,26.5,15.2,0.0,-3.9,2026-11-02,2
+98,Western Kentucky Hilltoppers,CUSA,26.4,25.3,13.3,0.0,4.9,2026-11-02,2
+2750,Wright State Raiders,Horizon,26.0,25.5,14.3,0.0,1.0,2026-11-02,2
+2450,Norfolk State Spartans,MEAC,25.7,25.7,15.7,0.0,-9.9,2026-11-02,2
+44,American University Eagles,Patriot,25.2,25.2,15.2,0.0,-4.1,2026-11-02,2
+43,Yale Bulldogs,Ivy,24.5,23.7,13.7,0.0,2.9,2026-11-02,2
+2006,Akron Zips,MAC,24.2,22.4,13.0,0.0,5.5,2026-11-02,2
+21,San Diego State Aztecs,Pac-12,23.7,5.0,10.1,0.2,12.4,2026-11-02,2
+193,Miami (OH) RedHawks,MAC,23.0,21.0,13.2,0.0,4.8,2026-11-02,2
+2523,Robert Morris Colonials,Horizon,22.8,22.5,14.5,0.0,0.0,2026-11-02,2
+58,South Florida Bulls,American,21.7,14.0,11.8,0.0,9.3,2026-11-02,2
+28,UC San Diego Tritons,Big West,21.7,20.0,13.2,0.0,5.1,2026-11-02,2
+2110,Central Arkansas Bears,UAC,21.7,21.6,14.8,0.0,-2.5,2026-11-02,2
+2546,Southeast Missouri State Redhawks,OVC,21.6,21.6,15.5,0.0,-8.0,2026-11-02,2
+219,Pennsylvania Quakers,Ivy,21.3,20.7,13.7,0.0,1.4,2026-11-02,2
+108,Harvard Crimson,Ivy,21.1,20.6,13.9,0.0,1.5,2026-11-02,2
+300,UC Irvine Anteaters,Big West,21.0,19.1,13.3,0.0,4.8,2026-11-02,2
+2046,Austin Peay Governors,UAC,20.9,20.8,14.9,0.0,-3.2,2026-11-02,2
+314,Iona Gaels,MAAC,20.8,20.8,15.1,0.0,-3.7,2026-11-02,2
+2571,South Dakota State Jackrabbits,Summit,20.5,20.3,14.7,0.0,-3.1,2026-11-02,2
+331,Eastern Washington Eagles,Big Sky,20.3,20.0,14.7,0.0,-0.6,2026-11-02,2
+93,Murray State Racers,MVC,20.1,17.4,12.7,0.0,6.2,2026-11-02,2
+2617,Stephen F. Austin Lumberjacks,Southland,20.1,19.6,14.2,0.0,0.2,2026-11-02,2
+2193,East Tennessee State Buccaneers,SoCon,19.8,19.5,14.5,0.0,-0.5,2026-11-02,2
+2540,UC Santa Barbara Gauchos,Big West,19.1,17.3,13.3,0.0,4.5,2026-11-02,2
+77,Northwestern Wildcats,Big Ten,19.0,0.2,9.8,0.5,12.4,2026-11-02,2
+2550,Seton Hall Pirates,Big East,18.7,1.3,10.1,0.4,12.1,2026-11-02,2
+2449,North Dakota State Bison,Summit,18.6,18.5,15.1,0.0,-3.7,2026-11-02,2
+166,New Mexico State Aggies,CUSA,18.4,17.7,13.7,0.0,2.5,2026-11-02,2
+154,Wake Forest Demon Deacons,ACC,18.3,0.3,10.3,0.1,11.6,2026-11-02,2
+305,DePaul Blue Demons,Big East,18.2,1.0,10.1,0.5,11.6,2026-11-02,2
+2653,Troy Trojans,Sun Belt,17.6,17.4,14.1,0.0,-0.4,2026-11-02,2
+2378,UMBC Retrievers,America East,17.5,17.5,15.6,0.0,-9.4,2026-11-02,2
+2681,Wagner Seahawks,NEC,16.5,16.5,15.7,0.0,-13.0,2026-11-02,2
+250,UT Arlington Mavericks,UAC,16.4,16.2,15.0,0.0,-4.0,2026-11-02,2
+2771,Merrimack Warriors,MAAC,16.3,16.2,15.0,0.0,-4.7,2026-11-02,2
+46,Georgetown Hoyas,Big East,16.0,0.9,10.3,0.3,11.4,2026-11-02,2
+2627,Tarleton State Texans,UAC,16.0,15.9,15.0,0.0,-4.6,2026-11-02,2
+221,Pittsburgh Panthers,ACC,15.9,0.3,10.1,0.2,11.2,2026-11-02,2
+344,Mississippi State Bulldogs,SEC,15.8,0.1,9.9,0.5,12.3,2026-11-02,2
+2426,Navy Midshipmen,Patriot,15.6,15.6,15.4,0.0,-7.3,2026-11-02,2
+2287,Illinois State Redbirds,MVC,15.1,12.9,13.1,0.0,5.2,2026-11-02,2
+2309,Kent State Golden Flashes,MAC,15.1,14.2,13.5,0.0,2.4,2026-11-02,2
+338,Kennesaw State Owls,CUSA,15.1,14.3,13.6,0.0,1.3,2026-11-02,2
+264,Washington Huskies,Big Ten,14.6,0.1,9.7,0.5,11.2,2026-11-02,2
+2032,Arkansas State Red Wolves,Sun Belt,14.5,14.4,14.3,0.0,-1.5,2026-11-02,2
+2565,SIU Edwardsville Cougars,OVC,14.4,14.4,15.5,0.0,-10.5,2026-11-02,2
+2330,Le Moyne Dolphins,NEC,14.3,14.3,15.8,0.0,-14.0,2026-11-02,2
+24,Stanford Cardinal,ACC,14.3,0.2,10.1,0.3,10.7,2026-11-02,2
+256,James Madison Dukes,Sun Belt,14.3,14.1,14.4,0.0,-1.3,2026-11-02,2
+2535,Samford Bulldogs,SoCon,14.2,13.9,14.7,0.0,-2.6,2026-11-02,2
+2115,Central Connecticut Blue Devils,NEC,14.0,14.0,15.8,0.0,-14.2,2026-11-02,2
+2244,George Mason Patriots,A-10,13.9,5.2,11.4,0.0,9.1,2026-11-02,2
+2458,Northern Colorado Bears,Big Sky,13.9,13.8,14.7,0.0,-2.6,2026-11-02,2
+254,Utah Utes,Big 12,13.8,0.0,10.0,0.3,11.4,2026-11-02,2
+2649,Toledo Rockets,MAC,13.3,12.9,13.8,0.0,2.1,2026-11-02,2
+2226,Florida Atlantic Owls,American,13.3,8.6,12.0,0.0,6.8,2026-11-02,2
+2247,Georgia State Panthers,Sun Belt,13.2,13.0,14.3,0.0,-1.5,2026-11-02,2
+294,Jacksonville Dolphins,ASUN,13.1,13.1,15.2,0.0,-7.1,2026-11-02,2
+2473,Oakland Golden Grizzlies,Horizon,13.0,12.9,15.0,0.0,-3.2,2026-11-02,2
+2217,Fairfield Stags,MAAC,12.9,12.8,15.1,0.0,-6.4,2026-11-02,2
+2349,UMass Lowell River Hawks,America East,12.7,12.7,15.7,0.0,-11.2,2026-11-02,2
+2582,Southern Jaguars,SWAC,12.6,12.6,15.8,0.0,-11.7,2026-11-02,2
+2011,Alabama State Hornets,SWAC,12.5,12.5,15.8,0.0,-12.3,2026-11-02,2
+163,Princeton Tigers,Ivy,12.4,12.0,14.5,0.0,-1.9,2026-11-02,2
+135,Minnesota Golden Gophers,Big Ten,12.3,0.2,10.2,0.1,11.2,2026-11-02,2
+2031,Little Rock Trojans,UAC,12.1,12.0,15.2,0.0,-6.3,2026-11-02,2
+164,Rutgers Scarlet Knights,Big Ten,12.0,0.2,10.2,0.2,10.6,2026-11-02,2
+2534,Sam Houston Bearkats,CUSA,12.0,11.5,14.2,0.0,0.0,2026-11-02,2
+38,Colorado Buffaloes,Big 12,11.9,0.1,9.9,0.3,11.2,2026-11-02,2
+2306,Kansas State Wildcats,Big 12,11.9,0.0,9.9,0.3,10.5,2026-11-02,2
+119,Towson Tigers,CAA,11.9,11.5,14.1,0.0,0.4,2026-11-02,2
+2057,Belmont Bruins,MVC,11.5,10.2,13.1,0.0,3.4,2026-11-02,2
+2630,UT Martin Skyhawks,OVC,11.4,11.4,15.7,0.0,-11.8,2026-11-02,2
+2275,Hofstra Pride,CAA,11.2,10.9,14.2,0.0,-0.0,2026-11-02,2
+2368,Marist Red Foxes,MAAC,11.2,11.2,15.2,0.0,-7.0,2026-11-02,2
+2329,Lehigh Mountain Hawks,Patriot,11.1,11.1,15.4,0.0,-9.2,2026-11-02,2
+25,California Golden Bears,ACC,11.1,0.1,10.4,0.1,9.9,2026-11-02,2
+2181,Drake Bulldogs,MVC,10.7,9.8,13.3,0.0,3.4,2026-11-02,2
+2717,Western Carolina Catamounts,SoCon,10.7,10.7,14.7,0.0,-3.5,2026-11-02,2
+2351,Loyola Marymount Lions,WCC,10.6,9.3,13.0,0.0,3.7,2026-11-02,2
+249,North Texas Mean Green,American,10.4,7.6,12.1,0.0,6.1,2026-11-02,2
+2547,Seattle U Redhawks,WCC,10.4,9.1,12.9,0.0,3.6,2026-11-02,2
+172,Cornell Big Red,Ivy,10.3,10.2,14.5,0.0,-2.8,2026-11-02,2
+2335,Liberty Flames,CUSA,10.3,10.2,14.2,0.0,-0.4,2026-11-02,2
+2460,Northern Iowa Panthers,MVC,10.0,9.3,13.4,0.0,2.8,2026-11-02,2
+56,Stetson Hatters,ASUN,9.7,9.7,15.4,0.0,-9.2,2026-11-02,2
+2514,Quinnipiac Bobcats,MAAC,9.5,9.5,15.3,0.0,-8.2,2026-11-02,2
+104,Boston University Terriers,Patriot,9.5,9.5,15.6,0.0,-10.0,2026-11-02,2
+213,Penn State Nittany Lions,Big Ten,9.3,0.0,10.5,0.0,9.7,2026-11-02,2
+2803,Bryant Bulldogs,America East,9.3,9.3,15.8,0.0,-13.3,2026-11-02,2
+2016,Alcorn State Braves,SWAC,9.0,9.0,15.9,0.0,-13.7,2026-11-02,2
+99,LSU Tigers,SEC,8.9,0.1,10.0,0.2,9.9,2026-11-02,2
+2755,Grambling Tigers,SWAC,8.5,8.5,15.8,0.0,-14.0,2026-11-02,2
+2393,Middle Tennessee Blue Raiders,CUSA,8.5,8.3,14.1,0.0,-1.6,2026-11-02,2
+171,Columbia Lions,Ivy,8.5,8.4,14.5,0.0,-3.7,2026-11-02,2
+52,Florida State Seminoles,ACC,8.4,0.0,10.4,0.1,9.4,2026-11-02,2
+94,Northern Kentucky Norse,Horizon,8.2,8.2,15.1,0.0,-6.0,2026-11-02,2
+161,Fairleigh Dickinson Knights,NEC,8.2,8.2,15.9,0.0,-17.1,2026-11-02,2
+2130,Chicago State Cougars,NEC,8.2,8.2,16.0,0.0,-16.6,2026-11-02,2
+198,Oral Roberts Golden Eagles,Summit,8.1,8.1,15.2,0.0,-8.6,2026-11-02,2
+399,UAlbany Great Danes,America East,8.0,8.0,15.8,0.0,-14.0,2026-11-02,2
+2739,Green Bay Phoenix,Horizon,8.0,7.9,15.2,0.0,-5.8,2026-11-02,2
+2382,Mercer Bears,SoCon,7.5,7.5,15.2,0.0,-5.4,2026-11-02,2
+2572,Southern Miss Golden Eagles,Sun Belt,7.5,7.5,14.7,0.0,-4.2,2026-11-02,2
+526,Florida Gulf Coast Eagles,ASUN,7.5,7.5,15.5,0.0,-10.6,2026-11-02,2
+284,Stonehill Skyhawks,NEC,7.4,7.4,15.9,0.0,-17.3,2026-11-02,2
+88,Southern Indiana Screaming Eagles,OVC,7.3,7.3,15.7,0.0,-14.2,2026-11-02,2
+2437,Omaha Mavericks,Summit,7.3,7.3,15.2,0.0,-9.4,2026-11-02,2
+2539,San Francisco Dons,WCC,7.0,6.4,13.3,0.0,1.4,2026-11-02,2
+2504,Prairie View A&M Panthers,SWAC,7.0,7.0,15.8,0.0,-14.8,2026-11-02,2
+357,Texas A&M-Corpus Christi Islanders,Southland,6.8,6.8,15.1,0.0,-5.4,2026-11-02,2
+2737,Winthrop Eagles,Big South,6.7,6.5,14.6,0.0,-3.6,2026-11-02,2
+6,South Alabama Jaguars,Sun Belt,6.7,6.7,14.8,0.0,-5.2,2026-11-02,2
+2569,South Carolina State Bulldogs,MEAC,6.5,6.5,15.9,0.0,-18.6,2026-11-02,2
+2674,Valparaiso Beacons,MVC,6.4,6.1,13.7,0.0,0.6,2026-11-02,2
+2815,Lindenwood Lions,OVC,6.4,6.4,15.8,0.0,-15.0,2026-11-02,2
+2640,Texas Southern Tigers,SWAC,6.3,6.3,15.9,0.0,-15.6,2026-11-02,2
+116,Mount St. Mary's Mountaineers,MAAC,6.3,6.3,15.5,0.0,-10.4,2026-11-02,2
+236,Chattanooga Mocs,SoCon,6.2,6.2,15.0,0.0,-6.6,2026-11-02,2
+2711,Western Michigan Broncos,MAC,6.1,5.9,14.1,0.0,-1.6,2026-11-02,2
+2413,Morehead State Eagles,OVC,6.1,6.1,15.8,0.0,-15.2,2026-11-02,2
+2751,Wyoming Cowboys,Mountain West,6.1,3.7,12.1,0.0,4.3,2026-11-02,2
+3101,Utah Tech Trailblazers,Big Sky,6.1,6.0,15.2,0.0,-7.2,2026-11-02,2
+2428,North Carolina Central Eagles,MEAC,6.1,6.1,15.9,0.0,-19.0,2026-11-02,2
+218,Temple Owls,American,6.0,4.6,12.2,0.0,3.4,2026-11-02,2
+149,Montana Grizzlies,Big Sky,5.9,5.8,15.1,0.0,-7.1,2026-11-02,2
+195,Ohio Bobcats,MAC,5.8,5.7,14.2,0.0,-1.6,2026-11-02,2
+202,Tulsa Golden Hurricane,American,5.7,4.3,12.5,0.0,3.6,2026-11-02,2
+2463,Cal State Northridge Matadors,Big West,5.6,5.4,14.3,0.0,-2.2,2026-11-02,2
+311,Maine Black Bears,America East,5.5,5.5,15.9,0.0,-16.0,2026-11-02,2
+2612,Saint Peter's Peacocks,MAAC,5.5,5.5,15.4,0.0,-10.8,2026-11-02,2
+70,Idaho Vandals,Big Sky,5.4,5.4,15.1,0.0,-7.6,2026-11-02,2
+2405,Monmouth Hawks,CAA,5.3,5.3,14.8,0.0,-3.5,2026-11-02,2
+2502,Portland State Vikings,Big Sky,5.3,5.3,15.2,0.0,-7.1,2026-11-02,2
+2754,Youngstown State Penguins,Horizon,5.2,5.2,15.2,0.0,-7.9,2026-11-02,2
+91,Bellarmine Knights,ASUN,5.2,5.2,15.7,0.0,-12.6,2026-11-02,2
+276,Marshall Thundering Herd,Sun Belt,5.1,5.0,14.8,0.0,-6.0,2026-11-02,2
+295,Old Dominion Monarchs,Sun Belt,5.0,5.0,14.8,0.0,-6.2,2026-11-02,2
+2166,Davidson Wildcats,A-10,5.0,2.5,11.7,0.0,5.2,2026-11-02,2
+2010,Alabama A&M Bulldogs,SWAC,4.9,4.9,15.9,0.0,-17.1,2026-11-02,2
+50,Florida A&M Rattlers,SWAC,4.9,4.9,15.9,0.0,-16.1,2026-11-02,2
+5,UAB Blazers,American,4.8,3.5,12.6,0.0,2.9,2026-11-02,2
+71,Bradley Braves,MVC,4.8,4.6,13.8,0.0,-0.6,2026-11-02,2
+233,South Dakota Coyotes,Summit,4.8,4.8,15.5,0.0,-11.2,2026-11-02,2
+2198,Eastern Kentucky Colonels,UAC,4.8,4.8,15.5,0.0,-11.3,2026-11-02,2
+2000,Abilene Christian Wildcats,UAC,4.7,4.7,15.6,0.0,-10.5,2026-11-02,2
+309,Louisiana Ragin' Cajuns,Sun Belt,4.7,4.7,15.0,0.0,-6.5,2026-11-02,2
+103,Boston College Eagles,ACC,4.6,0.0,11.2,0.0,5.8,2026-11-02,2
+2561,Siena Saints,MAAC,4.5,4.5,15.7,0.0,-11.6,2026-11-02,2
+2230,Fordham Rams,A-10,4.4,1.8,11.9,0.0,4.9,2026-11-02,2
+2870,Purdue Fort Wayne Mastodons,Horizon,4.4,4.4,15.3,0.0,-8.9,2026-11-02,2
+253,Southern Utah Thunderbirds,Big Sky,4.4,4.4,15.2,0.0,-8.2,2026-11-02,2
+2379,Maryland Eastern Shore Hawks,MEAC,4.3,4.3,16.0,0.0,-20.4,2026-11-02,2
+2084,Buffalo Bulls,MAC,4.3,4.2,14.4,0.0,-3.4,2026-11-02,2
+55,Jacksonville State Gamecocks,CUSA,4.3,4.3,14.6,0.0,-4.9,2026-11-02,2
+324,Coastal Carolina Chanticleers,Sun Belt,4.3,4.2,14.8,0.0,-6.5,2026-11-02,2
+2692,Weber State Wildcats,Big Sky,4.3,4.3,15.3,0.0,-8.8,2026-11-02,2
+2747,Wofford Terriers,SoCon,4.2,4.2,15.1,0.0,-8.4,2026-11-02,2
+2296,Jackson State Tigers,SWAC,4.2,4.2,16.0,0.0,-17.3,2026-11-02,2
+113,Massachusetts Minutemen,MAC,4.0,4.0,14.5,0.0,-4.1,2026-11-02,2
+45,George Washington Revolutionaries,A-10,4.0,1.8,11.5,0.0,4.6,2026-11-02,2
+2182,Drexel Dragons,CAA,4.0,3.9,14.8,0.0,-4.8,2026-11-02,2
+2229,Florida International Panthers,CUSA,4.0,4.0,14.6,0.0,-5.1,2026-11-02,2
+2415,Morgan State Bears,MEAC,4.0,4.0,15.9,0.0,-20.3,2026-11-02,2
+2453,North Alabama Lions,UAC,4.0,3.9,15.6,0.0,-12.5,2026-11-02,2
+62,Hawai'i Rainbow Warriors,Mountain West,3.9,2.5,12.4,0.0,2.6,2026-11-02,2
+140,Kansas City Roos,Summit,3.9,3.9,15.5,0.0,-11.8,2026-11-02,2
+2454,North Florida Ospreys,ASUN,3.9,3.9,15.7,0.0,-13.5,2026-11-02,2
+160,New Hampshire Wildcats,America East,3.9,3.9,15.9,0.0,-17.1,2026-11-02,2
+257,Richmond Spiders,A-10,3.9,1.6,11.8,0.0,4.3,2026-11-02,2
+2515,Radford Highlanders,Big South,3.8,3.8,15.0,0.0,-5.8,2026-11-02,2
+325,Cleveland State Vikings,Horizon,3.8,3.8,15.2,0.0,-9.4,2026-11-02,2
+2635,Tennessee Tech Golden Eagles,SoCon,3.8,3.8,15.2,0.0,-8.2,2026-11-02,2
+270,Milwaukee Panthers,Horizon,3.8,3.8,15.5,0.0,-9.2,2026-11-02,2
+2430,UNC Greensboro Spartans,SoCon,3.8,3.8,15.3,0.0,-8.5,2026-11-02,2
+2529,Sacred Heart Pioneers,MAAC,3.8,3.8,15.6,0.0,-12.5,2026-11-02,2
+2579,South Carolina Gamecocks,SEC,3.7,0.1,11.0,0.0,7.0,2026-11-02,2
+13,Cal Poly Mustangs,Big West,3.7,3.6,14.3,0.0,-3.0,2026-11-02,2
+2348,Louisiana Tech Bulldogs,Sun Belt,3.6,3.6,15.1,0.0,-7.9,2026-11-02,2
+2026,App State Mountaineers,Sun Belt,3.5,3.5,15.1,0.0,-7.7,2026-11-02,2
+292,UT Rio Grande Valley Vaqueros,Southland,3.4,3.4,15.3,0.0,-9.1,2026-11-02,2
+2050,Ball State Cardinals,MAC,3.4,3.4,14.4,0.0,-4.4,2026-11-02,2
+2099,Canisius Golden Griffins,MAAC,3.4,3.4,15.7,0.0,-13.6,2026-11-02,2
+2066,Binghamton Bearcats,America East,3.3,3.3,15.9,0.0,-18.6,2026-11-02,2
+2174,Detroit Mercy Titans,Horizon,3.3,3.3,15.1,0.0,-9.6,2026-11-02,2
+322,Lafayette Leopards,Patriot,3.3,3.3,15.8,0.0,-15.0,2026-11-02,2
+2086,Butler Bulldogs,Big East,3.3,0.1,11.0,0.0,6.0,2026-11-02,2
+189,Bowling Green Falcons,MAC,3.3,3.2,14.3,0.0,-4.0,2026-11-02,2
+2506,Presbyterian Blue Hose,Big South,3.2,3.2,15.1,0.0,-7.7,2026-11-02,2
+301,San Diego Toreros,WCC,3.2,3.1,13.9,0.0,-2.5,2026-11-02,2
+2350,Loyola Chicago Ramblers,A-10,3.1,1.2,11.8,0.0,3.3,2026-11-02,2
+2545,SE Louisiana Lions,Southland,3.1,3.1,15.5,0.0,-8.8,2026-11-02,2
+2344,Longwood Lancers,Big South,3.1,3.1,15.1,0.0,-7.4,2026-11-02,2
+225,Brown Bears,Ivy,3.0,3.0,15.1,0.0,-8.7,2026-11-02,2
+2199,Eastern Michigan Eagles,MAC,2.9,2.9,14.6,0.0,-5.4,2026-11-02,2
+315,Niagara Purple Eagles,MAAC,2.9,2.9,15.7,0.0,-13.7,2026-11-02,2
+2083,Bucknell Bison,Patriot,2.8,2.8,15.9,0.0,-16.3,2026-11-02,2
+326,Texas State Bobcats,Pac-12,2.7,0.9,11.8,0.0,3.9,2026-11-02,2
+279,Pacific Tigers,WCC,2.7,2.6,14.1,0.0,-3.0,2026-11-02,2
+2210,Elon Phoenix,CAA,2.6,2.6,14.8,0.0,-6.9,2026-11-02,2
+2277,Houston Christian Huskies,Southland,2.6,2.6,15.3,0.0,-10.2,2026-11-02,2
+2427,UNC Asheville Bulldogs,Big South,2.6,2.6,15.2,0.0,-8.2,2026-11-02,2
+2352,Loyola Maryland Greyhounds,Patriot,2.6,2.6,15.8,0.0,-16.0,2026-11-02,2
+2885,NJIT Highlanders,America East,2.5,2.5,16.0,0.0,-18.8,2026-11-02,2
+204,Oregon State Beavers,Pac-12,2.5,0.9,11.5,0.0,4.4,2026-11-02,2
+2603,Saint Joseph's Hawks,A-10,2.5,1.3,12.0,0.0,2.4,2026-11-02,2
+16,Sacramento State Hornets,Big West,2.4,2.3,14.4,0.0,-5.2,2026-11-02,2
+48,Delaware Blue Hens,CUSA,2.4,2.3,14.9,0.0,-7.2,2026-11-02,2
+2729,William & Mary Tribe,CAA,2.3,2.3,15.0,0.0,-6.8,2026-11-02,2
+265,Washington State Cougars,Pac-12,2.2,0.6,11.8,0.0,3.5,2026-11-02,2
+2184,Duquesne Dukes,A-10,2.2,1.0,11.9,0.0,2.9,2026-11-02,2
+155,North Dakota Fighting Hawks,Summit,2.2,2.2,15.8,0.0,-14.9,2026-11-02,2
+2623,Missouri State Bears,CUSA,2.1,2.1,14.8,0.0,-7.7,2026-11-02,2
+2261,Hampton Pirates,CAA,2.1,2.1,15.1,0.0,-8.0,2026-11-02,2
+2459,Northern Illinois Huskies,Horizon,2.1,2.1,15.7,0.0,-11.4,2026-11-02,2
+2466,Northwestern State Demons,Southland,2.1,2.1,15.6,0.0,-11.6,2026-11-02,2
+59,Georgia Tech Yellow Jackets,ACC,2.0,0.0,11.3,0.0,4.2,2026-11-02,2
+2492,Pepperdine Waves,WCC,2.0,2.0,14.3,0.0,-3.3,2026-11-02,2
+2320,Lamar Cardinals,Southland,2.0,2.0,15.5,0.0,-11.4,2026-11-02,2
+79,Southern Illinois Salukis,MVC,2.0,1.9,14.0,0.0,-4.0,2026-11-02,2
+2169,Delaware State Hornets,MEAC,2.0,2.0,16.0,0.0,-24.5,2026-11-02,2
+2501,Portland Pilots,WCC,1.9,1.9,14.5,0.0,-3.8,2026-11-02,2
+2363,Manhattan Jaspers,MAAC,1.9,1.9,15.7,0.0,-15.2,2026-11-02,2
+282,Indiana State Sycamores,MVC,1.9,1.8,14.2,0.0,-4.6,2026-11-02,2
+2619,Stony Brook Seawolves,CAA,1.9,1.9,15.0,0.0,-7.5,2026-11-02,2
+349,Army Black Knights,Patriot,1.9,1.9,15.8,0.0,-17.8,2026-11-02,2
+2655,Tulane Green Wave,American,1.8,1.5,13.1,0.0,-0.6,2026-11-02,2
+107,Holy Cross Crusaders,Patriot,1.6,1.6,15.8,0.0,-18.4,2026-11-02,2
+2856,California Baptist Lancers,Big West,1.6,1.6,14.7,0.0,-5.8,2026-11-02,2
+27,UC Riverside Highlanders,Big West,1.6,1.5,14.7,0.0,-6.4,2026-11-02,2
+2443,New Orleans Privateers,Southland,1.6,1.6,15.5,0.0,-12.3,2026-11-02,2
+2197,Eastern Illinois Panthers,OVC,1.6,1.6,15.9,0.0,-21.3,2026-11-02,2
+151,East Carolina Pirates,American,1.5,1.3,12.9,0.0,-1.3,2026-11-02,2
+2029,Arkansas-Pine Bluff Golden Lions,SWAC,1.5,1.5,16.0,0.0,-21.4,2026-11-02,2
+23,San José State Spartans,Mountain West,1.4,1.1,12.9,0.0,-0.4,2026-11-02,2
+2154,Coppin State Eagles,MEAC,1.4,1.4,16.0,0.0,-24.6,2026-11-02,2
+159,Dartmouth Big Green,Ivy,1.3,1.3,15.2,0.0,-12.1,2026-11-02,2
+2447,Nicholls Colonels,Southland,1.3,1.3,15.5,0.0,-12.7,2026-11-02,2
+227,Rhode Island Rams,A-10,1.3,0.7,11.7,0.0,0.8,2026-11-02,2
+2520,Rider Broncs,MAAC,1.3,1.3,15.9,0.0,-16.3,2026-11-02,2
+2429,Charlotte 49ers,American,1.2,1.1,13.6,0.0,-2.5,2026-11-02,2
+111,Northeastern Huskies,CAA,1.1,1.1,15.5,0.0,-10.0,2026-11-02,2
+299,Long Beach State Beach,Big West,1.1,1.1,15.1,0.0,-8.1,2026-11-02,2
+2643,The Citadel Bulldogs,SoCon,1.1,1.1,15.7,0.0,-14.1,2026-11-02,2
+2638,UTEP Miners,Mountain West,1.0,0.8,13.0,0.0,-2.7,2026-11-02,2
+2172,Denver Pioneers,WCC,1.0,1.0,15.1,0.0,-6.7,2026-11-02,2
+2837,East Texas A&M Lions,Southland,1.0,1.0,15.6,0.0,-14.4,2026-11-02,2
+2464,Northern Arizona Lumberjacks,Big Sky,1.0,1.0,15.5,0.0,-15.0,2026-11-02,2
+2127,Charleston Southern Buccaneers,Big South,0.9,0.9,15.6,0.0,-12.4,2026-11-02,2
+2916,Incarnate Word Cardinals,Southland,0.9,0.9,15.6,0.0,-15.0,2026-11-02,2
+2097,Campbell Fighting Camels,CAA,0.8,0.8,15.5,0.0,-10.7,2026-11-02,2
+302,UC Davis Aggies,Mountain West,0.8,0.7,13.2,0.0,-2.4,2026-11-02,2
+290,Georgia Southern Eagles,Sun Belt,0.8,0.8,15.7,0.0,-13.1,2026-11-02,2
+304,Idaho State Bengals,Big Sky,0.8,0.8,15.8,0.0,-15.7,2026-11-02,2
+2710,Western Illinois Leathernecks,OVC,0.7,0.7,16.0,0.0,-25.2,2026-11-02,2
+2239,Cal State Fullerton Titans,Big West,0.6,0.6,14.6,0.0,-8.6,2026-11-02,2
+2908,South Carolina Upstate Spartans,Big South,0.5,0.5,15.5,0.0,-15.2,2026-11-02,2

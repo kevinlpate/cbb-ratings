@@ -88,6 +88,11 @@ select, input { font: inherit; color: var(--color-fg); background: var(--color-p
 .pr .seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); overflow: hidden; }
 .pr .seg button { font: inherit; font-size: var(--cds-font-size-caption); background: var(--color-bg); color: var(--color-fg-muted); border: 0; padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; }
 .pr .seg button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); }
+.pr .seg2 { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); overflow: hidden; }
+.pr .seg2 button { font: inherit; font-size: var(--cds-font-size-caption); background: var(--color-bg); color: var(--color-fg-muted); border: 0; padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; }
+.pr .seg2 button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); }
+.pr tr.line-start td { border-top: 2px solid var(--color-border-line); }
+.pr td.seedcell { font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-heading); }
 .pr .tiles.grades, .pr .tiles.minis { margin: var(--cds-gap-md) 0; }
 .pr .tiles.minis { grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); }
 .pr .card .tiles .tile { border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-sm) var(--cds-pad-md); }
@@ -138,6 +143,8 @@ select, input { font: inherit; color: var(--color-fg); background: var(--color-p
   <nav class="tabs" role="tablist" aria-label="Sections">
     <button type="button" role="tab" data-t="ratings" aria-selected="true">Ratings</button>
     <button type="button" role="tab" data-t="games" aria-selected="false">Games</button>
+    <button type="button" role="tab" data-t="resume" aria-selected="false">Resume</button>
+    <button type="button" role="tab" data-t="bracket" aria-selected="false">Bracketology</button>
     <button type="button" role="tab" data-t="teams" aria-selected="false">Teams</button>
     <button type="button" role="tab" data-t="players" aria-selected="false">Players</button>
     <button type="button" role="tab" data-t="projections" aria-selected="false">Projections</button>
@@ -652,6 +659,72 @@ select, input { font: inherit; color: var(--color-fg); background: var(--color-p
     </div>
     <p class="note">Margin = projected margin for the favorite. "vs." = neutral site. Win prob. is the favorite's chance; above 99% shows as >99%.</p>
   </section>
+  <section class="card" data-tab="bracket" hidden>
+    <h2>Bracketology, 2027 NCAA tournament (76 teams)</h2>
+    <p class="note" id="basof">—</p>
+    <div class="controls">
+      <span class="seg2" id="bview" role="group" aria-label="Bracket">
+        <button type="button" data-v="proj" aria-pressed="true">Projected (committee)</button>
+        <button type="button" data-v="pnp" aria-pressed="false">PnP (earned)</button>
+      </span>
+    </div>
+    <p class="note" id="bnote">—</p>
+    <div class="tiles">
+      <div class="tile"><div class="label">Last 4 in</div><div class="sub" id="blastin">—</div></div>
+      <div class="tile"><div class="label">First 4 out</div><div class="sub" id="bfirstout">—</div></div>
+    </div>
+    <div class="scroll" style="max-height: 720px">
+      <table id="bracket-table" data-source="bracket_field resume" data-row-key="team">
+        <thead><tr><th class="l">Seed</th><th class="l">Team</th><th class="l hide-narrow">Conf.</th><th class="l">Bid</th><th id="bcol5">In field</th><th class="hide-narrow" id="bcol6">Avg seed</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">76-team field from 2027: 52 teams go straight to the bracket (seed lines 1–10 hold 4 each); the Opening Round pairs the 12 lowest at-large teams (11 and 12 seeds) and the 12 lowest automatic qualifiers (15 and 16 seeds). Opening Round pairings are our assumption until the NCAA announces them. Teams reclassifying from D2 (West Georgia, Mercyhurst, New Haven, West Florida) aren't eligible. Projections, not betting advice.</p>
+  </section>
+  <section class="card" data-tab="bracket" hidden>
+    <h2>Where the committee and the resume disagree</h2>
+    <p class="note" id="bdiff-note">—</p>
+    <div class="scroll" style="max-height: 420px">
+      <table id="bdiff-table" data-source="bracket_field resume" data-row-key="team">
+        <thead><tr><th class="l">Team</th><th class="l">Projected</th><th class="l">PnP</th><th class="l hide-narrow">What it means</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+  <section class="card" data-tab="bracket" hidden>
+    <h2>Tournament odds, every team</h2>
+    <p class="note">From the projected bracket's 5,000 simulated seasons. Teams with at least a 1% chance; search to see anyone.</p>
+    <div class="controls"><input type="search" id="bq" placeholder="Search teams or conferences" aria-label="Search teams"></div>
+    <div class="scroll" style="max-height: 560px">
+      <table id="bodds-table" data-source="bracket" data-row-key="team_id">
+        <thead><tr><th class="l" data-field="team">Team</th><th class="l hide-narrow" data-field="conf">Conf.</th><th data-field="p_field">Make field</th><th class="hide-narrow" data-field="p_auto">Auto bid</th><th class="hide-narrow" data-field="p_atlarge">At-large</th><th data-field="avg_seed">Avg seed</th><th class="hide-narrow" data-field="p_seed1">1 seed</th><th class="hide-narrow" data-field="p_top4_seed">Top-4 seed</th><th class="hide-narrow">Seed range</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">Seed range = the middle 80% of simulated seeds. Projections, not betting advice.</p>
+  </section>
+
+  <section class="card" data-tab="resume" hidden>
+    <h2>PnP Resume ranking, 2026-27</h2>
+    <p class="note">Our power ratings answer <b>who's best</b>. This ranks <b>who has earned it</b>: only wins and losses count, not margin. <b>Wins above bubble</b> = wins minus what a bubble team (our No. 45) would be expected to win against the same schedule at the same sites (70% of the ranking). <b>Colley</b> = the BCS-era computer ranking: wins and losses adjusted for who you played, nothing from our model (30%). <b>Head-to-head</b>: the winner of a season series ranks directly above the loser when the two are close (no more losses, scores within 0.4 SD, a move of 6 spots or fewer). <b>Strength of record</b> = the chance a bubble team, or a top-4 team, would match this record or better against the same schedule (lower = harder to earn). Q1 = Quadrant 1 record (NET-style cut-offs, using our ranks). The PnP bracket on the Bracketology tab is picked from this ranking.</p>
+    <p class="note" id="rblend">—</p>
+    <div class="controls">
+      <input type="search" id="rq" placeholder="Search teams" aria-label="Search teams">
+      <select id="rconf" aria-label="Conference"></select>
+    </div>
+    <p class="note" id="rcount">—</p>
+    <div class="scroll">
+      <table id="resume-table" data-source="resume" data-row-key="team_id">
+        <thead><tr>
+          <th data-field="pnp_rank">PnP</th><th class="l" data-field="team">Team</th><th class="l hide-narrow" data-field="conf">Conf.</th><th data-field="record">Record</th>
+          <th data-field="wab">Wins above bubble</th><th class="hide-narrow" data-field="colley">Colley</th><th class="hide-narrow" data-field="sor_bubble">SOR vs bubble</th><th class="hide-narrow" data-field="sor_elite">SOR vs top 4</th>
+          <th class="hide-narrow" data-field="q1">Q1</th><th data-field="power_rank">Power rank</th><th class="hide-narrow" data-field="power_share">Power share</th><th class="l hide-narrow" data-field="note">Head-to-head</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">D1-vs-D1 games only. Updated every morning with the ratings. Projections, not betting advice.</p>
+  </section>
 </div>
 
 <script>
@@ -831,6 +904,8 @@ dash.onData(() => {
 <script src="js/portal.js"></script>
 <script src="js/coaches.js"></script>
 <script src="js/games.js"></script>
+<script src="js/resume.js"></script>
+<script src="js/bracket.js"></script>
 
 </main>
 <footer class="site-foot"><div class="in">Projections, not betting advice. Ratings and predictions are Pace &amp; Pate Analytics' own model, built from ESPN data via sportsdataverse (hoopR). Win probabilities above 99% are shown as &gt;99%.</div></footer>

@@ -1,0 +1,77 @@
+overall,seed,team,conf,bid,opening_round,last_in,p_field,avg_seed,rating,or_group,or_opponent
+1,1,Duke Blue Devils,ACC,auto (projected),False,False,100.0,1.6,40.6,,
+2,1,Florida Gators,SEC,auto (projected),False,False,100.0,2.0,37.6,,
+3,1,Illinois Fighting Illini,Big Ten,auto (projected),False,False,99.5,2.6,34.6,,
+4,1,Michigan Wolverines,Big Ten,at-large,False,False,98.8,3.0,32.9,,
+5,2,Houston Cougars,Big 12,auto (projected),False,False,99.1,3.1,33.6,,
+6,2,Arizona Wildcats,Big 12,at-large,False,False,98.8,3.2,32.9,,
+7,2,Texas Tech Red Raiders,Big 12,at-large,False,False,98.1,3.8,31.8,,
+8,2,Alabama Crimson Tide,SEC,at-large,False,False,95.9,4.1,29.4,,
+9,3,Michigan State Spartans,Big Ten,at-large,False,False,95.5,4.3,29.7,,
+10,3,Tennessee Volunteers,SEC,at-large,False,False,95.7,4.5,29.4,,
+11,3,Iowa State Cyclones,Big 12,at-large,False,False,96.4,4.6,29.9,,
+12,3,Kansas Jayhawks,Big 12,at-large,False,False,93.7,4.7,28.3,,
+13,4,Texas Longhorns,SEC,at-large,False,False,95.5,4.8,29.1,,
+14,4,UConn Huskies,Big East,auto (projected),False,False,95.7,5.1,28.7,,
+15,4,Purdue Boilermakers,Big Ten,at-large,False,False,88.9,5.6,26.0,,
+16,4,Auburn Tigers,SEC,at-large,False,False,88.8,5.8,26.3,,
+17,5,Nebraska Cornhuskers,Big Ten,at-large,False,False,90.7,5.9,26.5,,
+18,5,Louisville Cardinals,ACC,at-large,False,False,89.1,6.1,25.4,,
+19,5,Gonzaga Bulldogs,Pac-12,auto (projected),False,False,96.3,6.1,28.4,,
+20,5,St. John's Red Storm,Big East,at-large,False,False,88.2,6.1,25.2,,
+21,6,Kentucky Wildcats,SEC,at-large,False,False,84.1,6.2,25.1,,
+22,6,Ohio State Buckeyes,Big Ten,at-large,False,False,83.2,6.5,24.7,,
+23,6,Virginia Cavaliers,ACC,at-large,False,False,86.8,6.5,24.9,,
+24,6,BYU Cougars,Big 12,at-large,False,False,78.4,6.7,23.2,,
+25,7,Oklahoma Sooners,SEC,at-large,False,False,82.4,6.8,24.6,,
+26,7,Wisconsin Badgers,Big Ten,at-large,False,False,76.3,6.9,22.9,,
+27,7,Miami Hurricanes,ACC,at-large,False,False,87.0,7.0,25.2,,
+28,7,Baylor Bears,Big 12,at-large,False,False,76.5,7.0,23.0,,
+29,8,UCLA Bruins,Big Ten,at-large,False,False,77.8,7.0,23.2,,
+30,8,Creighton Bluejays,Big East,at-large,False,False,80.5,7.1,22.8,,
+31,8,Vanderbilt Commodores,SEC,at-large,False,False,77.7,7.2,23.3,,
+32,8,Arkansas Razorbacks,SEC,at-large,False,False,73.0,7.3,22.8,,
+33,9,Iowa Hawkeyes,Big Ten,at-large,False,False,73.5,7.4,22.6,,
+34,9,Indiana Hoosiers,Big Ten,at-large,False,False,72.0,7.5,21.7,,
+35,9,Cincinnati Bearcats,Big 12,at-large,False,False,66.6,7.6,21.2,,
+36,9,Clemson Tigers,ACC,at-large,False,False,76.5,7.8,22.0,,
+37,10,Marquette Golden Eagles,Big East,at-large,False,False,69.1,7.9,20.9,,
+38,10,Oklahoma State Cowboys,Big 12,at-large,False,False,56.7,8.1,19.4,,
+39,11,Xavier Musketeers,Big East,at-large,True,False,65.1,8.1,20.1,11-OR,Georgia Bulldogs
+40,11,Maryland Terrapins,Big Ten,at-large,True,False,58.8,8.2,19.6,11-OR,Texas A&M Aggies
+41,11,Texas A&M Aggies,SEC,at-large,True,False,63.6,8.2,20.4,11-OR,Maryland Terrapins
+42,11,Georgia Bulldogs,SEC,at-large,True,False,58.6,8.2,20.4,11-OR,Xavier Musketeers
+43,12,USC Trojans,Big Ten,at-large,True,False,59.8,8.3,19.6,12-OR,Virginia Tech Hokies
+44,12,Villanova Wildcats,Big East,at-large,True,False,70.2,8.3,21.5,12-OR,Utah State Aggies
+45,12,West Virginia Mountaineers,Big 12,at-large,True,False,55.0,8.4,19.1,12-OR,TCU Horned Frogs
+46,12,NC State Wolfpack,ACC,at-large,True,False,57.2,8.6,18.9,12-OR,Ole Miss Rebels
+47,12,Ole Miss Rebels,SEC,at-large,True,True,48.1,8.8,17.9,12-OR,NC State Wolfpack
+48,12,TCU Horned Frogs,Big 12,at-large,True,True,47.8,8.8,17.8,12-OR,West Virginia Mountaineers
+49,12,Utah State Aggies,Pac-12,at-large,True,True,68.5,9.2,20.0,12-OR,Villanova Wildcats
+50,12,Virginia Tech Hokies,ACC,at-large,True,True,44.3,9.6,16.0,12-OR,USC Trojans
+51,10,Saint Louis Billikens,A-10,auto (projected),False,False,73.7,9.5,20.0,,
+52,10,Grand Canyon Lopes,Mountain West,auto (projected),False,False,49.9,10.8,15.2,,
+53,11,Memphis Tigers,American,auto (projected),False,False,42.4,11.0,13.5,,
+54,11,Saint Mary's Gaels,WCC,auto (projected),False,False,48.4,11.4,13.0,,
+55,13,High Point Panthers,Big South,auto (projected),False,False,84.2,11.8,16.2,,
+56,13,UIC Flames,MVC,auto (projected),False,False,30.5,12.4,8.7,,
+57,13,Utah Valley Wolverines,Big West,auto (projected),False,False,30.6,12.9,7.0,,
+58,13,Akron Zips,MAC,auto (projected),False,False,24.2,13.0,5.5,,
+59,14,Charleston Cougars,CAA,auto (projected),False,False,31.6,13.1,6.0,,
+60,14,Western Kentucky Hilltoppers,CUSA,auto (projected),False,False,26.4,13.3,4.9,,
+61,14,McNeese Cowboys,Southland,auto (projected),False,False,58.2,13.3,8.5,,
+62,14,Yale Bulldogs,Ivy,auto (projected),False,False,24.5,13.7,2.9,,
+63,15,Furman Paladins,SoCon,auto (projected),False,False,29.8,14.1,2.4,,
+64,15,Troy Trojans,Sun Belt,auto (projected),False,False,17.6,14.1,-0.4,,
+65,15,Montana State Bobcats,Big Sky,auto (projected),True,False,33.7,14.1,3.1,15-OR,Central Arkansas Bears
+66,15,Wright State Raiders,Horizon,auto (projected),True,False,26.0,14.3,1.0,15-OR,St. Thomas-Minnesota Tommies
+67,15,St. Thomas-Minnesota Tommies,Summit,auto (projected),True,False,35.2,14.5,0.7,15-OR,Wright State Raiders
+68,15,Central Arkansas Bears,UAC,auto (projected),True,False,21.7,14.8,-2.5,15-OR,Montana State Bobcats
+69,16,Tennessee State Tigers,OVC,auto (projected),True,False,30.6,15.0,-5.6,16-OR,Long Island University Sharks
+70,16,Queens University Royals,ASUN,auto (projected),True,False,32.0,15.1,-2.3,16-OR,Bethune-Cookman Wildcats
+71,16,Iona Gaels,MAAC,auto (projected),True,False,20.8,15.1,-3.7,16-OR,Howard Bison
+72,16,Colgate Raiders,Patriot,auto (projected),True,False,26.6,15.2,-3.9,16-OR,Vermont Catamounts
+73,16,Vermont Catamounts,America East,auto (projected),True,False,37.2,15.2,-3.6,16-OR,Colgate Raiders
+74,16,Howard Bison,MEAC,auto (projected),True,False,50.2,15.4,-4.6,16-OR,Iona Gaels
+75,16,Bethune-Cookman Wildcats,SWAC,auto (projected),True,False,28.6,15.7,-6.8,16-OR,Queens University Royals
+76,16,Long Island University Sharks,NEC,auto (projected),True,False,31.4,15.7,-8.8,16-OR,Tennessee State Tigers
