@@ -1,0 +1,308 @@
+game_id,day,time_et,game,favorite,win_prob,margin
+401924646,Sun Nov 8,12:00 PM,Iona Gaels at St. John's Red Storm,St. John's Red Storm,99%,23.3
+401921683,Sun Nov 8,1:00 PM,Fairfield Stags at Bryant Bulldogs,Fairfield Stags,50%,0.1
+401920424,Sun Nov 8,1:00 PM,Arkansas Razorbacks vs. Virginia Cavaliers,Virginia Cavaliers,55%,1.2
+401921685,Sun Nov 8,1:00 PM,Sacred Heart Pioneers at New Hampshire Wildcats,New Hampshire Wildcats,61%,3.0
+401924734,Sun Nov 8,1:00 PM,Princeton Tigers at Siena Saints,Princeton Tigers,62%,3.3
+401921687,Sun Nov 8,1:00 PM,Marist Red Foxes at UMass Lowell River Hawks,UMass Lowell River Hawks,63%,3.6
+401921684,Sun Nov 8,1:00 PM,Manhattan Jaspers at Maine Black Bears,Maine Black Bears,65%,4.0
+401921820,Sun Nov 8,1:00 PM,Southeast Missouri State Redhawks at South Carolina Gamecocks,South Carolina Gamecocks,93%,15.5
+401921686,Sun Nov 8,2:00 PM,Merrimack Warriors at UAlbany Great Danes,UAlbany Great Danes,55%,1.3
+401911306,Sun Nov 8,2:00 PM,Brown Bears at Lehigh Mountain Hawks,Lehigh Mountain Hawks,69%,5.2
+401920739,Sun Nov 8,2:00 PM,Campbell Fighting Camels at Western Michigan Broncos,Western Michigan Broncos,73%,6.5
+401902277,Sun Nov 8,2:00 PM,Butler Bulldogs at Boise State Broncos,Boise State Broncos,75%,7.0
+401920843,Sun Nov 8,2:00 PM,Green Bay Phoenix at St. Thomas-Minnesota Tommies,St. Thomas-Minnesota Tommies,78%,8.1
+401920692,Sun Nov 8,2:00 PM,Quinnipiac Bobcats at Vermont Catamounts,Vermont Catamounts,82%,9.5
+401920233,Sun Nov 8,2:00 PM,Central Connecticut Blue Devils at Dartmouth Big Green,Dartmouth Big Green,84%,10.4
+401926215,Sun Nov 8,3:00 PM,Western Kentucky Hilltoppers at Tennessee Tech Golden Eagles,Western Kentucky Hilltoppers,70%,5.5
+401911335,Sun Nov 8,3:00 PM,Idaho State Bengals at Air Force Falcons,Air Force Falcons,71%,5.9
+401927362,Sun Nov 8,3:00 PM,Southern Jaguars at Drake Bulldogs,Drake Bulldogs,94%,16.2
+401920865,Sun Nov 8,4:00 PM,Saint Peter's Peacocks at NJIT Highlanders,Saint Peter's Peacocks,54%,1.1
+401911274,Sun Nov 8,4:00 PM,Rider Broncs at Binghamton Bearcats,Binghamton Bearcats,68%,4.9
+401911453,Sun Nov 8,4:30 PM,Saint Mary's Gaels vs. Nevada Wolf Pack,Nevada Wolf Pack,54%,1.2
+401911238,Sun Nov 8,5:00 PM,Richmond Spiders vs. Temple Owls,Richmond Spiders,54%,1.0
+401920134,Sun Nov 8,6:00 PM,North Dakota State Bison at Cal State Bakersfield Roadrunners,North Dakota State Bison,53%,0.9
+401925894,Sun Nov 8,6:00 PM,Norfolk State Spartans at William & Mary Tribe,William & Mary Tribe,73%,6.6
+401929352,Sun Nov 8,7:00 PM,Incarnate Word Cardinals at UTEP Miners,UTEP Miners,89%,12.8
+401909707,Sun Nov 8,8:00 PM,Pittsburgh Panthers vs. Penn State Nittany Lions,Pittsburgh Panthers,59%,2.3
+401918053,Sun Nov 8,8:30 PM,Houston Cougars vs. California Golden Bears,Houston Cougars,95%,18.0
+401919029,Sun Nov 8,11:00 PM,USC Trojans vs. Wichita State Shockers,USC Trojans,70%,5.6
+401929002,Sun Nov 8,11:00 PM,UT Arlington Mavericks at Hawai'i Rainbow Warriors,Hawai'i Rainbow Warriors,78%,8.3
+401919733,Mon Nov 9,TBD,South Carolina State Bulldogs at Chicago State Cougars,Chicago State Cougars,63%,3.4
+401916315,Mon Nov 9,6:00 PM,Marshall Thundering Herd at Ohio State Buckeyes,Ohio State Buckeyes,99%,23.4
+401909718,Mon Nov 9,6:30 PM,Syracuse Orange vs. Indiana Hoosiers,Indiana Hoosiers,61%,3.0
+401921180,Mon Nov 9,6:30 PM,Howard Bison at Pennsylvania Quakers,Pennsylvania Quakers,74%,6.7
+401920877,Mon Nov 9,7:00 PM,Kansas City Roos at Jacksonville Dolphins,Jacksonville Dolphins,69%,5.3
+401919806,Mon Nov 9,7:00 PM,Long Island University Sharks at Towson Tigers,Towson Tigers,78%,8.3
+401922060,Mon Nov 9,7:00 PM,South Carolina Upstate Spartans at Coastal Carolina Chanticleers,Coastal Carolina Chanticleers,82%,9.6
+401916305,Mon Nov 9,7:00 PM,Minnesota Golden Gophers at Cincinnati Bearcats,Cincinnati Bearcats,82%,9.8
+401919846,Mon Nov 9,7:00 PM,Stonehill Skyhawks at Columbia Lions,Columbia Lions,87%,11.9
+401911010,Mon Nov 9,7:00 PM,Cleveland State Vikings at Bowling Green Falcons,Bowling Green Falcons,91%,14.0
+401926181,Mon Nov 9,7:00 PM,UNC Greensboro Spartans at UIC Flames,UIC Flames,95%,17.7
+401906781,Mon Nov 9,7:00 PM,Florida Gulf Coast Eagles at Georgia Bulldogs,Georgia Bulldogs,98%,22.5
+401918074,Mon Nov 9,7:00 PM,North Dakota Fighting Hawks at Clemson Tigers,Clemson Tigers,>99%,26.1
+401906849,Mon Nov 9,7:00 PM,Radford Highlanders at Tennessee Volunteers,Tennessee Volunteers,>99%,27.6
+401925681,Mon Nov 9,7:00 PM,Eastern Illinois Panthers at Notre Dame Fighting Irish,Notre Dame Fighting Irish,>99%,29.3
+401920686,Mon Nov 9,7:00 PM,Wagner Seahawks at UConn Huskies,UConn Huskies,>99%,33.3
+401906865,Mon Nov 9,7:00 PM,Grambling Tigers at Texas Longhorns,Texas Longhorns,>99%,34.8
+401921720,Mon Nov 9,7:00 PM,North Florida Ospreys at Miami Hurricanes,Miami Hurricanes,>99%,31.8
+401919016,Mon Nov 9,7:30 PM,Florida A&M Rattlers at UAB Blazers,UAB Blazers,95%,17.3
+401906793,Mon Nov 9,7:30 PM,Jackson State Tigers at Mississippi State Bulldogs,Mississippi State Bulldogs,>99%,25.9
+401906759,Mon Nov 9,7:30 PM,Oakland Golden Grizzlies at Alabama Crimson Tide,Alabama Crimson Tide,>99%,28.5
+401920734,Mon Nov 9,8:00 PM,Boston University Terriers at Northwestern Wildcats,Northwestern Wildcats,94%,16.3
+401921810,Mon Nov 9,8:00 PM,Louisiana Tech Bulldogs at LSU Tigers,LSU Tigers,96%,18.3
+401906803,Mon Nov 9,8:00 PM,North Alabama Lions at Oklahoma Sooners,Oklahoma Sooners,99%,24.0
+401921815,Mon Nov 9,8:00 PM,SIU Edwardsville Cougars at Missouri Tigers,Missouri Tigers,>99%,25.4
+401917978,Mon Nov 9,8:00 PM,UL Monroe Warhawks at Texas A&M Aggies,Texas A&M Aggies,>99%,35.4
+401926132,Mon Nov 9,8:30 PM,Illinois State Redbirds at Purdue Boilermakers,Purdue Boilermakers,94%,16.2
+401909502,Mon Nov 9,9:00 PM,Alabama A&M Bulldogs at DePaul Blue Demons,DePaul Blue Demons,98%,22.2
+401920799,Mon Nov 9,9:00 PM,App State Mountaineers at Auburn Tigers,Auburn Tigers,99%,23.9
+401920887,Mon Nov 9,9:30 PM,Seton Hall Pirates vs. Charlotte 49ers,Seton Hall Pirates,77%,7.9
+401920718,Mon Nov 9,9:30 PM,Eastern Washington Eagles at Oregon State Beavers,Oregon State Beavers,85%,11.1
+401921095,Mon Nov 9,10:00 PM,Rice Owls at Stanford Cardinal,Stanford Cardinal,94%,16.3
+401925737,Mon Nov 9,10:00 PM,Mississippi Valley State Delta Devils at Washington Huskies,Washington Huskies,>99%,32.8
+401929003,Mon Nov 9,11:59 PM,Portland Pilots at Hawai'i Rainbow Warriors,Hawai'i Rainbow Warriors,83%,9.9
+401906771,Tue Nov 10,6:00 PM,Florida Gators at Florida State Seminoles,Florida Gators,88%,12.3
+401920866,Tue Nov 10,6:30 PM,NJIT Highlanders at Rutgers Scarlet Knights,Rutgers Scarlet Knights,>99%,25.4
+401909514,Tue Nov 10,6:30 PM,Delaware State Hornets at Georgetown Hoyas,Georgetown Hoyas,>99%,28.3
+401928828,Tue Nov 10,7:00 PM,Wright State Raiders at Toledo Rockets,Wright State Raiders,52%,0.4
+401911011,Tue Nov 10,7:00 PM,Youngstown State Penguins at Central Michigan Chippewas,Youngstown State Penguins,54%,1.0
+401917520,Tue Nov 10,7:00 PM,Loyola Marymount Lions at Troy Trojans,Loyola Marymount Lions,56%,1.5
+401912228,Tue Nov 10,7:00 PM,Army Black Knights at New Haven Chargers,New Haven Chargers,60%,2.7
+401921025,Tue Nov 10,7:00 PM,Mercer Bears at Georgia Southern Eagles,Georgia Southern Eagles,62%,3.2
+401920356,Tue Nov 10,7:00 PM,Harvard Crimson at Northeastern Huskies,Harvard Crimson,64%,3.9
+401925781,Tue Nov 10,7:00 PM,Washington State Cougars at Duquesne Dukes,Duquesne Dukes,68%,5.1
+401920378,Tue Nov 10,7:00 PM,Virginia Tech Hokies vs. Iowa Hawkeyes,Iowa Hawkeyes,69%,5.4
+401909564,Tue Nov 10,7:00 PM,Michigan State Spartans vs. Duke Blue Devils,Duke Blue Devils,76%,7.5
+401911196,Tue Nov 10,7:00 PM,Iona Gaels at Fordham Rams,Fordham Rams,79%,8.5
+401925773,Tue Nov 10,7:00 PM,Bradley Braves at Davidson Wildcats,Davidson Wildcats,83%,10.1
+401925708,Tue Nov 10,7:00 PM,Winthrop Eagles at Kennesaw State Owls,Kennesaw State Owls,83%,10.0
+401913101,Tue Nov 10,7:00 PM,Wyoming Cowboys at North Carolina Tar Heels,North Carolina Tar Heels,85%,11.0
+401911209,Tue Nov 10,7:00 PM,Elon Phoenix at George Washington Revolutionaries,George Washington Revolutionaries,89%,13.1
+401920306,Tue Nov 10,7:00 PM,Eastern Kentucky Colonels at Georgia Tech Yellow Jackets,Georgia Tech Yellow Jackets,91%,14.4
+401921755,Tue Nov 10,7:00 PM,South Alabama Jaguars at UCF Knights,UCF Knights,96%,18.1
+401920063,Tue Nov 10,7:00 PM,Maine Black Bears at Rhode Island Rams,Rhode Island Rams,97%,19.3
+401921774,Tue Nov 10,7:00 PM,La Salle Explorers at Villanova Wildcats,Villanova Wildcats,97%,19.8
+401918957,Tue Nov 10,7:00 PM,Presbyterian Blue Hose at NC State Wolfpack,NC State Wolfpack,97%,20.1
+401909727,Tue Nov 10,7:00 PM,Charleston Southern Buccaneers at Wake Forest Demon Deacons,Wake Forest Demon Deacons,97%,20.5
+401911187,Tue Nov 10,7:00 PM,Siena Saints at Dayton Flyers,Dayton Flyers,98%,21.0
+401909553,Tue Nov 10,7:00 PM,Maryland Eastern Shore Hawks at Boston College Eagles,Boston College Eagles,98%,21.2
+401909533,Tue Nov 10,7:00 PM,Bryant Bulldogs at Providence Friars,Providence Friars,>99%,25.3
+401909543,Tue Nov 10,7:00 PM,Detroit Mercy Titans at Xavier Musketeers,Xavier Musketeers,>99%,31.4
+401918987,Tue Nov 10,7:15 PM,Memphis Tigers at Vanderbilt Commodores,Vanderbilt Commodores,88%,12.7
+401925107,Tue Nov 10,7:30 PM,Texas State Bobcats at UT Rio Grande Valley Vaqueros,Texas State Bobcats,70%,5.4
+401927369,Tue Nov 10,7:30 PM,Evansville Purple Aces at Middle Tennessee Blue Raiders,Middle Tennessee Blue Raiders,79%,8.7
+401919003,Tue Nov 10,7:30 PM,Nicholls Colonels at Tulane Green Wave,Tulane Green Wave,81%,9.3
+401913527,Tue Nov 10,8:00 PM,Illinois Fighting Illini at Texas Tech Red Raiders,Illinois Fighting Illini,56%,1.5
+401920704,Tue Nov 10,8:00 PM,Belmont Bruins at Lipscomb Bisons,Belmont Bruins,58%,2.0
+401924952,Tue Nov 10,8:00 PM,Houston Christian Huskies at South Dakota Coyotes,South Dakota Coyotes,62%,3.3
+401927386,Tue Nov 10,8:00 PM,Green Bay Phoenix at Northern Iowa Panthers,Northern Iowa Panthers,78%,8.3
+401926731,Tue Nov 10,8:00 PM,UT Martin Skyhawks at Arkansas State Red Wolves,Arkansas State Red Wolves,85%,11.1
+401909752,Tue Nov 10,8:00 PM,Yale Bulldogs at Baylor Bears,Baylor Bears,97%,20.1
+401911250,Tue Nov 10,8:00 PM,Northern Kentucky Norse at Saint Louis Billikens,Saint Louis Billikens,98%,22.2
+401918969,Tue Nov 10,8:00 PM,Prairie View A&M Panthers at SMU Mustangs,SMU Mustangs,99%,23.3
+401925685,Tue Nov 10,8:00 PM,Alcorn State Braves at Murray State Racers,Murray State Racers,99%,24.0
+401909773,Tue Nov 10,8:00 PM,Southern Jaguars at Iowa State Cyclones,Iowa State Cyclones,>99%,34.5
+401920895,Tue Nov 10,8:30 PM,Fairfield Stags at Wisconsin Badgers,Wisconsin Badgers,98%,22.8
+401920817,Tue Nov 10,8:30 PM,SE Louisiana Lions at Ole Miss Rebels,Ole Miss Rebels,99%,24.2
+401929180,Tue Nov 10,9:00 PM,Georgia State Panthers at Fresno State Bulldogs,Fresno State Bulldogs,65%,4.1
+401909492,Tue Nov 10,9:00 PM,Creighton Bluejays at Kansas State Wildcats,Creighton Bluejays,71%,5.8
+401909761,Tue Nov 10,9:00 PM,San Diego Toreros at Colorado Buffaloes,Colorado Buffaloes,91%,14.2
+401921733,Tue Nov 10,9:00 PM,Hofstra Pride at Arizona State Sun Devils,Arizona State Sun Devils,94%,16.4
+401921699,Tue Nov 10,9:00 PM,Weber State Wildcats at Utah Utes,Utah Utes,96%,18.3
+401924896,Tue Nov 10,9:00 PM,Little Rock Trojans at New Mexico Lobos,New Mexico Lobos,97%,20.0
+401925940,Tue Nov 10,9:00 PM,Utah Tech Trailblazers at Utah State Aggies,Utah State Aggies,>99%,25.3
+401921740,Tue Nov 10,9:00 PM,Queens University Royals at BYU Cougars,BYU Cougars,>99%,25.4
+401909740,Tue Nov 10,9:00 PM,Northern Arizona Lumberjacks at Arizona Wildcats,Arizona Wildcats,>99%,34.6
+401917979,Tue Nov 10,9:00 PM,UL Monroe Warhawks at TCU Horned Frogs,TCU Horned Frogs,>99%,34.7
+401920425,Tue Nov 10,9:00 PM,Bucknell Bison at Virginia Cavaliers,Virginia Cavaliers,>99%,35.7
+401909786,Tue Nov 10,9:30 PM,Kansas Jayhawks vs. Kentucky Wildcats,Kansas Jayhawks,71%,6.0
+401921062,Tue Nov 10,10:00 PM,Montana Grizzlies at San Francisco Dons,San Francisco Dons,85%,11.2
+401930177,Wed Nov 11,TBD,Arkansas-Pine Bluff Golden Lions at UCLA Bruins,UCLA Bruins,>99%,42.2
+401919759,Wed Nov 11,11:30 AM,Fairleigh Dickinson Knights at East Texas A&M Lions,East Texas A&M Lions,90%,13.5
+401921005,Wed Nov 11,12:00 PM,Kansas City Roos vs. Florida A&M Rattlers,Kansas City Roos,76%,7.3
+401920234,Wed Nov 11,1:00 PM,Dartmouth Big Green at UAlbany Great Danes,UAlbany Great Danes,56%,1.5
+401911519,Wed Nov 11,2:00 PM,Incarnate Word Cardinals at UC Davis Aggies,UC Davis Aggies,90%,13.4
+401918992,Wed Nov 11,3:00 PM,Saint Joseph's Hawks vs. South Florida Bulls,South Florida Bulls,71%,6.0
+401911230,Wed Nov 11,3:00 PM,Loyola Chicago Ramblers at Air Force Falcons,Loyola Chicago Ramblers,84%,10.8
+401918978,Wed Nov 11,4:00 PM,North Carolina A&T Aggies at East Carolina Pirates,East Carolina Pirates,86%,11.6
+401925717,Wed Nov 11,5:00 PM,Bethune-Cookman Wildcats at San Diego State Aztecs,San Diego State Aztecs,96%,18.5
+401921181,Wed Nov 11,5:30 PM,Pennsylvania Quakers at Navy Midshipmen,Pennsylvania Quakers,70%,5.6
+401926202,Wed Nov 11,6:00 PM,North Carolina Central Eagles at VMI Keydets,VMI Keydets,63%,3.6
+401925858,Wed Nov 11,6:30 PM,Charleston Cougars at Temple Owls,Temple Owls,58%,2.1
+401921175,Wed Nov 11,6:30 PM,Southern Indiana Screaming Eagles at IU Indianapolis Jaguars,IU Indianapolis Jaguars,58%,2.1
+401920903,Wed Nov 11,7:00 PM,James Madison Dukes at Delaware Blue Hens,James Madison Dukes,51%,0.3
+401917901,Wed Nov 11,7:00 PM,UNC Asheville Bulldogs at West Georgia Wolves,West Georgia Wolves,53%,0.9
+401925895,Wed Nov 11,7:00 PM,Old Dominion Monarchs at Norfolk State Spartans,Old Dominion Monarchs,55%,1.5
+401912209,Wed Nov 11,7:00 PM,American University Eagles at Drexel Dragons,Drexel Dragons,59%,2.4
+401909524,Wed Nov 11,7:00 PM,Marquette Golden Eagles at Michigan Wolverines,Michigan Wolverines,72%,6.2
+401924735,Wed Nov 11,7:00 PM,Stony Brook Seawolves at Princeton Tigers,Princeton Tigers,72%,6.3
+401911263,Wed Nov 11,7:00 PM,Cornell Big Red at St. Bonaventure Bonnies,St. Bonaventure Bonnies,73%,6.4
+401926868,Wed Nov 11,7:00 PM,Milwaukee Panthers at Indiana State Sycamores,Indiana State Sycamores,73%,6.6
+401911012,Wed Nov 11,7:00 PM,UMass Lowell River Hawks at Massachusetts Minutemen,Massachusetts Minutemen,75%,7.1
+401926863,Wed Nov 11,7:00 PM,Kent State Golden Flashes at UNC Wilmington Seahawks,UNC Wilmington Seahawks,76%,7.5
+401920740,Wed Nov 11,7:00 PM,Campbell Fighting Camels at East Tennessee State Buccaneers,East Tennessee State Buccaneers,82%,9.6
+401918452,Wed Nov 11,7:00 PM,William & Mary Tribe at Florida Atlantic Owls,Florida Atlantic Owls,85%,10.9
+401921286,Wed Nov 11,7:00 PM,Furman Paladins at Holy Cross Crusaders,Furman Paladins,92%,14.9
+401921821,Wed Nov 11,7:00 PM,Saint Peter's Peacocks at South Carolina Gamecocks,South Carolina Gamecocks,96%,19.0
+401920680,Wed Nov 11,7:00 PM,Colgate Raiders at St. John's Red Storm,St. John's Red Storm,99%,24.1
+401925682,Wed Nov 11,7:00 PM,South Carolina State Bulldogs at Notre Dame Fighting Irish,Notre Dame Fighting Irish,>99%,25.0
+401920202,Wed Nov 11,7:00 PM,NJIT Highlanders at VCU Rams,VCU Rams,>99%,32.5
+401928794,Wed Nov 11,7:30 PM,Pepperdine Waves at Sam Houston Bearkats,Sam Houston Bearkats,69%,5.3
+401928996,Wed Nov 11,8:00 PM,Valparaiso Beacons at South Dakota State Jackrabbits,Valparaiso Beacons,52%,0.5
+401917522,Wed Nov 11,8:00 PM,Santa Clara Broncos at North Texas Mean Green,North Texas Mean Green,59%,2.3
+401921037,Wed Nov 11,8:00 PM,Jackson State Tigers at Southern Miss Golden Eagles,Southern Miss Golden Eagles,87%,11.9
+401925863,Wed Nov 11,8:00 PM,Oral Roberts Golden Eagles at Tulsa Golden Hurricane,Tulsa Golden Hurricane,92%,15.2
+401928824,Wed Nov 11,8:00 PM,Robert Morris Colonials at Arkansas Razorbacks,Arkansas Razorbacks,>99%,25.6
+401925702,Wed Nov 11,8:00 PM,Jacksonville State Gamecocks at Houston Cougars,Houston Cougars,>99%,30.7
+401911454,Wed Nov 11,9:00 PM,Nevada Wolf Pack at UC Santa Barbara Gauchos,Nevada Wolf Pack,62%,3.3
+401917963,Wed Nov 11,9:00 PM,Stephen F. Austin Lumberjacks at Abilene Christian Wildcats,Stephen F. Austin Lumberjacks,70%,5.7
+401928814,Wed Nov 11,9:00 PM,Oakland Golden Grizzlies at Boise State Broncos,Boise State Broncos,95%,17.2
+401925915,Wed Nov 11,9:00 PM,Portland State Vikings at Colorado State Rams,Colorado State Rams,95%,17.8
+401911346,Wed Nov 11,9:00 PM,Cal Poly Mustangs at Grand Canyon Lopes,Grand Canyon Lopes,95%,17.9
+401926062,Wed Nov 11,9:00 PM,Lindenwood Lions at Nebraska Cornhuskers,Nebraska Cornhuskers,>99%,34.9
+401917523,Wed Nov 11,10:00 PM,Pacific Tigers at Long Beach State Beach,Long Beach State Beach,51%,0.3
+401919734,Wed Nov 11,10:00 PM,Chicago State Cougars at California Baptist Lancers,California Baptist Lancers,77%,7.8
+401917521,Wed Nov 11,10:00 PM,UTSA Roadrunners at Seattle U Redhawks,Seattle U Redhawks,91%,14.1
+401925738,Wed Nov 11,10:00 PM,Mississippi Valley State Delta Devils at Oregon Ducks,Oregon Ducks,>99%,36.6
+401918054,Wed Nov 11,11:00 PM,USC Trojans at California Golden Bears,USC Trojans,67%,4.6
+401922239,Thu Nov 12,TBD,Stetson Hatters at Howard Bison,Howard Bison,81%,9.2
+401920073,Thu Nov 12,3:00 PM,Kansas City Roos vs. George Mason Patriots,George Mason Patriots,92%,14.6
+401921086,Thu Nov 12,6:00 PM,Morgan State Bears at UMBC Retrievers,UMBC Retrievers,79%,8.5
+401925631,Thu Nov 12,6:00 PM,Bradley Braves vs. Coppin State Eagles,Bradley Braves,92%,14.6
+401917176,Thu Nov 12,6:30 PM,Mercyhurst Lakers at Penn State Nittany Lions,Penn State Nittany Lions,98%,21.4
+401916288,Thu Nov 12,6:30 PM,Tennessee Tech Golden Eagles at Indiana Hoosiers,Indiana Hoosiers,>99%,24.9
+401924857,Thu Nov 12,7:00 PM,Monmouth Hawks at Quinnipiac Bobcats,Monmouth Hawks,50%,0.1
+401928818,Thu Nov 12,7:00 PM,Western Michigan Broncos at Purdue Fort Wayne Mastodons,Purdue Fort Wayne Mastodons,54%,0.9
+401920135,Thu Nov 12,7:00 PM,Cal State Bakersfield Roadrunners at Western Illinois Leathernecks,Cal State Bakersfield Roadrunners,70%,5.5
+401924876,Thu Nov 12,7:00 PM,Central Connecticut Blue Devils at Sacred Heart Pioneers,Sacred Heart Pioneers,77%,7.7
+401911307,Thu Nov 12,7:00 PM,Canisius Golden Griffins at Brown Bears,Brown Bears,87%,11.9
+401920566,Thu Nov 12,7:00 PM,Loyola Maryland Greyhounds at Towson Tigers,Towson Tigers,91%,14.5
+401911013,Thu Nov 12,7:00 PM,Niagara Purple Eagles at Bowling Green Falcons,Bowling Green Falcons,93%,15.3
+401920064,Thu Nov 12,7:00 PM,Maryland Eastern Shore Hawks at Rhode Island Rams,Rhode Island Rams,97%,20.4
+401920412,Thu Nov 12,7:00 PM,Southern Utah Thunderbirds at High Point Panthers,High Point Panthers,98%,20.8
+401921768,Thu Nov 12,7:00 PM,Mercer Bears at West Virginia Mountaineers,West Virginia Mountaineers,>99%,25.0
+401922250,Thu Nov 12,8:00 PM,West Florida Argonauts at Alabama A&M Bulldogs,Alabama A&M Bulldogs,53%,0.8
+401911239,Thu Nov 12,8:00 PM,Richmond Spiders at Southern Illinois Salukis,Richmond Spiders,61%,2.9
+401919041,Thu Nov 12,8:00 PM,Oklahoma State Cowboys at Texas A&M Aggies,Texas A&M Aggies,66%,4.3
+401917524,Thu Nov 12,8:00 PM,Loyola Marymount Lions vs. South Alabama Jaguars,Loyola Marymount Lions,71%,6.0
+401916306,Thu Nov 12,8:00 PM,Southern Jaguars at Minnesota Golden Gophers,Minnesota Golden Gophers,98%,22.5
+401911533,Thu Nov 12,9:00 PM,New Mexico State Aggies at UTEP Miners,UTEP Miners,56%,1.5
+401921741,Thu Nov 12,9:00 PM,Montana State Bobcats at BYU Cougars,BYU Cougars,96%,19.0
+401911471,Thu Nov 12,10:00 PM,UC Riverside Highlanders at San José State Spartans,San José State Spartans,75%,7.3
+401909503,Fri Nov 13,TBD,DePaul Blue Demons at Northwestern Wildcats,Northwestern Wildcats,67%,4.6
+401921167,Fri Nov 13,3:00 PM,West Florida Argonauts vs. Cleveland State Vikings,West Florida Argonauts,55%,1.4
+401909696,Fri Nov 13,5:00 PM,Texas A&M-Corpus Christi Islanders at Florida State Seminoles,Florida State Seminoles,94%,16.9
+401921721,Fri Nov 13,5:00 PM,North Alabama Lions at Miami Hurricanes,Miami Hurricanes,>99%,27.1
+401909515,Fri Nov 13,6:00 PM,Georgetown Hoyas at Clemson Tigers,Clemson Tigers,79%,8.4
+401923270,Fri Nov 13,6:00 PM,Bryant Bulldogs at Rutgers Scarlet Knights,Rutgers Scarlet Knights,97%,20.0
+401902278,Fri Nov 13,6:30 PM,Pittsburgh Panthers at Butler Bulldogs,Butler Bulldogs,53%,0.7
+401906782,Fri Nov 13,7:00 PM,Georgia Bulldogs at North Carolina Tar Heels,North Carolina Tar Heels,58%,2.2
+401926117,Fri Nov 13,7:00 PM,Wright State Raiders at Samford Bulldogs,Wright State Raiders,59%,2.5
+401922211,Fri Nov 13,7:00 PM,Florida International Panthers at Florida Gulf Coast Eagles,Florida Gulf Coast Eagles,62%,3.1
+401920747,Fri Nov 13,7:00 PM,Yale Bulldogs at Northeastern Huskies,Yale Bulldogs,64%,3.7
+401924796,Fri Nov 13,7:00 PM,Marist Red Foxes at Lehigh Mountain Hawks,Lehigh Mountain Hawks,64%,3.8
+401920973,Fri Nov 13,7:00 PM,Chattanooga Mocs at Elon Phoenix,Elon Phoenix,66%,4.4
+401921191,Fri Nov 13,7:00 PM,Iona Gaels at Hofstra Pride,Hofstra Pride,68%,5.1
+401925820,Fri Nov 13,7:00 PM,App State Mountaineers at Charlotte 49ers,Charlotte 49ers,71%,5.7
+401924704,Fri Nov 13,7:00 PM,Columbia Lions at Bucknell Bison,Columbia Lions,72%,6.1
+401911210,Fri Nov 13,7:00 PM,Harvard Crimson at George Washington Revolutionaries,George Washington Revolutionaries,81%,9.5
+401911197,Fri Nov 13,7:00 PM,Long Island University Sharks at Fordham Rams,Fordham Rams,85%,11.1
+401918958,Fri Nov 13,7:00 PM,Troy Trojans at NC State Wolfpack,NC State Wolfpack,97%,19.4
+401926133,Fri Nov 13,7:00 PM,Ohio Bobcats at Purdue Boilermakers,Purdue Boilermakers,97%,20.1
+401925755,Fri Nov 13,7:00 PM,Northern Iowa Panthers at Michigan State Spartans,Michigan State Spartans,99%,24.4
+401920379,Fri Nov 13,7:00 PM,Mount St. Mary's Mountaineers at Virginia Tech Hokies,Virginia Tech Hokies,99%,24.7
+401921803,Fri Nov 13,7:00 PM,Northern Arizona Lumberjacks at Kentucky Wildcats,Kentucky Wildcats,>99%,28.7
+401906850,Fri Nov 13,7:00 PM,Tennessee State Tigers at Tennessee Volunteers,Tennessee Volunteers,>99%,29.9
+401906772,Fri Nov 13,7:00 PM,Merrimack Warriors at Florida Gators,Florida Gators,>99%,34.2
+401913528,Fri Nov 13,7:00 PM,Sam Houston Bearkats at Illinois Fighting Illini,Illinois Fighting Illini,>99%,32.9
+401921825,Fri Nov 13,7:00 PM,Prairie View A&M Panthers at Vanderbilt Commodores,Vanderbilt Commodores,>99%,32.8
+401926152,Fri Nov 13,7:30 PM,Southeast Missouri State Redhawks at Middle Tennessee Blue Raiders,Middle Tennessee Blue Raiders,71%,5.9
+401916316,Fri Nov 13,7:30 PM,Ohio State Buckeyes at UConn Huskies,UConn Huskies,78%,8.3
+401927363,Fri Nov 13,7:30 PM,South Dakota Coyotes at Drake Bulldogs,Drake Bulldogs,91%,14.4
+401926794,Fri Nov 13,7:30 PM,North Carolina Central Eagles at Liberty Flames,Liberty Flames,91%,14.5
+401916297,Fri Nov 13,8:00 PM,Virginia Cavaliers at Maryland Terrapins,Virginia Cavaliers,53%,0.7
+401927374,Fri Nov 13,8:00 PM,Illinois State Redbirds at North Dakota State Bison,Illinois State Redbirds,62%,3.2
+401929199,Fri Nov 13,8:00 PM,Southern Miss Golden Eagles at Texas State Bobcats,Texas State Bobcats,81%,9.3
+401925686,Fri Nov 13,8:00 PM,Alcorn State Braves at Tarleton State Texans,Tarleton State Texans,89%,13.2
+401921026,Fri Nov 13,8:00 PM,Georgia Southern Eagles at UCF Knights,UCF Knights,97%,20.3
+401917916,Fri Nov 13,8:00 PM,Central Arkansas Bears at Arkansas Razorbacks,Arkansas Razorbacks,98%,22.6
+401927380,Fri Nov 13,8:00 PM,Texas Southern Tigers at Murray State Racers,Murray State Racers,>99%,24.7
+401919049,Fri Nov 13,8:00 PM,Milwaukee Panthers at TCU Horned Frogs,TCU Horned Frogs,>99%,26.3
+401906804,Fri Nov 13,8:00 PM,Fairleigh Dickinson Knights at Oklahoma Sooners,Oklahoma Sooners,>99%,32.4
+401909565,Fri Nov 13,8:00 PM,SIU Edwardsville Cougars at Duke Blue Devils,Duke Blue Devils,>99%,39.4
+401929040,Fri Nov 13,8:45 PM,Lindenwood Lions at Omaha Mavericks,Omaha Mavericks,72%,6.2
+401920123,Fri Nov 13,9:00 PM,Cal Poly Mustangs at Idaho Vandals,Idaho Vandals,56%,1.6
+401909741,Fri Nov 13,9:00 PM,Arizona Wildcats at Auburn Tigers,Auburn Tigers,57%,1.8
+401921728,Fri Nov 13,9:00 PM,Stanford Cardinal at UNLV Rebels,UNLV Rebels,65%,4.0
+401906794,Fri Nov 13,9:00 PM,Xavier Musketeers vs. Mississippi State Bulldogs,Xavier Musketeers,68%,4.9
+401906760,Fri Nov 13,9:00 PM,Seton Hall Pirates at Alabama Crimson Tide,Alabama Crimson Tide,93%,15.4
+401911014,Fri Nov 13,9:00 PM,Ball State Cardinals at SMU Mustangs,SMU Mustangs,94%,16.9
+401917980,Fri Nov 13,9:00 PM,UL Monroe Warhawks at Arizona State Sun Devils,Arizona State Sun Devils,>99%,30.1
+401917526,Fri Nov 13,9:30 PM,Chicago State Cougars at San Diego Toreros,San Diego Toreros,91%,14.2
+401925739,Fri Nov 13,9:30 PM,Mississippi Valley State Delta Devils at Oregon State Beavers,Oregon State Beavers,>99%,31.4
+401917527,Fri Nov 13,10:00 PM,East Texas A&M Lions at Portland Pilots,Portland Pilots,72%,6.2
+401917525,Fri Nov 13,10:00 PM,UIC Flames at Saint Mary's Gaels,Saint Mary's Gaels,76%,7.5
+401920372,Fri Nov 13,10:00 PM,UC San Diego Tritons at Utah State Aggies,Utah State Aggies,91%,14.6
+401920345,Fri Nov 13,10:30 PM,Arkansas-Pine Bluff Golden Lions at California Baptist Lancers,California Baptist Lancers,92%,15.0
+401921063,Sat Nov 14,TBD,Portland State Vikings at San Francisco Dons,San Francisco Dons,86%,11.4
+401917529,Sat Nov 14,TBD,Air Force Falcons at Pacific Tigers,Pacific Tigers,88%,12.6
+401924720,Sat Nov 14,11:00 AM,UNC Greensboro Spartans at Cornell Big Red,Cornell Big Red,77%,7.8
+401919004,Sat Nov 14,12:00 PM,Tulane Green Wave at Akron Zips,Akron Zips,86%,11.3
+401922031,Sat Nov 14,1:00 PM,Montana Grizzlies at North Dakota Fighting Hawks,Montana Grizzlies,51%,0.3
+401923303,Sat Nov 14,1:00 PM,Drexel Dragons at Maine Black Bears,Drexel Dragons,62%,3.3
+401920074,Sat Nov 14,1:00 PM,Bradley Braves vs. George Mason Patriots,George Mason Patriots,78%,8.2
+401912229,Sat Nov 14,1:00 PM,St. Thomas-Minnesota Tommies at Army Black Knights,St. Thomas-Minnesota Tommies,78%,8.3
+401920567,Sat Nov 14,1:00 PM,Towson Tigers vs. Morgan State Bears,Towson Tigers,89%,13.2
+401919847,Sat Nov 14,1:00 PM,Stonehill Skyhawks at Texas Tech Red Raiders,Texas Tech Red Raiders,>99%,36.9
+401911231,Sat Nov 14,1:30 PM,Loyola Chicago Ramblers at Colorado State Rams,Colorado State Rams,77%,7.9
+401920915,Sat Nov 14,2:00 PM,Northern Illinois Huskies at Bellarmine Knights,Bellarmine Knights,51%,0.3
+401922220,Sat Nov 14,2:00 PM,The Citadel Bulldogs at North Florida Ospreys,North Florida Ospreys,70%,5.5
+401911015,Sat Nov 14,2:00 PM,Miami (OH) RedHawks at Evansville Purple Aces,Miami (OH) RedHawks,77%,7.7
+401922230,Sat Nov 14,2:00 PM,Wofford Terriers at Queens University Royals,Queens University Royals,80%,9.0
+401921096,Sat Nov 14,2:00 PM,Rice Owls at Stephen F. Austin Lumberjacks,Stephen F. Austin Lumberjacks,81%,9.1
+401911392,Sat Nov 14,2:00 PM,Gardner-Webb Runnin' Bulldogs at South Carolina Gamecocks,South Carolina Gamecocks,>99%,24.8
+401918993,Sat Nov 14,2:00 PM,Coppin State Eagles at South Florida Bulls,South Florida Bulls,>99%,28.3
+401921038,Sat Nov 14,2:30 PM,Jackson State Tigers at Winthrop Eagles,Winthrop Eagles,84%,10.6
+401911016,Sat Nov 14,3:30 PM,Central Michigan Chippewas at Northern Kentucky Norse,Northern Kentucky Norse,79%,8.5
+401921689,Sat Nov 14,3:30 PM,LSU Tigers at Gonzaga Bulldogs,Gonzaga Bulldogs,92%,15.0
+401921221,Sat Nov 14,4:00 PM,Hampton Pirates at Navy Midshipmen,Navy Midshipmen,54%,1.2
+401925889,Sat Nov 14,4:00 PM,South Dakota State Jackrabbits vs. Northern Colorado Bears,South Dakota State Jackrabbits,59%,2.4
+401924921,Sat Nov 14,4:00 PM,Wyoming Cowboys at Denver Pioneers,Wyoming Cowboys,69%,5.1
+401922046,Sat Nov 14,4:00 PM,Longwood Lancers at Old Dominion Monarchs,Old Dominion Monarchs,76%,7.7
+401928804,Sat Nov 14,4:00 PM,Toledo Rockets at Detroit Mercy Titans,Toledo Rockets,79%,8.6
+401920307,Sat Nov 14,4:00 PM,UNC Asheville Bulldogs at Georgia Tech Yellow Jackets,Georgia Tech Yellow Jackets,90%,13.5
+401911264,Sat Nov 14,4:00 PM,Lafayette Leopards at St. Bonaventure Bonnies,St. Bonaventure Bonnies,92%,15.1
+401909728,Sat Nov 14,4:00 PM,Southern Utah Thunderbirds at Wake Forest Demon Deacons,Wake Forest Demon Deacons,95%,17.0
+401918979,Sat Nov 14,4:00 PM,Delaware State Hornets at East Carolina Pirates,East Carolina Pirates,97%,19.5
+401920741,Sat Nov 14,4:30 PM,South Carolina Upstate Spartans at Campbell Fighting Camels,Campbell Fighting Camels,82%,9.8
+401927387,Sat Nov 14,5:00 PM,Northern Iowa Panthers at Oakland Golden Grizzlies,Oakland Golden Grizzlies,53%,0.8
+401918055,Sat Nov 14,5:00 PM,Utah Tech Trailblazers at California Golden Bears,California Golden Bears,94%,16.3
+401920750,Sat Nov 14,6:00 PM,Marshall Thundering Herd at Youngstown State Penguins,Youngstown State Penguins,62%,3.2
+401919782,Sat Nov 14,6:00 PM,Manhattan Jaspers at Le Moyne Dolphins,Le Moyne Dolphins,65%,4.2
+401926777,Sat Nov 14,6:00 PM,UC Riverside Highlanders at Fresno State Bulldogs,Fresno State Bulldogs,69%,5.3
+401909534,Sat Nov 14,6:00 PM,Colorado Buffaloes at Providence Friars,Providence Friars,78%,8.1
+401925827,Sat Nov 14,6:00 PM,South Alabama Jaguars at North Texas Mean Green,North Texas Mean Green,90%,13.3
+401920193,Sat Nov 14,6:30 PM,Pennsylvania Quakers at Saint Joseph's Hawks,Saint Joseph's Hawks,70%,5.4
+401919017,Sat Nov 14,7:00 PM,UAB Blazers at Jacksonville State Gamecocks,Jacksonville State Gamecocks,54%,1.0
+401921760,Sat Nov 14,7:00 PM,Washington Huskies at Utah Utes,Utah Utes,60%,2.6
+401911308,Sat Nov 14,7:00 PM,Brown Bears at Siena Saints,Siena Saints,62%,3.2
+401911376,Sat Nov 14,7:00 PM,West Georgia Wolves at Charleston Southern Buccaneers,Charleston Southern Buccaneers,67%,4.6
+401920705,Sat Nov 14,7:00 PM,Lipscomb Bisons at Western Carolina Catamounts,Western Carolina Catamounts,73%,6.4
+401925108,Sat Nov 14,7:00 PM,UT Rio Grande Valley Vaqueros at UT Arlington Mavericks,UT Arlington Mavericks,78%,8.1
+401925774,Sat Nov 14,7:00 PM,Howard Bison at Davidson Wildcats,Davidson Wildcats,84%,10.6
+401920867,Sat Nov 14,7:00 PM,NJIT Highlanders at Fairfield Stags,Fairfield Stags,89%,13.0
+401926864,Sat Nov 14,7:00 PM,Louisiana Ragin' Cajuns at UNC Wilmington Seahawks,UNC Wilmington Seahawks,90%,13.4
+401917951,Sat Nov 14,7:00 PM,Austin Peay Governors at Wichita State Shockers,Wichita State Shockers,91%,14.2
+401921775,Sat Nov 14,7:00 PM,Rider Broncs at Villanova Wildcats,Villanova Wildcats,>99%,31.5
+401920961,Sat Nov 14,7:30 PM,IU Indianapolis Jaguars at Morehead State Eagles,IU Indianapolis Jaguars,51%,0.2
+401911188,Sat Nov 14,7:30 PM,Cincinnati Bearcats at Dayton Flyers,Cincinnati Bearcats,62%,3.2
+401911276,Sat Nov 14,7:30 PM,Binghamton Bearcats at Duquesne Dukes,Duquesne Dukes,96%,18.1
+401925063,Sat Nov 14,8:00 PM,Louisiana Tech Bulldogs at Nicholls Colonels,Nicholls Colonels,50%,0.1
+401911520,Sat Nov 14,8:00 PM,UC Davis Aggies at Sacramento State Hornets,Sacramento State Hornets,63%,3.4
+401925079,Sat Nov 14,8:00 PM,Northwestern State Demons at Little Rock Trojans,Little Rock Trojans,83%,10.0
+401911347,Sat Nov 14,8:00 PM,UL Monroe Warhawks at Grand Canyon Lopes,Grand Canyon Lopes,>99%,31.1
+401920760,Sat Nov 14,8:30 PM,Furman Paladins at Belmont Bruins,Belmont Bruins,60%,2.8
+401917530,Sat Nov 14,10:00 PM,New Mexico Lobos at Santa Clara Broncos,New Mexico Lobos,56%,1.5
+401911455,Sat Nov 14,10:00 PM,Utah Valley Wolverines at Nevada Wolf Pack,Nevada Wolf Pack,86%,11.4
+401917528,Sat Nov 14,10:00 PM,Idaho State Bengals at Seattle U Redhawks,Seattle U Redhawks,97%,19.5

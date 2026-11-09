@@ -1,0 +1,366 @@
+rank,team,elo,adj_em,adj_o,adj_d,tempo,elo_last,rank_last,elo_change,ret_min_pct,transfer_min_pct,top100_freshmen,coach,new_coach,coach_metric
+1,Duke Blue Devils,2246.0,40.6,131.9,91.4,66.9,2247.0,2.0,-1.0,43.0,36.0,4,Jon Scheyer,no,1.1
+2,Florida Gators,2192.0,37.6,132.0,94.4,69.4,2158.0,5.0,34.0,73.0,27.0,0,Todd Golden,no,2.2
+3,Illinois Fighting Illini,2136.0,34.6,129.8,95.2,67.5,2150.0,6.0,-14.0,56.0,14.0,2,Brad Underwood,no,3.4
+4,Houston Cougars,2118.0,33.5,125.9,92.3,65.6,2160.0,4.0,-43.0,23.0,61.0,2,Kelvin Sampson,no,4.1
+5,Arizona Wildcats,2106.0,32.9,126.8,93.9,69.5,2197.0,3.0,-92.0,27.0,49.0,2,Tommy Lloyd,no,1.7
+6,Michigan Wolverines,2105.0,32.9,128.0,95.1,70.0,2254.0,1.0,-149.0,35.0,39.0,4,Michael Boynton,yes,0.8
+7,Texas Tech Red Raiders,2085.0,31.8,128.9,97.1,67.4,1993.0,18.0,92.0,30.0,70.0,1,Grant McCasland,no,4.3
+8,Iowa State Cyclones,2050.0,29.9,125.8,95.9,67.9,2128.0,7.0,-78.0,39.0,61.0,0,T.J. Otzelberger,no,1.5
+9,Michigan State Spartans,2047.0,29.7,125.5,95.8,67.5,2057.0,11.0,-10.0,60.0,25.0,4,Tom Izzo,no,1.8
+10,Alabama Crimson Tide,2041.0,29.4,127.4,98.1,71.3,2037.0,12.0,4.0,33.0,30.0,4,Nate Oats,no,-0.0
+11,Tennessee Volunteers,2040.0,29.3,124.9,95.6,67.0,2034.0,13.0,6.0,0.0,100.0,2,Rick Barnes,no,2.0
+12,Texas Longhorns,2036.0,29.1,128.5,99.4,67.7,1883.0,35.0,153.0,13.0,62.0,3,Sean Miller,no,-1.2
+13,UConn Huskies,2028.0,28.7,124.7,96.0,66.4,2069.0,10.0,-41.0,44.0,56.0,2,Dan Hurley,no,0.7
+14,Gonzaga Bulldogs,2022.0,28.4,125.9,97.5,68.9,2077.0,9.0,-55.0,14.0,65.0,1,Mark Few,no,-0.1
+15,Kansas Jayhawks,2021.0,28.3,122.5,94.2,68.4,1973.0,20.0,47.0,6.0,70.0,3,Bill Self,no,0.7
+16,Nebraska Cornhuskers,1988.0,26.5,123.1,96.6,67.7,1994.0,17.0,-6.0,46.0,54.0,1,Fred Hoiberg,no,1.2
+17,Auburn Tigers,1984.0,26.3,126.1,99.8,68.2,1906.0,30.0,78.0,32.0,68.0,0,Steven Pearl,no,1.1
+18,Purdue Boilermakers,1978.0,26.0,124.8,98.8,66.3,2100.0,8.0,-122.0,43.0,16.0,3,Matt Painter,no,3.8
+19,Louisville Cardinals,1968.0,25.4,123.1,97.6,69.2,1999.0,16.0,-31.0,11.0,86.0,2,Pat Kelsey,no,0.6
+20,St. John's Red Storm,1964.0,25.2,122.9,97.7,69.2,2018.0,14.0,-54.0,17.0,74.0,0,Rick Pitino,no,2.0
+21,Miami Hurricanes,1963.0,25.2,125.0,99.9,68.2,1862.0,38.0,101.0,32.0,68.0,1,Jai Lucas,no,0.2
+22,Kentucky Wildcats,1963.0,25.1,123.7,98.5,68.5,1946.0,24.0,17.0,14.0,86.0,0,Mark Pope,no,1.6
+23,Virginia Cavaliers,1958.0,24.9,123.7,98.8,67.4,1964.0,21.0,-6.0,46.0,54.0,0,Ryan Odom,no,2.7
+24,Ohio State Buckeyes,1955.0,24.7,124.1,99.4,67.6,1925.0,27.0,30.0,33.0,54.0,2,Jake Diebler,no,0.0
+25,Oklahoma Sooners,1953.0,24.6,125.0,100.4,67.9,1842.0,42.0,110.0,36.0,64.0,2,Porter Moser,no,1.7
+26,Vanderbilt Commodores,1929.0,23.3,123.3,99.9,68.8,2011.0,15.0,-82.0,25.0,63.0,3,Mark Byington,no,0.2
+27,UCLA Bruins,1928.0,23.2,122.0,98.8,66.8,1905.0,31.0,23.0,48.0,38.0,2,Mick Cronin,no,1.6
+28,BYU Cougars,1926.0,23.2,123.9,100.7,69.4,1961.0,22.0,-35.0,27.0,59.0,2,Kevin Young,no,-1.1
+29,Baylor Bears,1924.0,23.0,123.6,100.6,68.1,1839.0,43.0,85.0,25.0,71.0,2,Scott Drew,no,1.9
+30,Wisconsin Badgers,1922.0,22.9,121.9,99.0,69.1,1944.0,25.0,-23.0,43.0,38.0,0,Greg Gard,no,4.6
+31,Villanova Wildcats,1921.0,22.9,123.4,100.5,66.9,1872.0,36.0,49.0,27.0,71.0,1,Kevin Willard,no,4.1
+32,Creighton Bluejays,1919.0,22.8,122.7,99.9,68.2,1723.0,71.0,196.0,31.0,69.0,1,Alan Huss,yes,1.5
+33,Arkansas Razorbacks,1919.0,22.8,123.9,101.1,70.5,1991.0,19.0,-72.0,15.0,22.0,6,John Calipari,no,-1.0
+34,Iowa Hawkeyes,1916.0,22.6,121.8,99.1,65.4,1952.0,23.0,-36.0,56.0,23.0,0,Ben McCollum,no,3.8
+35,Clemson Tigers,1905.0,22.0,120.2,98.2,66.3,1884.0,34.0,21.0,27.0,47.0,0,Brad Brownell,no,2.0
+36,Indiana Hoosiers,1899.0,21.7,121.9,100.2,67.7,1859.0,41.0,40.0,17.0,72.0,2,Darian DeVries,no,2.6
+37,Cincinnati Bearcats,1890.0,21.2,119.3,98.1,68.2,1829.0,47.0,61.0,0.0,100.0,0,Jerrod Calhoun,yes,-0.4
+38,Marquette Golden Eagles,1885.0,20.9,120.3,99.4,69.3,1713.0,77.0,172.0,57.0,43.0,1,Shaka Smart,no,0.9
+39,Georgia Bulldogs,1876.0,20.4,122.5,102.1,71.0,1903.0,32.0,-27.0,44.0,36.0,0,Michael White,no,-0.2
+40,Texas A&M Aggies,1874.0,20.3,122.2,101.8,70.4,1861.0,39.0,13.0,13.0,82.0,0,Bucky McMillan,no,-0.2
+41,VCU Rams,1874.0,20.3,120.9,100.5,68.6,1824.0,48.0,50.0,58.0,40.0,1,Phil Martelli Jr.,no,0.8
+42,Xavier Musketeers,1870.0,20.1,122.3,102.1,69.8,1664.0,91.0,207.0,13.0,87.0,1,Richard Pitino,no,1.0
+43,Utah State Aggies,1868.0,20.0,122.1,102.1,68.0,1922.0,28.0,-54.0,25.0,68.0,0,Ben Jacobson,yes,2.9
+44,Saint Louis Billikens,1867.0,20.0,121.7,101.7,69.9,1886.0,33.0,-19.0,57.0,17.0,0,Josh Schertz,no,2.1
+45,Maryland Terrapins,1861.0,19.6,119.8,100.2,67.5,1601.0,107.0,261.0,25.0,71.0,2,Buzz Williams,no,-0.3
+46,USC Trojans,1860.0,19.6,120.9,101.4,70.3,1715.0,76.0,145.0,21.0,79.0,3,Eric Musselman,no,-4.1
+47,Oklahoma State Cowboys,1858.0,19.4,121.4,102.0,71.1,1698.0,83.0,159.0,29.0,71.0,3,Steve Lutz,no,0.4
+48,West Virginia Mountaineers,1851.0,19.1,117.6,98.6,66.0,1799.0,51.0,52.0,21.0,72.0,2,Ross Hodge,no,2.4
+49,NC State Wolfpack,1848.0,18.9,122.3,103.4,69.0,1867.0,37.0,-20.0,28.0,72.0,0,Justin Gainey,yes,0.0
+50,Ole Miss Rebels,1830.0,17.9,118.0,100.1,67.9,1750.0,60.0,80.0,28.0,72.0,0,Chris Beard,no,0.8
+51,TCU Horned Frogs,1828.0,17.8,118.7,100.9,68.4,1832.0,46.0,-3.0,51.0,28.0,0,Jamie Dixon,no,1.1
+52,Missouri Tigers,1828.0,17.8,120.2,102.4,67.6,1790.0,52.0,38.0,19.0,77.0,2,Dennis Gates,no,-2.5
+53,Providence Friars,1816.0,17.2,121.1,103.9,70.9,1727.0,69.0,89.0,13.0,87.0,1,Bryan Hodgson,yes,-0.8
+54,North Carolina Tar Heels,1810.0,16.9,119.4,102.5,68.4,1916.0,29.0,-106.0,16.0,69.0,2,Michael Malone,yes,0.0
+55,Arizona State Sun Devils,1808.0,16.7,118.7,102.0,68.9,1715.0,74.0,92.0,9.0,74.0,0,Randy Bennett,yes,5.3
+56,Virginia Tech Hokies,1795.0,16.0,119.1,103.1,68.7,1748.0,61.0,48.0,31.0,69.0,0,Mike Young,no,1.0
+57,UCF Knights,1792.0,15.9,118.2,102.3,69.4,1771.0,56.0,21.0,15.0,85.0,0,Johnny Dawkins,no,3.8
+58,Oregon Ducks,1788.0,15.7,118.1,102.4,67.3,1669.0,89.0,119.0,20.0,80.0,1,Tony Stubblefield,yes,-0.7
+59,High Point Panthers,1783.0,15.4,118.7,103.4,69.4,1721.0,73.0,61.0,17.0,83.0,0,Flynn Clayman,no,0.6
+60,Grand Canyon Lopes,1780.0,15.2,117.2,102.0,68.5,1736.0,64.0,44.0,40.0,60.0,0,Bryce Drew,no,1.5
+61,Dayton Flyers,1780.0,15.2,115.6,100.4,67.8,1727.0,68.0,52.0,23.0,49.0,1,Anthony Grant,no,3.0
+62,SMU Mustangs,1776.0,15.0,119.7,104.7,68.9,1837.0,44.0,-60.0,15.0,73.0,0,Andy Enfield,no,-0.8
+63,Boise State Broncos,1762.0,14.2,116.9,102.6,67.8,1774.0,55.0,-13.0,31.0,66.0,0,Leon Rice,no,4.2
+64,Nevada Wolf Pack,1761.0,14.2,116.4,102.3,67.5,1737.0,63.0,24.0,36.0,52.0,0,Steve Alford,no,4.6
+65,New Mexico Lobos,1758.0,14.0,117.3,103.3,69.4,1833.0,45.0,-75.0,33.0,27.0,0,Eric Olen,no,4.6
+66,Syracuse Orange,1756.0,13.9,116.9,103.0,68.6,1684.0,88.0,72.0,16.0,80.0,0,Gerry McNamara,yes,1.5
+67,Colorado State Rams,1755.0,13.9,119.4,105.6,65.5,1685.0,87.0,70.0,58.0,15.0,0,Ali Farokhmanesh,no,1.0
+68,Memphis Tigers,1749.0,13.5,116.5,103.0,69.6,1595.0,112.0,154.0,11.0,89.0,0,Anfernee Hardaway,no,-2.0
+69,Saint Mary's Gaels,1740.0,13.1,115.3,102.2,66.4,1927.0,26.0,-187.0,26.0,34.0,1,Mickey McConnell,yes,0.0
+70,Wichita State Shockers,1734.0,12.7,115.8,103.1,68.3,1715.0,75.0,19.0,43.0,45.0,0,Paul Mills,no,1.1
+71,UNLV Rebels,1730.0,12.5,118.0,105.6,69.4,1620.0,103.0,110.0,23.0,77.0,0,Josh Pastner,no,0.8
+72,San Diego State Aztecs,1728.0,12.4,114.4,102.0,69.2,1810.0,49.0,-82.0,14.0,59.0,0,Brian Dutcher,no,3.2
+73,Northwestern Wildcats,1728.0,12.4,116.3,103.9,66.7,1765.0,57.0,-38.0,21.0,79.0,1,Chris Collins,no,1.9
+74,Mississippi State Bulldogs,1726.0,12.3,117.4,105.1,69.5,1661.0,92.0,65.0,23.0,62.0,2,Chris Jans,no,-1.7
+75,Seton Hall Pirates,1722.0,12.1,113.8,101.7,66.6,1775.0,54.0,-52.0,10.0,90.0,0,Shaheen Holloway,no,1.2
+76,Notre Dame Fighting Irish,1719.0,11.9,116.1,104.2,67.7,1657.0,94.0,61.0,34.0,52.0,1,Micah Shrewsberry,no,-0.7
+77,Wake Forest Demon Deacons,1714.0,11.6,115.3,103.7,68.8,1734.0,65.0,-20.0,4.0,78.0,1,Steve Forbes,no,1.2
+78,DePaul Blue Demons,1714.0,11.6,113.4,101.8,67.4,1634.0,101.0,79.0,30.0,70.0,0,Chris Holtmann,no,-0.8
+79,Georgetown Hoyas,1711.0,11.4,115.4,103.9,67.6,1688.0,86.0,23.0,30.0,43.0,0,Ed Cooley,no,1.1
+80,Utah Utes,1710.0,11.4,116.8,105.3,67.6,1598.0,109.0,112.0,7.0,65.0,0,Alex Jensen,no,-0.2
+81,Minnesota Golden Gophers,1707.0,11.2,114.0,102.8,65.6,1698.0,84.0,9.0,60.0,20.0,0,Niko Medved,no,3.4
+82,Pittsburgh Panthers,1706.0,11.2,114.9,103.7,66.1,1651.0,96.0,55.0,0.0,100.0,1,Jeff Capel III,no,-0.2
+83,Washington Huskies,1706.0,11.2,117.0,105.8,68.2,1788.0,53.0,-82.0,20.0,70.0,0,Danny Sprinkle,no,-1.6
+84,Colorado Buffaloes,1705.0,11.2,116.5,105.3,69.1,1708.0,80.0,-2.0,36.0,36.0,0,Tad Boyle,no,1.8
+85,Stanford Cardinal,1697.0,10.7,113.9,103.2,67.8,1732.0,66.0,-35.0,20.0,44.0,1,Kyle Smith,no,2.1
+86,Rutgers Scarlet Knights,1694.0,10.5,116.7,106.1,68.1,1573.0,127.0,121.0,44.0,56.0,0,Steve Pikiell,no,0.6
+87,Kansas State Wildcats,1692.0,10.5,115.2,104.7,70.7,1658.0,93.0,34.0,5.0,76.0,0,Casey Alexander,yes,1.3
+88,Santa Clara Broncos,1686.0,10.1,116.6,106.5,69.0,1860.0,40.0,-174.0,40.0,22.0,0,Herb Sendek,no,2.7
+89,LSU Tigers,1683.0,9.9,117.3,107.4,68.5,1757.0,58.0,-74.0,0.0,58.0,0,Will Wade,yes,0.2
+90,California Golden Bears,1682.0,9.9,113.9,104.0,68.6,1712.0,78.0,-29.0,19.0,47.0,0,Mark Madsen,no,1.0
+91,Penn State Nittany Lions,1678.0,9.7,117.6,107.9,68.0,1570.0,128.0,108.0,26.0,67.0,0,Mike Rhoades,no,1.6
+92,Florida State Seminoles,1672.0,9.4,114.6,105.2,69.7,1731.0,67.0,-59.0,6.0,58.0,2,Luke Loucks,no,0.7
+93,South Florida Bulls,1671.0,9.3,115.0,105.7,70.7,1799.0,50.0,-128.0,13.0,87.0,0,Chris Mack,yes,0.3
+94,George Mason Patriots,1667.0,9.1,113.8,104.7,65.8,1652.0,95.0,15.0,20.0,80.0,0,Tony Skinn,no,0.8
+95,UIC Flames,1661.0,8.7,114.3,105.6,67.9,1593.0,114.0,68.0,59.0,39.0,0,Rob Ehsan,no,0.2
+96,McNeese Cowboys,1656.0,8.5,113.2,104.8,67.5,1738.0,62.0,-82.0,30.0,19.0,0,Bill Armstrong,no,2.2
+97,Utah Valley Wolverines,1629.0,7.0,112.9,105.9,68.8,1649.0,97.0,-20.0,37.0,21.0,0,Todd Phillips,no,2.0
+98,South Carolina Gamecocks,1628.0,7.0,112.8,105.9,67.6,1648.0,99.0,-20.0,10.0,68.0,1,Lamont Paris,no,0.1
+99,Florida Atlantic Owls,1625.0,6.8,113.1,106.3,69.6,1591.0,118.0,34.0,13.0,65.0,0,John Jakus,no,2.5
+100,Murray State Racers,1614.0,6.2,115.1,108.9,70.1,1584.0,124.0,29.0,28.0,43.0,0,Ryan Miller,no,1.3
+101,North Texas Mean Green,1613.0,6.1,110.8,104.6,67.1,1565.0,130.0,48.0,43.0,20.0,0,Daniyal Robinson,no,0.6
+102,UNC Wilmington Seahawks,1612.0,6.1,113.2,107.2,66.5,1597.0,110.0,15.0,23.0,60.0,0,Takayo Siddle,no,1.2
+103,Charleston Cougars,1611.0,6.0,113.6,107.6,68.5,1490.0,170.0,121.0,16.0,67.0,0,John Groce,yes,2.5
+104,Butler Bulldogs,1610.0,6.0,113.2,107.2,69.2,1706.0,81.0,-95.0,12.0,41.0,0,Ronald Nored,yes,0.0
+105,Boston College Eagles,1608.0,5.9,111.1,105.2,67.7,1516.0,155.0,92.0,0.0,100.0,0,Luke Murray,yes,0.0
+106,Akron Zips,1602.0,5.5,113.4,107.9,69.5,1724.0,70.0,-122.0,26.0,53.0,0,Dustin Ford,yes,0.0
+107,Illinois State Redbirds,1596.0,5.2,112.8,107.6,67.4,1665.0,90.0,-69.0,33.0,67.0,0,Ryan Pedon,no,-0.6
+108,Davidson Wildcats,1596.0,5.2,112.4,107.2,66.3,1591.0,117.0,5.0,45.0,19.0,0,Matt McKillop,no,1.9
+109,UC San Diego Tritons,1594.0,5.1,111.2,106.0,67.8,1585.0,123.0,9.0,45.0,55.0,0,Clint Allard,no,1.1
+110,Fordham Rams,1591.0,4.9,110.1,105.1,66.5,1489.0,171.0,102.0,49.0,32.0,0,Mike Magpayo,no,1.6
+111,Western Kentucky Hilltoppers,1590.0,4.9,112.4,107.5,69.6,1520.0,152.0,70.0,38.0,48.0,0,Hank Plona,no,-0.6
+112,UC Irvine Anteaters,1588.0,4.8,107.8,103.0,69.0,1600.0,108.0,-12.0,51.0,10.0,1,Russ Turner,no,1.2
+113,Miami (OH) RedHawks,1588.0,4.8,113.9,109.2,69.8,1649.0,98.0,-61.0,49.0,32.0,0,Travis Steele,no,-0.2
+114,George Washington Revolutionaries,1584.0,4.6,112.2,107.6,69.0,1690.0,85.0,-106.0,12.0,79.0,0,Chris Caputo,no,-0.5
+115,UC Santa Barbara Gauchos,1582.0,4.5,113.8,109.4,66.8,1534.0,137.0,48.0,39.0,51.0,0,Joe Pasternack,no,-0.7
+116,Oregon State Beavers,1582.0,4.4,113.7,109.3,67.1,1493.0,166.0,89.0,17.0,63.0,0,Justin Joyner,yes,0.0
+117,Richmond Spiders,1580.0,4.3,112.9,108.6,68.1,1523.0,148.0,57.0,22.0,66.0,0,Chris Mooney,no,1.4
+118,Wyoming Cowboys,1578.0,4.3,113.0,108.7,67.2,1634.0,101.0,-56.0,43.0,28.0,0,Sundance Wicks,no,2.6
+119,Georgia Tech Yellow Jackets,1578.0,4.2,111.8,107.5,69.9,1522.0,149.0,56.0,14.0,52.0,1,Scott Cross,yes,0.6
+120,Texas State Bobcats,1571.0,3.9,112.6,108.8,67.6,1358.0,253.0,213.0,50.0,50.0,0,Terrence Johnson,no,0.0
+121,Loyola Marymount Lions,1568.0,3.7,109.0,105.3,68.2,1503.0,161.0,65.0,20.0,63.0,0,Stan Johnson,no,0.3
+122,Seattle U Redhawks,1567.0,3.6,108.0,104.4,68.3,1591.0,116.0,-24.0,45.0,37.0,0,Chris Victor,no,2.3
+123,Tulsa Golden Hurricane,1565.0,3.6,113.2,109.7,68.7,1756.0,59.0,-190.0,5.0,95.0,0,Eric Konkol,no,-0.4
+124,Washington State Cougars,1564.0,3.5,112.8,109.3,68.3,1549.0,134.0,15.0,0.0,65.0,0,David Riley,no,0.9
+125,Belmont Bruins,1563.0,3.4,113.7,110.2,69.1,1722.0,72.0,-159.0,37.0,8.0,0,Evan Bradds,yes,0.0
+126,Drake Bulldogs,1562.0,3.4,110.9,107.5,67.6,1491.0,168.0,71.0,46.0,33.0,0,Eric Henderson,no,2.4
+127,Temple Owls,1562.0,3.4,113.2,109.8,66.7,1520.0,151.0,42.0,31.0,69.0,0,Adam Fisher,no,-0.9
+128,Loyola Chicago Ramblers,1561.0,3.3,110.8,107.5,67.2,1330.0,266.0,231.0,15.0,71.0,0,Drew Valentine,no,-3.2
+129,Montana State Bobcats,1556.0,3.1,111.8,108.7,67.4,1534.0,137.0,22.0,67.0,2.0,0,Matt Logie,no,2.4
+130,Duquesne Dukes,1554.0,2.9,112.0,109.0,69.1,1566.0,129.0,-13.0,29.0,49.0,0,Dru Joyce III,no,-0.3
+131,UAB Blazers,1554.0,2.9,111.4,108.5,69.4,1590.0,119.0,-36.0,10.0,61.0,0,Andy Kennedy,no,1.3
+132,Yale Bulldogs,1553.0,2.9,114.7,111.8,66.9,1703.0,82.0,-150.0,34.0,0.0,0,James Jones,no,2.6
+133,Northern Iowa Panthers,1551.0,2.8,108.5,105.7,65.3,1710.0,79.0,-159.0,12.0,53.0,0,Kyle Green,yes,0.0
+134,Hawai'i Rainbow Warriors,1547.0,2.6,108.7,106.1,69.4,1592.0,115.0,-45.0,10.0,63.0,0,Eran Ganot,no,0.9
+135,New Mexico State Aggies,1546.0,2.5,110.0,107.6,67.7,1495.0,164.0,51.0,19.0,81.0,0,Jason Hooten,no,0.3
+136,Kent State Golden Flashes,1544.0,2.4,110.5,108.1,70.2,1504.0,160.0,41.0,25.0,40.0,1,Rob Senderoff,no,1.1
+137,Saint Joseph's Hawks,1544.0,2.4,109.1,106.7,68.5,1590.0,121.0,-46.0,35.0,19.0,0,Steve Donahue,no,0.3
+138,Furman Paladins,1543.0,2.3,110.1,107.7,67.4,1493.0,165.0,50.0,35.0,39.0,0,Bob Richey,no,0.2
+139,Toledo Rockets,1539.0,2.1,112.6,110.4,68.2,1528.0,144.0,11.0,35.0,25.0,0,Tod Kowalczyk,no,2.2
+140,Harvard Crimson,1527.0,1.5,109.4,107.9,66.0,1502.0,162.0,25.0,84.0,0.0,0,Tommy Amaker,no,-0.7
+141,San Francisco Dons,1526.0,1.4,109.8,108.3,67.4,1590.0,120.0,-63.0,4.0,15.0,0,Chris Gerlufsen,no,1.2
+142,Pennsylvania Quakers,1526.0,1.4,110.3,108.9,69.0,1486.0,172.0,40.0,77.0,8.0,0,Fran McCaffery,no,0.8
+143,Kennesaw State Owls,1523.0,1.3,110.0,108.7,70.1,1528.0,144.0,-5.0,31.0,44.0,0,Antoine Pettway,no,-0.8
+144,Wright State Raiders,1518.0,1.0,111.2,110.3,67.9,1531.0,143.0,-13.0,32.0,27.0,0,Clint Sargent,no,0.3
+145,Rhode Island Rams,1515.0,0.8,109.4,108.6,67.4,1549.0,133.0,-34.0,31.0,33.0,0,Archie Miller,no,-0.3
+146,St. Thomas-Minnesota Tommies,1513.0,0.7,110.6,109.9,68.5,1602.0,106.0,-88.0,40.0,22.0,0,John Tauer,no,0.9
+147,Valparaiso Beacons,1512.0,0.6,108.9,108.3,67.3,1501.0,163.0,11.0,47.0,14.0,0,Roger Powell,no,2.5
+148,Liberty Flames,1508.0,0.4,111.5,111.1,66.3,1608.0,105.0,-100.0,8.0,29.0,0,Ritchie McKay,no,2.4
+149,Towson Tigers,1507.0,0.4,107.4,107.0,65.8,1509.0,158.0,-2.0,25.0,22.0,0,Pat Skerry,no,1.1
+150,Stephen F. Austin Lumberjacks,1504.0,0.2,108.6,108.4,67.3,1618.0,104.0,-114.0,24.0,34.0,0,Matt Braeuer,no,3.0
+151,Sam Houston Bearkats,1501.0,0.0,110.1,110.0,69.2,1594.0,113.0,-93.0,26.0,10.0,0,Chris Mudge,no,1.2
+152,Robert Morris Colonials,1501.0,0.0,109.5,109.4,67.3,1512.0,157.0,-11.0,24.0,44.0,0,Andrew Toole,no,0.6
+153,Hofstra Pride,1500.0,-0.0,108.9,109.0,66.6,1643.0,100.0,-143.0,11.0,63.0,0,Speedy Claxton,no,3.2
+154,Troy Trojans,1493.0,-0.4,110.5,110.9,68.1,1532.0,141.0,-39.0,8.0,56.0,0,Adam Howard,yes,0.0
+155,San José State Spartans,1492.0,-0.4,111.3,111.7,66.7,1395.0,223.0,98.0,7.0,44.0,0,Tim Miles,no,1.1
+156,East Tennessee State Buccaneers,1491.0,-0.5,109.5,110.0,67.3,1542.0,135.0,-51.0,24.0,54.0,0,Brooks Savage,no,0.6
+157,Eastern Washington Eagles,1490.0,-0.6,112.4,113.0,68.4,1453.0,195.0,36.0,39.0,30.0,0,Dan Monson,no,-0.2
+158,Bradley Braves,1488.0,-0.6,108.6,109.3,68.9,1589.0,122.0,-101.0,13.0,23.0,0,Brian Wardle,no,2.2
+159,Tulane Green Wave,1488.0,-0.6,109.9,110.6,67.8,1433.0,206.0,55.0,25.0,55.0,0,Ron Hunter,no,0.3
+160,East Carolina Pirates,1476.0,-1.3,108.1,109.4,68.9,1360.0,251.0,117.0,16.0,55.0,0,Michael Schwartz,no,-1.3
+161,James Madison Dukes,1476.0,-1.3,109.5,110.8,67.3,1428.0,207.0,48.0,15.0,76.0,0,Preston Spradlin,no,-0.2
+162,La Salle Explorers,1475.0,-1.4,109.4,110.8,67.1,1384.0,232.0,90.0,32.0,51.0,0,Darris Nichols,no,-1.3
+163,Arkansas State Red Wolves,1472.0,-1.5,108.5,110.0,70.8,1534.0,137.0,-62.0,5.0,35.0,0,Ryan Pannone,no,1.2
+164,Georgia State Panthers,1472.0,-1.5,107.8,109.3,68.4,1258.0,302.0,214.0,2.0,95.0,0,Jon Cremins,yes,0.0
+165,Ohio Bobcats,1471.0,-1.6,112.4,113.9,69.1,1396.0,220.0,75.0,39.0,29.0,0,Jeff Boals,no,-1.0
+166,Western Michigan Broncos,1470.0,-1.6,111.0,112.6,68.2,1299.0,281.0,171.0,0.0,100.0,0,Kahil Fennell,yes,0.6
+167,Middle Tennessee Blue Raiders,1470.0,-1.6,108.4,110.0,68.0,1524.0,147.0,-54.0,23.0,42.0,0,Nick McDevitt,no,1.0
+168,Princeton Tigers,1466.0,-1.9,109.2,111.0,66.2,1372.0,241.0,94.0,98.0,0.0,0,Mitch Henderson,no,0.1
+169,Cal State Northridge Matadors,1459.0,-2.2,108.1,110.3,71.5,1470.0,180.0,-12.0,18.0,58.0,0,Andy Newman,no,1.1
+170,Queens University Royals,1458.0,-2.3,112.6,114.9,69.3,1448.0,199.0,11.0,39.0,5.0,0,Grant Leonard,no,1.3
+171,UC Davis Aggies,1455.0,-2.4,107.6,110.0,69.0,1467.0,182.0,-12.0,53.0,12.0,0,Jim Les,no,1.1
+172,Central Arkansas Bears,1455.0,-2.5,108.7,111.2,68.9,1479.0,175.0,-24.0,59.0,8.0,0,John Shulman,no,0.7
+173,San Diego Toreros,1454.0,-2.5,108.5,111.0,68.9,1369.0,242.0,85.0,4.0,83.0,0,JR Blount,yes,0.0
+174,Charlotte 49ers,1453.0,-2.5,110.4,113.0,66.2,1475.0,177.0,-22.0,9.0,49.0,0,Wes Miller,yes,0.2
+175,Fresno State Bulldogs,1453.0,-2.5,106.6,109.2,68.7,1534.0,140.0,-81.0,0.0,27.0,0,Vance Walberg,no,2.4
+176,Northern Colorado Bears,1453.0,-2.5,109.0,111.5,69.3,1519.0,153.0,-66.0,22.0,31.0,0,Steve Smiley,no,1.5
+177,Samford Bulldogs,1452.0,-2.6,110.0,112.6,68.5,1445.0,204.0,7.0,33.0,42.0,0,Lennie Acuff,no,-0.6
+178,UTEP Miners,1451.0,-2.7,106.8,109.5,67.0,1349.0,258.0,102.0,0.0,61.0,0,Joe Golding,no,-0.6
+179,Lipscomb Bisons,1450.0,-2.7,108.5,111.2,69.2,1470.0,181.0,-20.0,43.0,23.0,0,Kevin Carroll,no,0.2
+180,Cornell Big Red,1449.0,-2.8,111.8,114.5,70.4,1527.0,146.0,-78.0,39.0,0.0,0,Jon Jaques,no,-0.1
+181,Cal Poly Mustangs,1446.0,-2.9,109.5,112.4,72.0,1407.0,216.0,39.0,81.0,0.0,0,Mike DeGeorge,no,0.6
+182,Pacific Tigers,1445.0,-3.0,107.9,110.9,66.5,1559.0,131.0,-114.0,9.0,65.0,0,Dave Smart,no,-0.6
+183,South Dakota State Jackrabbits,1443.0,-3.1,109.2,112.4,67.9,1463.0,186.0,-20.0,42.0,17.0,0,Bryan Petersen,no,-0.1
+184,Austin Peay Governors,1441.0,-3.2,108.6,111.8,68.8,1483.0,173.0,-42.0,29.0,10.0,0,Corey Gipson,no,-0.3
+185,Oakland Golden Grizzlies,1440.0,-3.2,109.0,112.3,69.3,1493.0,167.0,-52.0,10.0,38.0,0,Greg Kampe,no,0.7
+186,Pepperdine Waves,1440.0,-3.3,108.1,111.3,68.8,1317.0,270.0,123.0,5.0,68.0,1,Griff Aldrich,yes,-0.0
+187,Buffalo Bulls,1438.0,-3.4,109.7,113.1,67.8,1412.0,214.0,26.0,3.0,78.0,0,George Halcovage III,no,-0.1
+188,Western Carolina Catamounts,1436.0,-3.5,108.7,112.2,68.6,1396.0,222.0,40.0,15.0,42.0,0,Tim Craft,no,0.0
+189,Monmouth Hawks,1435.0,-3.5,107.4,110.9,68.1,1458.0,188.0,-23.0,28.0,41.0,0,King Rice,no,-0.3
+190,Vermont Catamounts,1435.0,-3.5,107.5,111.0,66.6,1401.0,218.0,34.0,27.0,33.0,0,John Becker,no,1.7
+191,Winthrop Eagles,1434.0,-3.6,108.6,112.2,69.4,1532.0,141.0,-97.0,11.0,46.0,0,Mark Prosser,no,-0.6
+192,North Dakota State Bison,1432.0,-3.7,107.1,110.8,68.1,1595.0,111.0,-163.0,23.0,44.0,0,David Richman,no,2.4
+193,Iona Gaels,1432.0,-3.7,106.6,110.3,69.5,1367.0,244.0,65.0,27.0,47.0,0,Dan Geriot,no,-0.1
+194,Columbia Lions,1431.0,-3.7,107.7,111.5,68.0,1459.0,187.0,-28.0,60.0,11.0,0,Kevin Hovde,no,0.1
+195,Portland Pilots,1430.0,-3.8,107.7,111.5,68.9,1387.0,231.0,43.0,25.0,55.0,0,Shantay Legans,no,-1.3
+196,Colgate Raiders,1428.0,-3.9,108.3,112.2,68.4,1382.0,234.0,46.0,70.0,0.0,0,Matt Langel,no,-0.7
+197,Bowling Green Falcons,1427.0,-4.0,106.9,110.9,68.6,1514.0,156.0,-87.0,22.0,31.0,0,Todd Simon,no,0.2
+198,Southern Illinois Salukis,1426.0,-4.0,104.2,108.2,69.2,1582.0,125.0,-156.0,17.0,0.0,0,Scott Nagy,no,1.2
+199,UT Arlington Mavericks,1426.0,-4.0,104.9,108.9,67.0,1475.0,177.0,-49.0,6.0,42.0,0,KT Turner,no,0.8
+200,St. Bonaventure Bonnies,1425.0,-4.1,107.4,111.5,67.9,1556.0,132.0,-131.0,14.0,33.0,0,Mike MacDonald,yes,0.0
+201,American University Eagles,1425.0,-4.1,108.5,112.6,67.3,1361.0,249.0,64.0,88.0,0.0,0,Duane Simpkins,no,-0.5
+202,Massachusetts Minutemen,1424.0,-4.1,106.9,111.0,70.2,1446.0,201.0,-22.0,41.0,18.0,0,Frank Martin,no,0.6
+203,Southern Miss Golden Eagles,1422.0,-4.2,107.2,111.4,69.0,1399.0,219.0,23.0,15.0,42.0,0,Jay Ladner,no,-0.7
+204,Ball State Cardinals,1418.0,-4.4,105.5,109.9,66.3,1273.0,298.0,145.0,20.0,75.0,0,Chris Capko,yes,0.0
+205,Tarleton State Texans,1416.0,-4.6,105.7,110.3,69.3,1378.0,235.0,37.0,20.0,68.0,0,Eric Haut,yes,0.0
+206,Howard Bison,1416.0,-4.6,107.0,111.6,68.9,1446.0,200.0,-31.0,62.0,5.0,0,Kenneth Blakeney,no,-2.0
+207,Indiana State Sycamores,1414.0,-4.6,106.8,111.4,69.3,1453.0,194.0,-39.0,0.0,49.0,0,Matthew Graves,no,1.0
+208,Merrimack Warriors,1414.0,-4.7,105.5,110.2,66.1,1465.0,185.0,-51.0,36.0,30.0,0,Joe Gallo,no,2.4
+209,Drexel Dragons,1411.0,-4.9,104.5,109.3,66.2,1415.0,212.0,-5.0,24.0,11.0,0,Zach Spiker,no,0.4
+210,Jacksonville State Gamecocks,1409.0,-4.9,106.4,111.3,66.7,1450.0,196.0,-41.0,0.0,50.0,0,Ray Harper,no,1.1
+211,Florida International Panthers,1406.0,-5.1,106.4,111.5,70.5,1456.0,190.0,-49.0,0.0,53.0,0,Joey Cantens,yes,0.0
+212,Sacramento State Hornets,1404.0,-5.2,107.2,112.5,70.1,1299.0,282.0,105.0,33.0,58.0,0,Mike Bibby,no,-0.3
+213,South Alabama Jaguars,1403.0,-5.2,106.2,111.5,67.1,1454.0,193.0,-51.0,12.0,0.0,0,Richie Riley,no,0.7
+214,Eastern Michigan Eagles,1400.0,-5.4,106.2,111.6,67.8,1364.0,245.0,36.0,34.0,49.0,0,Billy Donlon,yes,-0.0
+215,Texas A&M-Corpus Christi Islanders,1400.0,-5.4,104.5,109.9,67.3,1465.0,183.0,-65.0,14.0,51.0,0,Jim Shaw,no,0.1
+216,Mercer Bears,1400.0,-5.5,107.7,113.2,68.8,1480.0,174.0,-80.0,24.0,15.0,0,Ryan Ridder,no,-0.4
+217,Tennessee State Tigers,1397.0,-5.6,107.3,112.8,69.8,1450.0,197.0,-53.0,9.0,41.0,0,Nolan Smith,no,-0.3
+218,Green Bay Phoenix,1394.0,-5.8,108.9,114.7,65.9,1388.0,229.0,6.0,32.0,35.0,0,Doug Gottlieb,no,0.2
+219,Radford Highlanders,1394.0,-5.8,107.6,113.3,70.0,1374.0,240.0,20.0,11.0,31.0,0,Zach Chu,no,-1.6
+220,California Baptist Lancers,1394.0,-5.8,104.6,110.4,67.4,1576.0,126.0,-182.0,13.0,20.0,0,Kyle Getter,yes,0.0
+221,Marshall Thundering Herd,1389.0,-6.0,108.5,114.5,68.9,1465.0,183.0,-76.0,27.0,21.0,0,Cornelius Jackson,no,0.7
+222,Northern Kentucky Norse,1389.0,-6.1,105.6,111.6,69.6,1473.0,179.0,-84.0,24.0,34.0,0,Darrin Horn,no,0.4
+223,Rice Owls,1388.0,-6.1,106.8,112.9,67.4,1389.0,228.0,-1.0,35.0,26.0,0,Rob Lanier,no,0.1
+224,Old Dominion Monarchs,1385.0,-6.2,106.5,112.7,68.9,1363.0,247.0,22.0,27.0,39.0,0,Mike Jones,no,-1.5
+225,Little Rock Trojans,1384.0,-6.3,105.6,112.0,67.4,1247.0,309.0,137.0,2.0,76.0,0,Travis Ford,yes,1.2
+226,Fairfield Stags,1383.0,-6.4,106.1,112.5,67.8,1336.0,265.0,47.0,62.0,18.0,0,Chris Casey,no,-0.5
+227,UC Riverside Highlanders,1382.0,-6.4,105.6,112.0,68.5,1329.0,268.0,53.0,23.0,20.0,0,Gus Argenal,no,0.8
+228,Coastal Carolina Chanticleers,1380.0,-6.5,104.0,110.5,68.4,1346.0,261.0,34.0,21.0,27.0,0,Justin Gray,no,0.7
+229,Louisiana Ragin' Cajuns,1380.0,-6.5,104.5,111.1,65.6,1224.0,316.0,156.0,29.0,57.0,0,Quannas White,no,-1.4
+230,Chattanooga Mocs,1378.0,-6.6,106.9,113.6,67.7,1311.0,273.0,67.0,28.0,24.0,0,Dan Earl,no,-0.8
+231,Denver Pioneers,1376.0,-6.7,111.0,117.8,68.2,1375.0,239.0,1.0,27.0,40.0,0,Tim Bergstraser,no,1.6
+232,Bethune-Cookman Wildcats,1375.0,-6.8,105.8,112.6,69.3,1317.0,270.0,58.0,24.0,76.0,0,Reggie Theus,no,-2.4
+233,William & Mary Tribe,1374.0,-6.8,106.1,112.9,70.8,1517.0,154.0,-143.0,0.0,32.0,0,Brian Earl,no,-0.7
+234,Elon Phoenix,1373.0,-6.9,108.2,115.1,68.2,1394.0,224.0,-21.0,27.0,34.0,0,Billy Taylor,no,-0.6
+235,Marist Red Foxes,1371.0,-7.0,102.5,109.5,67.3,1455.0,191.0,-84.0,27.0,14.0,0,John Dunne,no,1.4
+236,UTSA Roadrunners,1370.0,-7.1,106.8,113.8,68.5,1172.0,334.0,198.0,13.0,78.0,0,Austin Claunch,no,-2.6
+237,Montana Grizzlies,1370.0,-7.1,104.9,111.9,69.0,1450.0,198.0,-80.0,33.0,11.0,0,Travis DeCuire,no,0.7
+238,Jacksonville Dolphins,1369.0,-7.1,106.8,113.9,66.1,1284.0,291.0,86.0,26.0,47.0,0,Jordan Mincy,no,-0.0
+239,Portland State Vikings,1369.0,-7.1,104.0,111.1,68.5,1507.0,159.0,-138.0,0.0,25.0,0,Jase Coburn,no,-0.5
+240,Utah Tech Trailblazers,1368.0,-7.2,106.5,113.6,68.4,1414.0,213.0,-46.0,20.0,25.0,0,Jon Judkins,no,1.4
+241,Delaware Blue Hens,1367.0,-7.2,106.3,113.5,66.5,1298.0,283.0,69.0,24.0,51.0,0,Martin Ingelsby,no,0.9
+242,Navy Midshipmen,1365.0,-7.3,105.1,112.4,67.0,1520.0,150.0,-155.0,41.0,0.0,0,Jon Perry,no,0.5
+243,Longwood Lancers,1363.0,-7.4,105.6,113.0,69.5,1351.0,257.0,12.0,26.0,25.0,0,Ronnie Thomas,no,-1.3
+244,Stony Brook Seawolves,1361.0,-7.5,105.4,112.9,67.6,1362.0,248.0,-0.0,34.0,30.0,0,Geno Ford,no,-0.3
+245,Idaho Vandals,1361.0,-7.6,105.2,112.8,68.1,1490.0,169.0,-130.0,26.0,11.0,0,Alex Pribble,no,0.4
+246,Presbyterian Blue Hose,1358.0,-7.7,105.3,113.0,66.5,1341.0,263.0,17.0,70.0,0.0,0,Quinton Ferrell,no,-2.1
+247,Missouri State Bears,1358.0,-7.7,105.8,113.6,67.1,1445.0,202.0,-87.0,22.0,0.0,0,Cuonzo Martin,no,1.6
+248,App State Mountaineers,1358.0,-7.7,103.7,111.4,65.6,1454.0,192.0,-97.0,22.0,21.0,0,Dustin Kerns,no,1.8
+249,Youngstown State Penguins,1355.0,-7.9,105.2,113.1,68.1,1428.0,208.0,-74.0,5.0,37.0,0,Ethan Faulkner,no,-0.6
+250,Louisiana Tech Bulldogs,1354.0,-7.9,103.4,111.3,66.3,1457.0,189.0,-103.0,10.0,0.0,0,Talvin Hester,no,1.2
+251,Southeast Missouri State Redhawks,1353.0,-8.0,103.1,111.1,68.9,1392.0,226.0,-38.0,24.0,8.0,0,Brad Korn,no,-1.2
+252,Hampton Pirates,1352.0,-8.0,104.9,112.9,67.0,1316.0,272.0,36.0,14.0,62.0,0,Ivan Thomas,no,-0.0
+253,Long Beach State Beach,1351.0,-8.1,104.6,112.7,68.9,1346.0,260.0,5.0,5.0,27.0,0,Chris Acker,no,0.1
+254,Quinnipiac Bobcats,1350.0,-8.2,103.8,112.0,69.7,1421.0,211.0,-71.0,24.0,10.0,0,Tom Pecora,no,-0.1
+255,Southern Utah Thunderbirds,1349.0,-8.2,105.8,113.9,69.6,1294.0,284.0,55.0,22.0,9.0,0,Rob Jeter,no,0.2
+256,Tennessee Tech Golden Eagles,1349.0,-8.2,105.6,113.8,67.8,1235.0,310.0,114.0,17.0,60.0,0,Tobin Anderson,yes,0.9
+257,UNC Asheville Bulldogs,1349.0,-8.2,103.6,111.9,66.9,1392.0,225.0,-44.0,31.0,22.0,0,Mike Morrell,no,-1.5
+258,Wofford Terriers,1346.0,-8.4,106.7,115.1,68.1,1390.0,227.0,-45.0,32.0,8.0,0,Kevin Giltner,no,0.7
+259,UNC Greensboro Spartans,1344.0,-8.5,106.9,115.4,68.3,1289.0,287.0,56.0,0.0,43.0,0,Jerod Haase,yes,-0.3
+260,Cal State Fullerton Titans,1342.0,-8.6,104.6,113.2,70.9,1428.0,209.0,-86.0,34.0,12.0,0,Dedrique Taylor,no,0.8
+261,Oral Roberts Golden Eagles,1341.0,-8.6,105.1,113.8,68.3,1254.0,303.0,87.0,52.0,12.0,0,Kory Barnett,no,0.1
+262,Brown Bears,1341.0,-8.7,102.5,111.2,68.1,1306.0,276.0,34.0,87.0,0.0,0,Eric Reveno,yes,-0.1
+263,Long Island University Sharks,1339.0,-8.7,105.0,113.7,68.2,1408.0,215.0,-68.0,3.0,66.0,0,Rod Strickland,no,-1.4
+264,Weber State Wildcats,1337.0,-8.8,105.8,114.6,68.9,1428.0,210.0,-90.0,9.0,13.0,0,Kaleb Canales,yes,0.0
+265,SE Louisiana Lions,1337.0,-8.8,103.0,111.8,67.0,1293.0,285.0,44.0,3.0,70.0,0,David Kiefer,no,-1.3
+266,Purdue Fort Wayne Mastodons,1337.0,-8.9,105.8,114.7,68.3,1355.0,256.0,-18.0,27.0,21.0,0,Jon Coffman,no,-1.2
+267,UT Rio Grande Valley Vaqueros,1332.0,-9.1,104.8,113.9,67.9,1540.0,136.0,-208.0,8.0,16.0,0,Brandon Chambers,yes,0.0
+268,Stetson Hatters,1331.0,-9.2,105.7,114.8,67.7,1204.0,323.0,127.0,38.0,23.0,0,Donnie Jones,no,-1.8
+269,Lehigh Mountain Hawks,1331.0,-9.2,103.9,113.1,68.6,1286.0,289.0,45.0,81.0,0.0,0,Brett Reed,no,-1.7
+270,Milwaukee Panthers,1330.0,-9.2,105.9,115.2,68.1,1357.0,254.0,-27.0,35.0,4.0,0,Bart Lundy,no,-1.3
+271,Cleveland State Vikings,1328.0,-9.4,107.7,117.1,69.0,1226.0,315.0,102.0,0.0,36.0,0,Rob Summers,no,0.5
+272,Omaha Mavericks,1327.0,-9.4,104.3,113.7,67.9,1359.0,252.0,-32.0,27.0,15.0,0,Chris Crutchfield,no,-0.2
+273,UMBC Retrievers,1326.0,-9.4,105.0,114.5,67.6,1445.0,203.0,-119.0,13.0,27.0,0,Jim Ferry,no,0.3
+274,Detroit Mercy Titans,1324.0,-9.6,105.4,115.0,68.6,1376.0,238.0,-53.0,39.0,0.0,0,Mark Montgomery,no,-0.7
+275,Norfolk State Spartans,1318.0,-9.9,103.5,113.4,68.3,1250.0,305.0,67.0,9.0,50.0,0,Robert Jones,no,-1.2
+276,Northeastern Huskies,1317.0,-9.9,106.3,116.2,69.2,1311.0,274.0,6.0,34.0,14.0,0,Bill Coen,no,-0.6
+277,Boston University Terriers,1316.0,-10.0,106.6,116.6,66.4,1341.0,264.0,-25.0,58.0,3.0,0,Joe Jones,no,-0.8
+278,Houston Christian Huskies,1311.0,-10.3,102.6,112.9,66.3,1268.0,299.0,43.0,20.0,51.0,0,Craig Doty,no,-0.7
+279,Evansville Purple Aces,1311.0,-10.3,103.8,114.0,67.8,1259.0,301.0,52.0,32.0,15.0,0,David Ragland,no,-0.1
+280,Mount St. Mary's Mountaineers,1310.0,-10.3,101.7,112.0,68.2,1306.0,277.0,4.0,32.0,16.0,0,Donny Lind,no,-0.1
+281,SIU Edwardsville Cougars,1308.0,-10.5,101.9,112.3,66.6,1356.0,255.0,-49.0,35.0,26.0,0,Brian Barone,no,-1.2
+282,Abilene Christian Wildcats,1306.0,-10.5,102.5,113.1,68.0,1342.0,262.0,-36.0,21.0,16.0,0,Brette Tanner,no,-2.3
+283,Florida Gulf Coast Eagles,1305.0,-10.6,104.1,114.7,68.3,1383.0,233.0,-78.0,19.0,6.0,0,Patrick Chambers,no,-0.4
+284,Campbell Fighting Camels,1302.0,-10.7,105.1,115.8,69.1,1436.0,205.0,-134.0,0.0,18.0,0,Jimmie Williams,yes,0.0
+285,Saint Peter's Peacocks,1302.0,-10.8,102.7,113.4,67.0,1360.0,250.0,-58.0,26.0,18.0,0,Bashir Mason,no,0.1
+286,South Dakota Coyotes,1294.0,-11.2,104.5,115.7,70.2,1303.0,278.0,-9.0,21.0,36.0,0,Eric Peterson,no,-2.1
+287,UMass Lowell River Hawks,1293.0,-11.3,104.0,115.3,68.8,1234.0,311.0,59.0,10.0,19.0,0,Pat Duquette,no,-0.7
+288,Eastern Kentucky Colonels,1292.0,-11.3,106.4,117.7,68.5,1301.0,280.0,-8.0,28.0,16.0,0,A.W. Hamilton,no,-3.2
+289,Lamar Cardinals,1290.0,-11.4,102.7,114.1,67.0,1387.0,230.0,-97.0,0.0,48.0,0,Jordan Fee,yes,0.0
+290,Northern Illinois Huskies,1290.0,-11.4,102.3,113.7,68.0,1145.0,341.0,144.0,0.0,64.0,0,Matt Majkrzak,yes,0.0
+291,Cal State Bakersfield Roadrunners,1287.0,-11.6,104.3,115.9,69.2,1200.0,324.0,86.0,6.0,26.0,0,Todd Lee,yes,-0.2
+292,Northwestern State Demons,1287.0,-11.6,102.5,114.1,66.6,1284.0,290.0,2.0,26.0,16.0,0,Rick Cabrera,no,0.4
+293,Siena Saints,1286.0,-11.6,103.0,114.7,66.5,1476.0,176.0,-190.0,26.0,15.0,0,Nevada Smith,yes,0.0
+294,Southern Jaguars,1285.0,-11.7,103.4,115.1,69.7,1290.0,286.0,-5.0,2.0,43.0,0,Kevin Johnson,no,-1.8
+295,Kansas City Roos,1283.0,-11.8,102.2,113.9,69.2,1067.0,355.0,216.0,0.0,39.0,0,Mark Turgeon,yes,1.5
+296,UT Martin Skyhawks,1282.0,-11.8,100.0,111.9,66.5,1403.0,217.0,-121.0,18.0,2.0,0,Jeremy Shulman,no,1.3
+297,Central Michigan Chippewas,1278.0,-12.1,103.9,115.9,67.7,1309.0,275.0,-31.0,40.0,16.0,0,Andy Bronkema,no,1.2
+298,Dartmouth Big Green,1277.0,-12.1,102.7,114.8,69.2,1347.0,259.0,-69.0,29.0,9.0,0,Brett MacConnell,yes,0.0
+299,New Orleans Privateers,1274.0,-12.3,103.7,116.0,69.4,1396.0,221.0,-122.0,19.0,39.0,0,Stacy Hollowell,no,-0.3
+300,Alabama State Hornets,1274.0,-12.3,103.2,115.4,69.0,1204.0,322.0,69.0,4.0,72.0,0,Chris Wright,yes,0.0
+301,Charleston Southern Buccaneers,1271.0,-12.4,101.6,114.0,71.0,1378.0,237.0,-107.0,19.0,3.0,0,Saah Nimley,no,0.2
+302,North Alabama Lions,1270.0,-12.5,102.7,115.2,66.8,1174.0,333.0,96.0,13.0,38.0,0,Tony Pujol,no,-1.7
+303,Sacred Heart Pioneers,1270.0,-12.5,105.0,117.5,68.7,1279.0,295.0,-9.0,27.0,17.0,0,Anthony Latina,no,-1.1
+304,Bellarmine Knights,1268.0,-12.6,107.8,120.4,66.7,1287.0,288.0,-19.0,47.0,4.0,0,Doug Davenport,no,-0.5
+305,Nicholls Colonels,1266.0,-12.7,103.1,115.8,68.4,1368.0,243.0,-102.0,10.0,19.0,0,Darion Brown,yes,0.0
+306,West Florida Argonauts,1263.0,-12.9,102.5,115.4,68.2,,,,0.0,17.0,0,,no,0.0
+307,Wagner Seahawks,1262.0,-13.0,101.7,114.6,67.2,1247.0,306.0,14.0,0.0,25.0,0,Dwan McMillan,no,0.8
+308,Georgia Southern Eagles,1259.0,-13.1,104.4,117.5,69.7,1378.0,236.0,-119.0,13.0,18.0,0,Charlie Henry,no,-0.7
+309,Mercyhurst Lakers,1258.0,-13.1,101.9,115.0,66.9,1282.0,293.0,-24.0,21.0,28.0,0,Gary Manchel,no,-0.1
+310,Air Force Falcons,1257.0,-13.2,100.8,114.0,67.2,1106.0,347.0,151.0,96.0,0.0,0,Joe Crispin,yes,0.0
+311,Bryant Bulldogs,1255.0,-13.3,102.7,116.0,66.9,1125.0,343.0,130.0,26.0,22.0,0,Jamion Christian,no,-0.8
+312,North Carolina A&T Aggies,1254.0,-13.4,102.7,116.1,68.7,1283.0,292.0,-29.0,43.0,30.0,0,Monte Ross,no,-0.5
+313,West Georgia Wolves,1253.0,-13.4,101.5,114.9,69.2,1247.0,307.0,7.0,19.0,23.0,0,Dave Moore,no,-0.1
+314,North Florida Ospreys,1251.0,-13.5,105.2,118.7,70.0,1177.0,331.0,74.0,42.0,20.0,0,Bobby Kennen,no,0.0
+315,Canisius Golden Griffins,1251.0,-13.5,102.0,115.5,66.2,1101.0,349.0,150.0,0.0,50.0,0,Jim Christian,no,-1.7
+316,Niagara Purple Eagles,1248.0,-13.7,103.7,117.4,65.3,1140.0,342.0,108.0,9.0,37.0,0,Greg Paulus,no,0.5
+317,Alcorn State Braves,1247.0,-13.7,102.4,116.1,68.2,1072.0,354.0,176.0,0.0,66.0,0,Jake Morton,no,-1.5
+318,UAlbany Great Danes,1243.0,-14.0,102.3,116.2,66.8,1234.0,311.0,9.0,20.0,20.0,0,Dwayne Killings,no,-1.0
+319,Le Moyne Dolphins,1242.0,-14.0,102.1,116.1,69.0,1265.0,300.0,-23.0,2.0,51.0,0,Nate Champion,no,-0.8
+320,Grambling Tigers,1242.0,-14.0,99.7,113.7,67.9,1253.0,304.0,-11.0,4.0,48.0,0,Patrick Crarey II,no,0.3
+321,The Citadel Bulldogs,1240.0,-14.1,103.5,117.7,66.8,1100.0,350.0,140.0,13.0,32.0,0,Ed Conroy,no,-1.6
+322,Central Connecticut Blue Devils,1239.0,-14.2,101.3,115.4,66.7,1278.0,296.0,-38.0,35.0,15.0,0,Patrick Sellers,no,-0.7
+323,Southern Indiana Screaming Eagles,1239.0,-14.2,100.3,114.5,68.3,1146.0,340.0,93.0,15.0,38.0,0,Stan Gouard,no,-0.7
+324,East Texas A&M Lions,1235.0,-14.4,100.6,115.0,68.4,1247.0,308.0,-12.0,10.0,18.0,0,Jaret von Rosenberg,no,-0.6
+325,Prairie View A&M Panthers,1228.0,-14.8,101.8,116.6,69.7,1230.0,314.0,-2.0,5.0,31.0,0,Byron Smith,no,-0.8
+326,North Dakota Fighting Hawks,1226.0,-14.9,102.7,117.6,68.2,1302.0,279.0,-77.0,19.0,10.0,0,Paul Sather,no,-1.6
+327,Incarnate Word Cardinals,1225.0,-14.9,103.7,118.6,66.8,1330.0,267.0,-105.0,0.0,42.0,0,Shane Heirman,no,-2.6
+328,Northern Arizona Lumberjacks,1224.0,-15.0,102.8,117.8,66.0,1221.0,317.0,3.0,38.0,3.0,0,Shane Burcar,no,-1.7
+329,Lafayette Leopards,1224.0,-15.0,100.9,116.0,67.6,1208.0,318.0,16.0,26.0,2.0,0,Mike McGarvey,no,-1.7
+330,Lindenwood Lions,1223.0,-15.0,99.8,114.9,70.6,1318.0,269.0,-94.0,0.0,30.0,0,Kyle Gerdeman,no,-1.3
+331,Morehead State Eagles,1221.0,-15.1,103.1,118.3,67.0,1282.0,293.0,-61.0,26.0,9.0,0,Jonathan Mattox,no,-0.8
+332,Manhattan Jaspers,1221.0,-15.2,103.0,118.1,68.7,1182.0,330.0,38.0,5.0,26.0,0,John Gallagher,no,-0.8
+333,South Carolina Upstate Spartans,1220.0,-15.2,99.4,114.6,68.8,1277.0,297.0,-56.0,6.0,13.0,0,Marty Richter,no,0.4
+334,Texas Southern Tigers,1213.0,-15.6,99.6,115.2,69.4,1207.0,321.0,6.0,35.0,11.0,0,Corey Lowery,yes,0.0
+335,Idaho State Bengals,1211.0,-15.7,102.8,118.4,66.9,1363.0,246.0,-152.0,3.0,0.0,0,Ryan Looney,no,0.7
+336,IU Indianapolis Jaguars,1208.0,-15.9,103.5,119.3,71.3,1230.0,313.0,-22.0,13.0,23.0,0,Ben Howlett,no,1.0
+337,Maine Black Bears,1206.0,-16.0,97.4,113.4,66.4,1161.0,337.0,45.0,35.0,21.0,0,Chris Markwood,no,-0.6
+338,Loyola Maryland Greyhounds,1206.0,-16.0,101.4,117.4,68.8,1207.0,319.0,-2.0,32.0,9.0,0,Josh Loeffler,no,-0.9
+339,Florida A&M Rattlers,1203.0,-16.1,100.2,116.3,68.4,1207.0,320.0,-4.0,28.0,18.0,0,Charlie Ward,no,-0.1
+340,Bucknell Bison,1200.0,-16.3,99.0,115.3,68.1,1184.0,329.0,15.0,34.0,22.0,0,John Griffin III,no,-0.7
+341,Rider Broncs,1199.0,-16.3,101.6,117.9,66.9,1063.0,357.0,136.0,0.0,32.0,0,Kevin Baggett,no,-1.1
+342,Chicago State Cougars,1194.0,-16.6,100.8,117.5,67.2,1116.0,345.0,78.0,8.0,56.0,0,Landon Bussie,no,-2.3
+343,Alabama A&M Bulldogs,1186.0,-17.1,100.9,118.0,67.0,1197.0,326.0,-11.0,39.0,23.0,0,Donte Jackson,no,-1.7
+344,Fairleigh Dickinson Knights,1185.0,-17.1,99.5,116.6,66.4,1167.0,336.0,19.0,24.0,27.0,0,Jack Castleberry,no,-2.0
+345,New Hampshire Wildcats,1185.0,-17.1,98.1,115.3,68.8,1123.0,344.0,62.0,45.0,14.0,0,Nathan Davis,no,-1.7
+346,VMI Keydets,1184.0,-17.1,103.0,120.1,67.6,1032.0,359.0,153.0,64.0,3.0,0,Andrew Wilson,no,-4.8
+347,Jackson State Tigers,1182.0,-17.3,100.9,118.2,69.4,1090.0,351.0,92.0,55.0,8.0,0,Trey Johnson,yes,0.0
+348,New Haven Chargers,1181.0,-17.3,98.3,115.6,65.9,1192.0,327.0,-11.0,24.0,0.0,0,Ted Hotaling,no,0.6
+349,Stonehill Skyhawks,1181.0,-17.3,97.6,115.0,67.9,1177.0,332.0,5.0,9.0,42.0,0,Chris Kraus,no,-0.9
+350,Gardner-Webb Runnin' Bulldogs,1177.0,-17.5,100.2,117.7,69.0,1015.0,360.0,162.0,32.0,11.0,0,Jeremy Luther,no,-1.6
+351,Army Black Knights,1173.0,-17.8,101.5,119.3,68.5,1150.0,339.0,23.0,56.0,0.0,0,Kevin Kuwik,no,-2.9
+352,Holy Cross Crusaders,1160.0,-18.5,99.9,118.3,66.7,1190.0,328.0,-29.0,37.0,0.0,0,Dave Paulsen,no,-1.1
+353,South Carolina State Bulldogs,1158.0,-18.6,99.3,117.9,68.6,1066.0,356.0,92.0,39.0,11.0,0,Erik Martin,no,-2.3
+354,Binghamton Bearcats,1157.0,-18.6,101.1,119.7,67.5,1046.0,358.0,112.0,50.0,14.0,0,Levell Sanders,no,-1.9
+355,NJIT Highlanders,1153.0,-18.9,98.0,116.8,68.1,1157.0,338.0,-4.0,38.0,27.0,0,Grant Billmeier,no,-2.2
+356,North Carolina Central Eagles,1150.0,-19.0,100.3,119.3,67.2,1115.0,346.0,35.0,3.0,27.0,0,LeVelle Moton,no,-1.3
+357,UL Monroe Warhawks,1147.0,-19.2,101.5,120.7,69.6,1079.0,352.0,68.0,0.0,18.0,0,Ryan Cross,yes,0.0
+358,Morgan State Bears,1126.0,-20.3,100.6,120.9,69.7,1072.0,353.0,54.0,27.0,36.0,0,Kevin Broadus,no,-3.4
+359,Maryland Eastern Shore Hawks,1124.0,-20.4,96.4,116.8,66.4,1103.0,348.0,21.0,7.0,9.0,0,Cleo Hill Jr.,no,-1.4
+360,Eastern Illinois Panthers,1108.0,-21.3,96.7,118.0,67.4,1200.0,325.0,-92.0,10.0,0.0,0,Marty Simmons,no,-1.6
+361,Arkansas-Pine Bluff Golden Lions,1106.0,-21.4,100.0,121.4,69.2,1171.0,335.0,-65.0,3.0,21.0,0,Solomon Bozeman,no,-2.4
+362,Delaware State Hornets,1049.0,-24.5,93.8,118.3,67.3,1011.0,361.0,39.0,32.0,5.0,0,Stan Waterman,no,-2.7
+363,Coppin State Eagles,1047.0,-24.6,94.8,119.4,68.6,947.0,363.0,100.0,51.0,9.0,0,Larry Stewart,no,-2.7
+364,Western Illinois Leathernecks,1036.0,-25.2,96.0,121.2,67.5,965.0,362.0,71.0,17.0,0.0,0,Chad Boudreau,no,-2.1
+365,Mississippi Valley State Delta Devils,889.0,-33.2,91.4,124.6,68.0,816.0,364.0,73.0,0.0,7.0,0,Mike Davis,yes,-0.6

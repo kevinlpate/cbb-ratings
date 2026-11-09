@@ -1,0 +1,5 @@
+model,mae,win_acc,mae_first5
+"Last season, regressed",8.872,0.728,9.597
+v3: roster + transfers + freshmen + coach vs preseason,8.762,0.7317,9.244
+v4: player projections + program + coach vs talent,8.749,0.7313,9.206
+v5: + learned box-score player values (used here),8.74,0.7326,9.186

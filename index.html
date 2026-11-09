@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NCAAB Ratings · Pace &amp; Pate Analytics</title>
+<meta name="description" content="Daily men's college basketball ratings, game win probabilities, team and player profiles, transfer portal and coach data from Pace &amp; Pate Analytics. Projections, not betting advice.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+:root {
+  --font-anthropic-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-anthropic-serif: "Source Serif 4", Georgia, serif;
+  --color-fg: #1d1f23; --color-fg-muted: #6b6f76; --color-bg: #f6f5f2; --color-panel: #ffffff; --color-border-line: #e2e0da;
+  --color-ok: #1a7f37; --color-bad: #c0392b; --color-warn: #b7791f;
+  --cds-chart-muted: #c9ccd1; --cds-chart-1: #2f6fdd;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 12px; --cds-gap-lg: 20px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 16px;
+  --cds-radius: 8px; --cds-font-size-caption: 12px; --cds-font-size-body: 14px; --cds-font-size-heading: 18px; --cds-font-size-title: 26px;
+  --cds-font-weight-medium: 600; --cds-dur-slow: .3s;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --color-fg: #e8e6e1; --color-fg-muted: #9a9ea6; --color-bg: #15171a; --color-panel: #1d2024; --color-border-line: #33373d;
+  --color-ok: #4cc06a; --color-bad: #ef6b5b; --color-warn: #e0a548; --cds-chart-muted: #4a4f57; --cds-chart-1: #6ea2f5; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --color-fg: #e8e6e1; --color-fg-muted: #9a9ea6; --color-bg: #15171a; --color-panel: #1d2024; --color-border-line: #33373d;
+  --color-ok: #4cc06a; --color-bad: #ef6b5b; --color-warn: #e0a548; --cds-chart-muted: #4a4f57; --cds-chart-1: #6ea2f5; color-scheme: dark; }
+html { -webkit-text-size-adjust: 100%; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-anthropic-sans); }
+.site-top { border-bottom: 1px solid var(--color-border-line); background: var(--color-panel); }
+.site-top .in, .site-main, .site-foot .in { max-width: 1240px; margin: 0 auto; padding: 12px 16px; box-sizing: border-box; }
+.site-top .in { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 16px; flex-wrap: wrap; }
+.site-top .brand { font-family: var(--font-anthropic-serif); font-weight: 600; font-size: 18px; }
+.site-top .asof { font-size: 12px; color: var(--color-fg-muted); }
+.site-main { padding-top: 20px; padding-bottom: 32px; }
+.site-foot { border-top: 1px solid var(--color-border-line); font-size: 12px; color: var(--color-fg-muted); }
+.site-foot a { color: inherit; }
+select, input { font: inherit; color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: 6px; padding: 4px 8px; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="js/dash.js"></script>
+</head>
+<body>
+<header class="site-top"><div class="in"><span class="brand">Pace &amp; Pate Analytics · College Basketball</span><span class="asof" id="site-asof">Updated every morning</span></div></header>
+<main class="site-main" id="dash-root">
+<style>
+.pr { font-family: var(--font-anthropic-sans); color: var(--color-fg); display: flex; flex-direction: column; gap: var(--cds-gap-lg); }
+.pr h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+.pr .lede { color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 0; font-size: var(--cds-font-size-body); max-width: 60rem; }
+.pr .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: var(--cds-gap-md); }
+.pr .card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+.pr .card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+.pr .card .note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: var(--cds-gap-xs) 0 var(--cds-gap-md); }
+.pr .tile .label { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.pr .tile .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: var(--cds-gap-xs) 0; font-variant-numeric: tabular-nums; line-height: 1.15; }
+.pr .tile .sub { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-variant-numeric: tabular-nums; }
+.pr .controls { display: flex; gap: var(--cds-gap-sm); flex-wrap: wrap; align-items: center; margin-bottom: var(--cds-gap-sm); }
+.pr input[type=search] { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); min-width: 0; flex: 1 1 12rem; max-width: 22rem; }
+.pr .scroll { max-height: 640px; overflow: auto; }
+.pr table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-body); font-variant-numeric: tabular-nums; }
+.pr th { position: sticky; top: 0; background: var(--color-panel); text-align: right; font-weight: var(--cds-font-weight-medium); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; z-index: 1; }
+.pr th button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.pr th.l, .pr td.l { text-align: left; }
+.pr td { text-align: right; padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.pr td.team { font-weight: var(--cds-font-weight-medium); white-space: normal; min-width: 9rem; }
+.pr .barcell { display: flex; align-items: center; gap: var(--cds-gap-sm); justify-content: flex-end; }
+.pr .bar { height: 8px; border-radius: 4px; background: var(--cds-chart-muted); }
+.pr .up { color: var(--color-ok); } .pr .down { color: var(--color-bad); }
+.pr .hide-narrow { }
+@media (max-width: 720px) { .pr .hide-narrow { display: none; } }
+.pr td.wrap { white-space: normal; }
+@media (max-width: 720px) { .pr #team-sched td, .pr #team-sched th { padding-left: 4px; padding-right: 4px; } }
+.pr .method { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: var(--cds-gap-md); }
+.pr .method p { margin: 0 0 var(--cds-gap-sm); font-size: var(--cds-font-size-body); line-height: 1.5; }
+.pr [data-dash-source-state=empty] { color: transparent; }
+.pr [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+.pr .fail { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: 4rem; }
+.pr .fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+.pr .tabs { display: flex; gap: var(--cds-gap-xs); flex-wrap: wrap; border-bottom: 1px solid var(--color-border-line); }
+.pr .tabs button { font: inherit; font-size: var(--cds-font-size-body); background: none; border: 0; border-bottom: 2px solid transparent; color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; margin-bottom: -1px; }
+.pr .tabs button[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.pr select { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); max-width: 100%; }
+.pr .chk { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); display: flex; gap: 4px; align-items: center; }
+.pr .pf-head { display: flex; justify-content: space-between; gap: var(--cds-gap-md); flex-wrap: wrap; align-items: flex-start; }
+.pr .pf-head h2 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); }
+.pr .seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); overflow: hidden; }
+.pr .seg button { font: inherit; font-size: var(--cds-font-size-caption); background: var(--color-bg); color: var(--color-fg-muted); border: 0; padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; }
+.pr .seg button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); }
+.pr .tiles.grades, .pr .tiles.minis { margin: var(--cds-gap-md) 0; }
+.pr .tiles.minis { grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); }
+.pr .card .tiles .tile { border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-sm) var(--cds-pad-md); }
+.pr .mid { font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-heading); margin-top: var(--cds-gap-xs); font-variant-numeric: tabular-nums; }
+.pr .grade { font-family: var(--font-anthropic-sans); font-weight: var(--cds-font-weight-medium); display: inline-block; min-width: 2.2em; text-align: center; border-radius: 6px; padding: 0 6px; font-size: 0.8em; vertical-align: middle; }
+.pr .grade.sm { font-size: 0.75em; }
+.pr .grade.gA { background: color-mix(in srgb, var(--color-ok) 22%, transparent); color: var(--color-ok); }
+.pr .grade.gB { background: color-mix(in srgb, var(--color-ok) 10%, transparent); color: var(--color-fg); }
+.pr .grade.gC { background: color-mix(in srgb, var(--color-warn) 14%, transparent); color: var(--color-fg); }
+.pr .grade.gD, .pr .grade.gF { background: color-mix(in srgb, var(--color-bad) 16%, transparent); color: var(--color-bad); }
+.pr .sub-h { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: var(--cds-gap-md) 0 var(--cds-gap-xs); }
+.pr .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-lg); }
+.pr .lolli svg { display: block; overflow: visible; }
+.pr .lolli .grid { stroke: var(--color-border-line); }
+.pr .lolli line.mid { stroke: var(--color-fg-muted); stroke-dasharray: 3 3; }
+.pr .lolli .ax { fill: var(--color-fg-muted); font-size: 11px; }
+.pr .lolli .lab { fill: var(--color-fg); font-size: 13px; }
+.pr .lolli .val { fill: var(--color-fg-muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.pr .lolli .gl { font-size: 13px; font-weight: 600; fill: var(--color-fg); }
+.pr .lolli .stem { stroke-width: 3; stroke: var(--color-fg-muted); }
+.pr .lolli .dot { fill: var(--color-fg-muted); }
+.pr .lolli .stem.gA { stroke: var(--color-ok); }
+.pr .lolli .dot.gA, .pr .lolli .gl.gA { fill: var(--color-ok); }
+.pr .lolli .stem.gD, .pr .lolli .stem.gF { stroke: var(--color-bad); }
+.pr .lolli .dot.gD, .pr .lolli .dot.gF, .pr .lolli .gl.gD, .pr .lolli .gl.gF { fill: var(--color-bad); }
+.pr .sbtn { font: inherit; font-size: var(--cds-font-size-caption); background: var(--color-bg); color: var(--color-fg); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; }
+.pr .sbtn[aria-expanded="true"] { background: var(--color-fg); color: var(--color-bg); }
+.pr .seasons { margin: var(--cds-gap-md) 0; padding-top: var(--cds-gap-xs); border-top: 1px solid var(--color-border-line); }
+.pr .schart svg { display: block; overflow: visible; }
+.pr .schart .grid { stroke: var(--color-border-line); }
+.pr .schart .zero { stroke: var(--color-fg-muted); stroke-dasharray: 3 3; }
+.pr .schart .ax { fill: var(--color-fg-muted); font-size: 11px; }
+.pr .schart .sline { fill: none; stroke: var(--color-fg-muted); stroke-width: 2; }
+.pr .schart .sdot { fill: var(--color-fg-muted); stroke: var(--color-bg); stroke-width: 1.5; }
+.pr .schart .sdot.gA { fill: var(--color-ok); }
+.pr .schart .sdot.gD, .pr .schart .sdot.gF { fill: var(--color-bad); }
+.pr .schart .sbpr { fill: none; stroke: var(--color-fg); stroke-width: 1.5; }
+.pr tr.click { cursor: pointer; }
+.pr tr.click:hover td, .pr tr.click:focus td { background: var(--color-bg); }
+</style>
+
+<div class="pr">
+  <header id="top">
+    <h1>2026-27 men's college basketball preseason ratings</h1>
+    <p class="lede dash-skeleton" id="takeaway" data-source="ratings">—</p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button type="button" role="tab" data-t="ratings" aria-selected="true">Ratings</button>
+    <button type="button" role="tab" data-t="games" aria-selected="false">Games</button>
+    <button type="button" role="tab" data-t="teams" aria-selected="false">Teams</button>
+    <button type="button" role="tab" data-t="players" aria-selected="false">Players</button>
+    <button type="button" role="tab" data-t="projections" aria-selected="false">Projections</button>
+    <button type="button" role="tab" data-t="lineups" aria-selected="false">Lineups</button>
+    <button type="button" role="tab" data-t="portal" aria-selected="false">Portal</button>
+    <button type="button" role="tab" data-t="coaches" aria-selected="false">Coaches</button>
+  </nav>
+
+  <section class="tiles" id="headline" data-tab="ratings">
+    <div class="card tile" id="tile-top">
+      <div class="label">Preseason No. 1</div>
+      <div class="big dash-skeleton" data-source="ratings" data-field="team" data-row="0">—</div>
+      <div class="sub">ELO <span class="dash-skeleton" data-source="ratings" data-field="elo" data-row="0">—</span> · <span class="dash-skeleton" data-source="ratings" data-field="adj_em" data-row="0">—</span> pts per 100 better than average</div>
+    </div>
+    <div class="card tile" id="tile-riser">
+      <div class="label">Biggest climb from last season's final rating</div>
+      <div class="big dash-skeleton" data-source="movers" data-field="team" data-where="kind=riser">—</div>
+      <div class="sub">ELO <span data-source="movers" data-field="elo_change" data-where="kind=riser">—</span> · <span data-source="movers" data-field="transfer_min_pct" data-where="kind=riser">—</span>% of minutes from transfers</div>
+    </div>
+    <div class="card tile" id="tile-faller">
+      <div class="label">Biggest drop from last season's final rating</div>
+      <div class="big dash-skeleton" data-source="movers" data-field="team" data-where="kind=faller">—</div>
+      <div class="sub">ELO <span data-source="movers" data-field="elo_change" data-where="kind=faller">—</span> · <span data-source="movers" data-field="ret_min_pct" data-where="kind=faller">—</span>% of minutes returning</div>
+    </div>
+    <div class="card tile" id="tile-portal">
+      <div class="label">Typical D1 roster this season</div>
+      <div class="big"><span class="dash-skeleton" data-source="league" data-field="median_ret" data-row="0">—</span>% returning</div>
+      <div class="sub"><span data-source="league" data-field="median_tr" data-row="0">—</span>% of last season's minutes arriving via D1 transfers (median team)</div>
+    </div>
+  </section>
+
+  <section class="card" id="current-card" data-tab="ratings">
+    <h2>Current ratings</h2>
+    <p class="note">Refit every morning on every D1 game played so far, starting from the preseason ratings. Record is D1 games only. "Since preseason" is spots gained or lost in the rankings.</p>
+    <div class="controls"><input type="search" id="q2" placeholder="Search teams" aria-label="Search current ratings"></div>
+    <div class="scroll" style="max-height: 520px">
+      <table id="current-table" data-source="current" data-row-key="team">
+        <thead><tr>
+          <th data-field="rank">Rank</th>
+          <th class="l" data-field="team">Team</th>
+          <th data-field="wins">W</th>
+          <th data-field="losses">L</th>
+          <th data-field="elo">ELO</th>
+          <th data-field="adj_em">Net / 100</th>
+          <th data-field="rank_change">Since preseason</th>
+          <th class="hide-narrow" data-field="pre_rank">Preseason rank</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" id="next7-card" data-tab="ratings">
+    <h2>Next 7 days: win probabilities</h2>
+    <p class="note">Every D1-vs-D1 game on ESPN's schedule in the next week, from this morning's ratings. Margin = projected margin for the favorite. ESPN is still filling in some conference schedules. Projections, not betting advice.</p>
+    <div class="scroll" style="max-height: 460px">
+      <table id="next7-table" data-source="next7" data-row-key="game_id">
+        <thead><tr>
+          <th class="l" data-field="day">Day</th>
+          <th class="l hide-narrow" data-field="time_et">Time (ET)</th>
+          <th class="l" data-field="game">Game</th>
+          <th class="l hide-narrow" data-field="favorite">Favorite</th>
+          <th data-field="win_prob">Win prob.</th>
+          <th data-field="margin">Margin</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" id="tracker-card" data-tab="ratings">
+    <h2>How the model is doing this season</h2>
+    <p class="note">Every prediction is logged the morning of the game and scored once the game is final; nothing is scored after the fact. "Model said" is the average win probability given the favorite; "Favorite won" is how often it did. Brier score: lower is better (a coin flip scores 0.25).</p>
+    <p class="note" id="tracker-empty" hidden>No games scored yet. The first results post the morning after opening night (Nov. 2).</p>
+    <table id="tracker-table" data-source="tracker" data-row-key="group">
+      <thead><tr>
+        <th class="l" data-field="group">Games where the model said</th>
+        <th data-field="games">Games</th>
+        <th data-field="model_said">Model said</th>
+        <th data-field="favorite_won">Favorite won</th>
+        <th class="hide-narrow" data-field="brier">Brier</th>
+        <th class="hide-narrow" data-field="avg_margin_miss">Avg margin miss</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section class="card" id="ratings-card" data-tab="ratings">
+    <h2>Preseason ratings, all D1 teams (<span data-source="league" data-field="n_teams" data-row="0">—</span>)</h2>
+    <p class="note">ELO 1500 = average D1 team; ELO gaps convert to win probability the standard way (400 points = 10-to-1). Net / 100 is points per 100 possessions better than an average D1 team. Sort any column; search by team.</p>
+    <div class="controls"><input type="search" id="q" placeholder="Search teams" aria-label="Search teams"></div>
+    <div class="scroll">
+      <table id="ratings-table" data-source="ratings" data-row-key="team">
+        <thead><tr>
+          <th data-field="rank"><button data-k="rank">Rank</button></th>
+          <th class="l" data-field="team"><button data-k="team">Team</button></th>
+          <th data-field="elo"><button data-k="elo">ELO</button></th>
+          <th data-field="adj_em"><button data-k="adj_em">Net / 100</button></th>
+          <th class="hide-narrow" data-field="adj_o"><button data-k="adj_o">Off</button></th>
+          <th class="hide-narrow" data-field="adj_d"><button data-k="adj_d">Def</button></th>
+          <th class="hide-narrow" data-field="tempo"><button data-k="tempo">Tempo</button></th>
+          <th data-field="elo_change"><button data-k="elo_change">vs last season</button></th>
+          <th class="hide-narrow" data-field="rank_last"><button data-k="rank_last">Last rank</button></th>
+          <th class="hide-narrow" data-field="ret_min_pct"><button data-k="ret_min_pct">Returning min %</button></th>
+          <th class="hide-narrow" data-field="transfer_min_pct"><button data-k="transfer_min_pct">Transfer min %</button></th>
+          <th class="hide-narrow" data-field="top100_freshmen"><button data-k="top100_freshmen">Top-100 frosh</button></th>
+          <th class="l hide-narrow" data-field="coach"><button data-k="coach">Coach</button></th>
+          <th class="hide-narrow" data-field="coach_metric"><button data-k="coach_metric">Coach +/−</button></th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" id="method" data-tab="ratings">
+    <h2>How the ratings are built</h2>
+    <p class="note">Backtested on every D1 game from 2011-12 through 2025-26, each predicted only from games before that day.</p>
+    <div class="method">
+      <div>
+        <p>Each team gets an offensive and defensive rating in points per 100 possessions, adjusted for opponent and home court, fit jointly across all D1 games. The ELO number is that rating on an ELO scale, calibrated so ELO gaps map to actual win rates.</p>
+        <p>Preseason, every returning player and transfer gets a projected minutes share and production, learned from 2012–2026, including how both change when a player moves up or down a level and where he ranks among his new teammates. Team talent is those projections added up over 200 minutes, combined with last season's rating and the program's rating three to five seasons back.</p>
+        <p>Freshmen come from the 247Sports composite (top 300 per class). Coach +/− is how far a coach's past teams finished above or below what their talent alone predicted, in points per 100 against a schedule-adjusted rating, at any school, recent seasons weighted more and shrunk toward zero when the history is short. It counts most when a coach takes over a new program.</p>
+      </div>
+      <div>
+        <table id="bt-table" data-source="backtest" data-row-key="model">
+          <thead><tr>
+            <th class="l" data-field="model">Preseason start</th>
+            <th data-field="mae">Avg miss (pts)</th>
+            <th data-field="win_acc">Winners</th>
+            <th data-field="mae_first5">Avg miss, first 5 games</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" data-tab="players" id="player-profile" hidden>
+    <div class="pf-head">
+      <div>
+        <h2 id="pp-name" data-source="players" data-field="name">—</h2>
+        <p class="note"><span id="pp-team" data-source="players" data-field="team">—</span> · <span id="pp-group" data-source="players" data-field="group">—</span> · <span id="pp-ht" data-source="players" data-field="ht">—</span> · <span id="pp-mins" data-source="players" data-field="mins_now">—</span> min in <span id="pp-games">—</span> this season · 2025-26: <span id="pp-prev" data-source="players" data-field="team_prev">—</span></p>
+      </div>
+      <div class="seg" role="group" aria-label="Percentiles compared with">
+        <button type="button" data-basis="all" aria-pressed="true">vs all players</button>
+        <button type="button" data-basis="pos" aria-pressed="false">vs position</button>
+      </div>
+      <button type="button" class="sbtn" id="pp-seasons-btn" aria-expanded="false" aria-controls="pp-seasons">Seasons</button>
+    </div>
+    <div class="tiles grades">
+      <div class="tile gcard"><div class="label">Overall BPR</div><div class="big"><span class="grade" id="pp-g">—</span> <span id="pp-bpr" data-source="players" data-field="bpr">—</span></div><div class="sub" id="pp-bpr-p">—</div></div>
+      <div class="tile gcard"><div class="label">Offense</div><div class="big"><span class="grade" id="pp-go">—</span> <span id="pp-bpro" data-source="players" data-field="bpr_o">—</span></div><div class="sub" id="pp-bpro-p">—</div></div>
+      <div class="tile gcard"><div class="label">Defense</div><div class="big"><span class="grade" id="pp-gd">—</span> <span id="pp-bprd" data-source="players" data-field="bpr_d">—</span></div><div class="sub" id="pp-bprd-p">—</div></div>
+    </div>
+    <div class="tiles minis">
+      <div class="tile"><div class="label">Scoring volume (pts / 100)</div><div class="mid"><span class="grade sm" id="pp-g1">—</span> <span id="pp-pts" data-source="players" data-field="pts100">—</span></div></div>
+      <div class="tile"><div class="label">Rebounding (reb / 100)</div><div class="mid"><span class="grade sm" id="pp-g2">—</span> <span id="pp-reb" data-source="players" data-field="reb100">—</span></div></div>
+      <div class="tile"><div class="label">Playmaking (ast − TO / 100)</div><div class="mid"><span class="grade sm" id="pp-g3">—</span> <span id="pp-play" data-source="players" data-field="play100">—</span></div></div>
+      <div class="tile"><div class="label">Court impact (pts / 100)</div><div class="mid"><span class="grade sm" id="pp-g4">—</span> <span id="pp-court" data-source="players" data-field="court">—</span></div></div>
+    </div>
+    <div id="pp-seasons" class="seasons" hidden>
+      <h3 class="sub-h">Season by season</h3>
+      <p class="note" id="pp-seasons-msg"></p>
+      <div id="pp-seasons-chart" class="schart" data-source="player_history"></div>
+      <div class="scroll">
+        <table id="pp-seasons-table" data-source="player_history" data-row-key="athlete_id">
+          <thead><tr>
+            <th class="l" data-field="season">Season</th>
+            <th class="l" data-field="team">Team</th>
+            <th class="hide-narrow" data-field="games">G</th>
+            <th data-field="mins">Min</th>
+            <th data-field="box">Box value</th>
+            <th class="hide-narrow" data-field="box_o">Off</th>
+            <th class="hide-narrow" data-field="box_d">Def</th>
+            <th data-field="box_p">Grade · pct</th>
+            <th data-field="bpr">Full BPR</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="note">Box value is the box-score half of BPR (points per 100 possessions added vs an average D1 player), on the same scale every season; grade and percentile are within that season among players with 200+ minutes. Full BPR adds on-court impact from lineup data, which only exists from 2025-26 on (ESPN play-by-play has no substitutions before then), shown as squares on the chart. Heights before 2024-25 are mostly unknown, so those seasons use the position-average height. This season's row is 2026-27 games only, not blended.</p>
+    </div>
+
+    <h3 class="sub-h">Skill grades</h3>
+    <div id="pp-chart" class="lolli" data-source="players"></div>
+    <p class="note">Rates are per 100 possessions he was on the floor, pulled toward his position's average when the sample is small; shooting percentages likewise. Percentiles compare with D1 players who logged 200+ minutes, counting the 2025-26 weight (shooting: 40+ 3PA, 50+ 2PA, 30+ FTA). BPR = box-score value plus court impact, in points per 100 possessions a player adds to his lineup vs an average D1 player; a lineup's five BPRs add up to roughly its net rating.</p>
+  </section>
+
+  <section class="card" data-tab="players" hidden>
+    <h2>Players, 2026-27</h2>
+    <p class="note">Every D1 player this season, plus returning players who haven't played yet. Click a player for his profile, then Seasons for his year-by-year values. Updated weekly.</p>
+    <p class="note" id="pl-blend"></p>
+    <div class="controls">
+      <input type="search" id="pq" placeholder="Search players or teams" aria-label="Search players">
+      <select id="pgrp" aria-label="Position group"><option value="">All positions</option><option>Guard</option><option>Wing</option><option>Big</option></select>
+      <label class="chk"><input type="checkbox" id="pqual" checked> 200+ minutes</label>
+    </div>
+    <div class="scroll">
+      <table id="players-table" data-source="players" data-row-key="athlete_id">
+        <thead><tr>
+          <th class="l" data-field="name">Player</th>
+          <th class="l" data-field="team">Team</th>
+          <th class="l hide-narrow" data-field="team_prev">2025-26</th>
+          <th class="l hide-narrow" data-field="group">Pos</th>
+          <th class="hide-narrow" data-field="mins_now">Min</th>
+          <th data-field="bpr">BPR</th>
+          <th class="hide-narrow" data-field="bpr_o">Off</th>
+          <th class="hide-narrow" data-field="bpr_d">Def</th>
+          <th data-field="grade">Grade</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" data-tab="teams" id="team-profile" hidden>
+    <div class="pf-head">
+      <div>
+        <h2 id="tp-title">Team profile, 2026-27</h2>
+        <p class="note"><span id="tp-games">—</span> played. Percentiles vs all D1 teams. Updated every morning.</p>
+        <p class="note" id="tp-blend"></p>
+        <p class="note" id="tp-past-note" hidden></p>
+      </div>
+      <div class="controls" style="margin: 0">
+        <select id="tsel" aria-label="Team"></select>
+        <select id="tseason" aria-label="Season"></select>
+        <span id="trange" hidden><input type="date" id="tfrom" aria-label="From" min="2011-11-01"> to <input type="date" id="tto" aria-label="To" min="2011-11-01"></span>
+      </div>
+    </div>
+    <div class="tiles grades">
+      <div class="tile"><div class="label">Net rating (rank)</div><div class="big"><span id="tp-net" data-source="teams" data-field="net">—</span></div><div class="sub">No. <span id="tp-rank" data-source="teams" data-field="rank">—</span></div></div>
+      <div class="tile"><div class="label">Adjusted offense</div><div class="big"><span class="grade" id="tp-go">—</span> <span id="tp-o" data-source="teams" data-field="adj_o">—</span></div><div class="sub" id="tp-o-p">—</div></div>
+      <div class="tile"><div class="label">Adjusted defense</div><div class="big"><span class="grade" id="tp-gd">—</span> <span id="tp-d" data-source="teams" data-field="adj_d">—</span></div><div class="sub" id="tp-d-p">—</div></div>
+      <div class="tile"><div class="label">Tempo (poss / 40)</div><div class="big"><span id="tp-tempo" data-source="teams" data-field="tempo">—</span></div><div class="sub" id="tp-tempo-p">—</div></div>
+    </div>
+    <div class="two">
+      <div><h3 class="sub-h">Offense</h3><div id="tp-ochart" class="lolli" data-source="teams"></div></div>
+      <div><h3 class="sub-h">Defense</h3><div id="tp-dchart" class="lolli" data-source="teams"></div></div>
+    </div>
+    <h3 class="sub-h">Schedule</h3>
+    <p class="note" id="tp-sched-note">—</p>
+    <div class="scroll" style="max-height: 420px">
+      <table id="team-sched" data-source="team_games" data-row-key="game_id">
+        <thead><tr>
+          <th class="l">Date</th>
+          <th class="l">Opponent</th>
+          <th>Result</th>
+          <th>Win prob.</th>
+          <th class="hide-narrow">Proj. margin</th>
+          <th class="hide-narrow">Actual</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">Win prob. = this team's chance before the game: for played 2026-27 games, the morning-of prediction; for upcoming games, this morning's; for past seasons, the model's walk-forward prediction made with only earlier games. Opponent ranks are that season's (this season: today's). Projections, not betting advice.</p>
+    <div id="tp-cur-only">
+    <h3 class="sub-h">Players</h3>
+    <p class="note">This season's roster: minutes are 2026-27 only. "from …" = transferred in; "new" = no 2025-26 D1 minutes.</p>
+    <div class="scroll" style="max-height: 420px">
+      <table id="team-players" data-source="players" data-row-key="athlete_id">
+        <thead><tr>
+          <th class="l" data-field="name">Player</th>
+          <th class="l" data-field="team_prev">2025-26</th>
+          <th class="hide-narrow" data-field="mins_now">Min</th>
+          <th data-field="bpr">BPR</th>
+          <th class="hide-narrow" data-field="bpr_o">Off</th>
+          <th class="hide-narrow" data-field="bpr_d">Def</th>
+          <th data-field="grade">Grade</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <h3 class="sub-h">Most-used lineups</h3>
+    <div class="scroll" style="max-height: 360px">
+      <table id="team-lineups" data-source="lineups" data-row-key="lineup_id">
+        <thead><tr>
+          <th class="l" data-field="players">Lineup</th>
+          <th data-field="poss">Poss</th>
+          <th class="hide-narrow" data-field="off_eff">Off / 100</th>
+          <th class="hide-narrow" data-field="def_eff">Def / 100</th>
+          <th data-field="margin">Margin</th>
+          <th data-field="adj_margin">Adj. margin</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note" id="tp-lu-empty"></p>
+    </div>
+    <div id="tp-past-only" hidden>
+    <p class="note" id="tp-past-roster-msg"></p>
+    <div id="tp-past-roster">
+    <h3 class="sub-h" id="tp-past-players-h">Players</h3>
+    <p class="note" id="tp-past-players-note"></p>
+    <div class="scroll" style="max-height: 420px">
+      <table id="team-players-past" data-row-key="athlete_id">
+        <thead><tr>
+          <th class="l">Player</th>
+          <th class="l">Status</th>
+          <th class="hide-narrow">G</th>
+          <th class="hide-narrow">Min</th>
+          <th>Box value</th>
+          <th class="hide-narrow">Off</th>
+          <th class="hide-narrow">Def</th>
+          <th>Grade</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="tp-past-lineups" hidden>
+    <h3 class="sub-h">Most-used lineups, 2025-26</h3>
+    <div class="scroll" style="max-height: 360px">
+      <table id="team-lineups-past" data-row-key="lineup_id">
+        <thead><tr>
+          <th class="l">Lineup</th>
+          <th>Poss</th>
+          <th class="hide-narrow">Off / 100</th>
+          <th class="hide-narrow">Def / 100</th>
+          <th>Margin</th>
+          <th>Adj. margin</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="card" data-tab="lineups" hidden>
+    <h2>5-man lineups, 2026-27</h2>
+    <p class="note">Rebuilt from play-by-play substitutions (checked against box-score minutes: median miss 0.25 min per player-game). Off / Def = points scored and allowed per 100 possessions with that five on the floor. Adj. margin also corrects for the opponents and venue faced, measured against an average D1 opponent. Small samples swing wildly: under ~200 possessions, treat margins as noise. This season's games only (lineups don't carry over from 2025-26); updated weekly.</p>
+    <div class="controls">
+      <input type="search" id="lq" placeholder="Search teams or players" aria-label="Search lineups">
+      <select id="lmin" aria-label="Minimum possessions"><option value="20">20+ poss</option><option value="40">40+ poss</option><option value="100">100+ poss</option><option value="200">200+ poss</option></select>
+      <select id="lsort" aria-label="Sort"><option value="adj_margin">Sort: adj. margin</option><option value="poss">Sort: possessions</option><option value="off_eff">Sort: offense</option><option value="def_eff">Sort: defense</option></select>
+    </div>
+    <div class="scroll">
+      <table id="lineups-table" data-source="lineups" data-row-key="lineup_id">
+        <thead><tr>
+          <th class="l" data-field="team">Team</th>
+          <th class="l" data-field="players">Lineup</th>
+          <th data-field="poss">Poss</th>
+          <th class="hide-narrow" data-field="mins">Min</th>
+          <th data-field="off_eff">Off / 100</th>
+          <th data-field="def_eff">Def / 100</th>
+          <th class="hide-narrow" data-field="margin">Margin</th>
+          <th data-field="adj_margin">Adj. margin</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" data-tab="projections" hidden>
+    <h2>Projected regular-season records</h2>
+    <p class="note">Every remaining regular-season game simulated 10,000 times from this morning's ratings. Each simulation first draws how good every team really is (wide before the season, tighter as games are played), then plays the schedule, so a team that is better than we think wins more of all its games, not just a few. Range = the middle 80% of simulated win totals. Conference title = finishing first or tied for first in the regular season. Includes games vs non-D1 opponents (D1 teams won 98.7% of those, 2022–26); excludes conference tournaments and early-season tournament games whose opponent isn't set yet. Projections, not betting advice.</p>
+    <div class="controls">
+      <input type="search" id="jq" placeholder="Search teams" aria-label="Search projections">
+      <select id="jconf" aria-label="Conference"><option value="">All conferences</option></select>
+    </div>
+    <div class="scroll">
+      <table id="proj-table" data-source="projections" data-row-key="team_id">
+        <thead><tr>
+          <th data-field="rank">Rank</th>
+          <th class="l" data-field="team">Team</th>
+          <th class="l hide-narrow" data-field="conf">Conf</th>
+          <th data-field="record_now">Now</th>
+          <th data-field="proj_record">Projected</th>
+          <th data-field="w_range">Win range</th>
+          <th data-field="proj_conf_record">Conf record</th>
+          <th data-field="p_conf_title">Conf title</th>
+          <th class="hide-narrow" data-field="p_20_wins">20+ wins</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" data-tab="portal" hidden>
+    <h2>Transfer portal, 2026-27</h2>
+    <p class="note">Every D1-to-D1 transfer who played 100+ minutes last season, projected before the season. <b>Portal tax</b> = what the move itself costs: how his team impact projects at the new school vs. if he had stayed, from the size of the jump in team strength, his role and how good he was. <b>Match grade</b> = what this particular landing spot adds or takes away on top of that, from opportunity there (open minutes, at his position too; better players already on the roster; incoming top-100 recruits). Team impact = points per 100 possessions he adds to his team (box value × minutes share × 5). <b>This season</b> fills in from the weekly player update; "vs projection" appears once he has 3+ games and 60+ minutes. Projections, not betting advice.</p>
+    <div class="controls">
+      <input type="search" id="tq" placeholder="Search players or schools" aria-label="Search transfers">
+      <select id="tgrade" aria-label="Match grade"><option value="">All grades</option><option>A</option><option>B</option><option>C</option><option>D</option><option>F</option></select>
+      <select id="tsort" aria-label="Sort by">
+        <option value="proj_impact">Sort: projected impact</option>
+        <option value="portal_tax">Sort: biggest portal tax</option>
+        <option value="match">Sort: best match</option>
+        <option value="vs_proj">Sort: beating projection</option>
+        <option value="jump">Sort: biggest step up</option>
+      </select>
+    </div>
+    <p class="note" id="tcount">—</p>
+    <div class="scroll">
+      <table id="portal-table" data-source="portal" data-row-key="athlete_id">
+        <thead><tr>
+          <th class="l" data-field="player">Player</th>
+          <th class="l" data-field="to_team">Move</th>
+          <th class="hide-narrow" data-field="jump">Step</th>
+          <th class="hide-narrow" data-field="mpg_last">Last yr</th>
+          <th data-field="portal_tax">Portal tax</th>
+          <th data-field="match_grade">Match</th>
+          <th data-field="proj_impact">Projected</th>
+          <th class="hide-narrow">This season</th>
+          <th data-field="vs_proj">vs proj.</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">Step = new team's rating minus old team's, last season, points per 100 (+ = moving up). Last yr / This season = minutes per team game · box value (pts / 100 vs an average D1 player). Projected = minutes per game · box value · team impact. Portal tax and vs proj. are in team impact (pts / 100).</p>
+  </section>
+
+  <section class="card" data-tab="portal" hidden>
+    <h2>What a move costs</h2>
+    <p class="note">All D1-to-D1 transfers, 2020-21 to 2025-26 (before 2020-21 most transfers had to sit out a year). Each cell compares what transfers did the next season with what an otherwise identical player who stayed was expected to do: box value (pts / 100, minutes-weighted, players with 100+ minutes) · minutes per game.</p>
+    <div class="scroll">
+      <table id="tax-table" data-source="portal_tax">
+        <thead><tr><th class="l">Last season's role</th><th>Down 15+</th><th>Down 5-15</th><th>Lateral</th><th>Up 5-15</th><th>Up 15+</th><th>All moves</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" data-tab="portal" hidden>
+    <h2>How it works</h2>
+    <p class="note">Tested on every season from 2020-21 to 2025-26 with that season held out. The portal tax cut the error in projecting a transfer's team impact by about 10% vs. treating him like a returner. Opportunity at the new school added a smaller but consistent gain (better in all six held-out seasons): A-graded landing spots beat the tax-only projection by +0.20 pts / 100 on average, F-graded ones missed it by −0.29. Things that sound like "fit" but did not predict anything out of sample, so they are not in the grade: an offense-first player joining a team whose offense lags its defense (and the reverse), tempo match, following his coach, and a coaching change at the new school.</p>
+    <p class="note">Limits: box value only (no lineup-based impact before 2025-26); D1-to-D1 moves only (no JUCO, D2 or international); last season's numbers aren't adjusted for opponents, which is exactly why moving up costs more. <b>Best Match</b> (ranking every school for a player who enters the portal) runs on the same engine and is planned for the offseason portal window.</p>
+  </section>
+
+  <section class="card" data-tab="coaches" hidden>
+    <h2>Coach fingerprints</h2>
+    <p class="note">Every 2026-27 head coach's style from his D1 head-coaching seasons since 2010-11, as a percentile among coaches with a D1 history (higher = more of it; ball security: higher = fewer turnovers). Seasons with few games count less, so a coach with one or two years sits closer to the middle. <b>Style travels with the coach:</b> when coaches change schools, about 60% of their pace and of how many threes their defense allows shows up at the new school in year one, far more than the new school's own history. <b>Development</b> (pts / 100 his returning players add vs. an identical returner elsewhere) is a weak signal: it repeats only faintly from season to season, so only long-tenured coaches move far from zero. None of this improves game predictions (tested); it's here to describe teams.</p>
+    <div class="controls">
+      <input type="search" id="cq" placeholder="Search coaches or schools" aria-label="Search coaches">
+      <select id="csort" aria-label="Sort by">
+        <option value="seasons">Sort: most seasons</option>
+        <option value="pace_pct">Sort: fastest</option>
+        <option value="threes_pct">Sort: most threes</option>
+        <option value="threes_allowed_pct">Sort: fewest threes allowed</option>
+        <option value="turnovers_forced_pct">Sort: most turnovers forced</option>
+        <option value="off_rebounding_pct">Sort: offensive rebounding</option>
+        <option value="dev">Sort: development</option>
+      </select>
+      <label class="note"><input type="checkbox" id="cnew"> New at his school</label>
+    </div>
+    <p class="note" id="ccount">—</p>
+    <div class="scroll">
+      <table id="coach-table" data-source="coaches" data-row-key="coach">
+        <thead><tr>
+          <th class="l" data-field="coach">Coach</th>
+          <th class="l" data-field="team">School</th>
+          <th data-field="seasons">Seasons</th>
+          <th data-field="pace_pct">Pace</th>
+          <th data-field="threes_pct">3PA</th>
+          <th class="hide-narrow" data-field="threes_allowed_pct">3s allowed</th>
+          <th class="hide-narrow" data-field="turnovers_forced_pct">TO forced</th>
+          <th class="hide-narrow" data-field="off_rebounding_pct">Off reb</th>
+          <th class="hide-narrow" data-field="fouling_pct">Fouling</th>
+          <th class="hide-narrow" data-field="ball_security_pct">Ball security</th>
+          <th class="hide-narrow" data-field="depth_pct">Depth</th>
+          <th data-field="dev">Development</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card" data-tab="coaches" hidden>
+    <h2>New coach, new team</h2>
+    <p class="note">The 24 programs whose new head coach has a D1 track record: last season's style and what the coach's history predicts for 2026-27 (from how style moved with the 276 coaches who changed D1 schools in 2011-26). "So far" fills in once this season's team numbers stand on their own (from Dec 3; until then the Teams tab still blends in 2025-26). Pace = possessions per game; rates = percent of shots (3PA), of opponents' shots (3s allowed) and of possessions (turnovers forced).</p>
+    <div class="scroll">
+      <table id="coach-preview" data-source="coach_preview" data-row-key="team_id">
+        <thead><tr>
+          <th class="l">School · coach</th>
+          <th>Pace</th><th>3PA rate</th><th class="hide-narrow">3s allowed</th><th class="hide-narrow">TO forced</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">Each cell: last season → predicted this season (· so far). Projections, not betting advice.</p>
+  </section>
+  <section class="card" data-tab="games" hidden>
+    <h2>Games: the week's best matchups</h2>
+    <p class="note"><b>Game score</b> (0–100) rates how much a game is worth watching before tip-off: <b>how good both teams are</b> (mostly the weaker team's rank, so No. 1 vs No. 150 can't score high) times <b>how close it should be</b> (from our win probability; a coin flip counts fully). A top-10 coin flip scores in the high 90s; two teams ranked around 100 score about 50 even as a coin flip. Ranks are this morning's ratings. <b>Upset watch</b> (⚑) = a top-50 favorite whose opponent has a 20–40% chance. Projections, not betting advice.</p>
+    <div class="controls">
+      <select id="gday" aria-label="Day"><option value="">All 7 days</option></select>
+      <select id="gsort" aria-label="Sort by">
+        <option value="score">Sort: game score</option>
+        <option value="time">Sort: date and tip time</option>
+      </select>
+      <select id="gfilter" aria-label="Show">
+        <option value="">All games</option>
+        <option value="top">Best games (70+)</option>
+        <option value="upset">Upset watch</option>
+      </select>
+      <input type="search" id="gq" placeholder="Search teams" aria-label="Search teams">
+    </div>
+    <p class="note" id="gcount">—</p>
+    <div class="scroll">
+      <table id="games-table" data-source="next7" data-row-key="game_id">
+        <thead><tr>
+          <th class="l">Day</th>
+          <th class="l hide-narrow">Time (ET)</th>
+          <th class="l">Game</th>
+          <th class="l hide-narrow">Favorite</th>
+          <th class="hide-narrow">Win prob.</th>
+          <th class="hide-narrow">Margin</th>
+          <th>Game score</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="note">Margin = projected margin for the favorite. "vs." = neutral site. Win prob. is the favorite's chance; above 99% shows as >99%.</p>
+  </section>
+</div>
+
+<script>
+dash.calc('movers', {
+  inputs: ['ratings'],
+  title: 'Biggest movers',
+  description: 'Team with the largest rise and the largest drop in ELO from last season\'s final rating.',
+  fn: (ratings) => {
+    const rows = ratings.map(r => ({ ...r, elo_change: Number(r.elo_change) })).filter(r => !Number.isNaN(r.elo_change));
+    const up = rows.reduce((a, b) => (b.elo_change > a.elo_change ? b : a));
+    const dn = rows.reduce((a, b) => (b.elo_change < a.elo_change ? b : a));
+    return [{ kind: 'riser', ...up }, { kind: 'faller', ...dn }];
+  }
+});
+dash.calc('league', {
+  inputs: ['ratings'],
+  title: 'Median roster continuity',
+  description: 'Median share of last season\'s minutes returning, and arriving via D1 transfers, across all teams.',
+  fn: (ratings) => {
+    const med = (k) => d3.median(ratings, r => Number(r[k]));
+    return [{ median_ret: med('ret_min_pct'), median_tr: med('transfer_min_pct'), n_teams: ratings.length }];
+  }
+});
+</script>
+
+<script>
+const f1 = d3.format('.1f'), f0 = d3.format(',.0f'), pct = d3.format('.1f');
+const signed = (v) => (v > 0 ? '+' : v < 0 ? '−' : '') + f0(Math.abs(v));
+const num = (v) => (v === '' || v == null ? NaN : Number(v));
+let sortKey = 'rank', sortDir = 1;
+
+function failLine(el) { el.replaceChildren(); const d = document.createElement('div'); d.className = 'fail'; d.textContent = 'Failed to load'; el.append(d); }
+
+function fillOne(id, ds, fmt) {
+  document.querySelectorAll(`[data-source="${ds}"][data-field]`).forEach((el) => {
+    if (el.closest('table')) return;
+    const st = dash.data(ds);
+    if (st.status !== 'ok') { if (st.status !== 'loading') el.classList.remove('dash-skeleton'); return; }
+    el.classList.remove('dash-skeleton');
+    const rows = st.data; let row;
+    if (el.dataset.row != null) row = rows[Number(el.dataset.row)];
+    else if (el.dataset.where) { const [k, v] = el.dataset.where.split('='); row = rows.find(r => String(r[k]) === v); }
+    const v = row ? row[el.dataset.field] : undefined;
+    el.textContent = v == null ? '—' : fmt(el.dataset.field, v);
+  });
+}
+const fmtField = (field, v) => {
+  if (field === 'team') return v;
+  if (field === 'elo') return f0(num(v));
+  if (field === 'elo_change') return signed(num(v));
+  if (field === 'adj_em') return (num(v) > 0 ? '+' : '') + f1(num(v));
+  if (field === 'median_ret' || field === 'median_tr' || field === 'n_teams' || field.endsWith('_pct')) return f0(num(v));
+  return String(v);
+};
+
+function drawRatings() {
+  const st = dash.data('ratings');
+  const tbody = document.querySelector('#ratings-table tbody');
+  const take = document.getElementById('takeaway');
+  if (st.status !== 'ok') {
+    if (st.status === 'error' || st.status === 'connect') { failLine(tbody); take.classList.remove('dash-skeleton'); }
+    return;
+  }
+  take.classList.remove('dash-skeleton');
+  const rows = st.data.map(r => ({ ...r, _elo: num(r.elo) }));
+  const top = rows[0], second = rows[1];
+  const gap = top._elo - second._elo;
+  take.textContent = `${top.team} opens No. 1, ${f0(gap)} ELO ahead of ${second.team}. ` +
+    `The ratings combine projected player talent, last season, program history, the freshman class and the coach's record against talent, and update every morning during the season.`;
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const keyIsText = sortKey === 'team' || sortKey === 'coach';
+  let view = rows.filter(r => !q || String(r.team).toLowerCase().includes(q));
+  view.sort((a, b) => keyIsText ? sortDir * String(a[sortKey]).localeCompare(String(b[sortKey])) : sortDir * (num(a[sortKey]) - num(b[sortKey])));
+  const lo = d3.min(rows, r => r._elo), hi = d3.max(rows, r => r._elo);
+  const w = d3.scaleLinear([lo, hi], [4, 72]);
+  const trs = view.map(r => {
+    const tr = document.createElement('tr');
+    const cell = (text, cls) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td); return td; };
+    cell(f0(num(r.rank)));
+    cell(r.team, 'l team');
+    const td = document.createElement('td'); const wrap = document.createElement('div'); wrap.className = 'barcell';
+    const bar = document.createElement('div'); bar.className = 'bar'; if (num(r.rank) <= 25) bar.style.background = dash.colors[0]; bar.style.width = w(r._elo) + 'px';
+    const t = document.createElement('span'); t.textContent = f0(r._elo); wrap.append(bar, t); td.append(wrap); tr.append(td);
+    cell((num(r.adj_em) > 0 ? '+' : '') + f1(num(r.adj_em)));
+    cell(f1(num(r.adj_o)), 'hide-narrow');
+    cell(f1(num(r.adj_d)), 'hide-narrow');
+    cell(f1(num(r.tempo)), 'hide-narrow');
+    const ch = num(r.elo_change);
+    cell(Number.isNaN(ch) ? 'new' : signed(ch), Number.isNaN(ch) ? '' : (ch >= 25 ? 'up' : ch <= -25 ? 'down' : ''));
+    cell(Number.isNaN(num(r.rank_last)) ? '—' : f0(num(r.rank_last)), 'hide-narrow');
+    cell(f0(num(r.ret_min_pct)), 'hide-narrow');
+    cell(f0(num(r.transfer_min_pct)), 'hide-narrow');
+    cell(f0(num(r.top100_freshmen)), 'hide-narrow');
+    cell(r.coach + (r.new_coach === 'yes' ? ' (new)' : ''), 'l hide-narrow');
+    const cmv = num(r.coach_metric); cell((cmv > 0 ? '+' : cmv < 0 ? '−' : '') + f1(Math.abs(cmv)), 'hide-narrow');
+    return tr;
+  });
+  tbody.replaceChildren(...trs);
+  document.querySelectorAll('#ratings-table th').forEach(th => {
+    const k = th.querySelector('button')?.dataset.k;
+    th.setAttribute('aria-sort', k === sortKey ? (sortDir === 1 ? 'ascending' : 'descending') : 'none');
+  });
+}
+
+function drawCurrent() {
+  const st = dash.data('current'); const tbody = document.querySelector('#current-table tbody');
+  if (st.status !== 'ok') { if (st.status === 'error' || st.status === 'connect') failLine(tbody); return; }
+  const q = document.getElementById('q2').value.trim().toLowerCase();
+  const rows = st.data.filter(r => !q || String(r.team).toLowerCase().includes(q));
+  tbody.replaceChildren(...rows.map(r => {
+    const tr = document.createElement('tr');
+    const cell = (text, cls) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td); };
+    const rc = num(r.rank_change);
+    cell(f0(num(r.rank))); cell(r.team, 'l team'); cell(f0(num(r.wins))); cell(f0(num(r.losses)));
+    cell(f0(num(r.elo))); cell((num(r.adj_em) > 0 ? '+' : '') + f1(num(r.adj_em)));
+    cell(signed(rc), rc >= 10 ? 'up' : rc <= -10 ? 'down' : '');
+    cell(f0(num(r.pre_rank)), 'hide-narrow');
+    return tr;
+  }));
+}
+
+function drawNext7() {
+  const st = dash.data('next7'); const tbody = document.querySelector('#next7-table tbody');
+  if (st.status !== 'ok') { if (st.status === 'error' || st.status === 'connect') failLine(tbody); return; }
+  tbody.replaceChildren(...st.data.map(r => {
+    const tr = document.createElement('tr'); tr.dataset.key = String(r.game_id);
+    const cell = (text, cls) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td); };
+    cell(r.day, 'l'); cell(r.time_et, 'l hide-narrow'); cell(r.game, 'l team'); cell(r.favorite, 'l hide-narrow');
+    cell(r.win_prob); cell(f1(num(r.margin)));
+    return tr;
+  }));
+}
+
+function drawTracker() {
+  const st = dash.data('tracker'); const tbody = document.querySelector('#tracker-table tbody');
+  const empty = document.getElementById('tracker-empty'); const table = document.getElementById('tracker-table');
+  if (st.status !== 'ok') { if (st.status === 'error' || st.status === 'connect') failLine(tbody); return; }
+  empty.hidden = st.data.length > 0; table.hidden = st.data.length === 0;
+  tbody.replaceChildren(...st.data.map(r => {
+    const tr = document.createElement('tr');
+    const cell = (text, cls) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td); };
+    cell(r.group, 'l'); cell(f0(num(r.games))); cell(pct(num(r.model_said)) + '%'); cell(pct(num(r.favorite_won)) + '%');
+    cell(d3.format('.3f')(num(r.brier)), 'hide-narrow'); cell(f1(num(r.avg_margin_miss)), 'hide-narrow');
+    return tr;
+  }));
+}
+
+function drawBacktest() {
+  const st = dash.data('backtest'); const tbody = document.querySelector('#bt-table tbody');
+  if (st.status !== 'ok') { if (st.status === 'error' || st.status === 'connect') failLine(tbody); return; }
+  tbody.replaceChildren(...st.data.map(r => {
+    const tr = document.createElement('tr');
+    const cell = (text, cls) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td); };
+    cell(r.model, 'l'); cell(f1(num(r.mae))); cell(pct(num(r.win_acc) * 100) + '%'); cell(f1(num(r.mae_first5)));
+    return tr;
+  }));
+}
+
+document.getElementById('q').addEventListener('input', drawRatings);
+document.getElementById('q2').addEventListener('input', drawCurrent);
+document.querySelectorAll('#ratings-table th button').forEach(b => b.addEventListener('click', () => {
+  const k = b.dataset.k;
+  if (k === sortKey) sortDir = -sortDir; else { sortKey = k; sortDir = (k === 'rank' || k === 'team' || k === 'coach' || k === 'rank_last') ? 1 : -1; }
+  drawRatings();
+}));
+
+dash.onData(() => {
+  fillOne('x', 'ratings', fmtField);
+  fillOne('x', 'movers', fmtField);
+  fillOne('x', 'league', fmtField);
+  drawRatings(); drawCurrent(); drawNext7(); drawTracker(); drawBacktest();
+});
+</script>
+
+<script src="js/profiles.js"></script>
+<script src="js/projections.js"></script>
+<script src="js/portal.js"></script>
+<script src="js/coaches.js"></script>
+<script src="js/games.js"></script>
+
+</main>
+<footer class="site-foot"><div class="in">Projections, not betting advice. Ratings and predictions are Pace &amp; Pate Analytics' own model, built from ESPN data via sportsdataverse (hoopR). Win probabilities above 99% are shown as &gt;99%.</div></footer>
+<script>
+fetch('data/meta.json', { cache: 'no-cache' }).then(r => r.json()).then(m => {
+  if (m.updated) document.getElementById('site-asof').textContent = 'Data updated ' + new Date(m.updated).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York' }) + ' ET';
+  dash._start(m.v);
+}).catch(() => dash._start());
+</script>
+</body>
+</html>
