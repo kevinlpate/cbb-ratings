@@ -1372,3 +1372,339 @@ team_id,team,conf,p_field,p_auto,avg_seed,p_top4_seed,rating,asof,games_played
 107,Holy Cross Crusaders,Patriot,0.6,0.6,16.0,0.0,-21.6,2026-11-16,638
 302,UC Davis Aggies,Mountain West,0.6,0.5,13.6,0.0,-2.4,2026-11-16,638
 304,Idaho State Bengals,Big Sky,0.6,0.6,15.8,0.0,-16.7,2026-11-16,638
+356,Illinois Fighting Illini,Big Ten,100.0,52.6,1.3,98.6,39.8,2026-11-23,945
+248,Houston Cougars,Big 12,100.0,100.0,1.8,95.0,37.7,2026-11-23,945
+57,Florida Gators,SEC,100.0,34.0,1.9,94.2,35.1,2026-11-23,945
+150,Duke Blue Devils,ACC,99.8,50.6,2.8,84.5,35.8,2026-11-23,945
+2305,Kansas Jayhawks,Big 12,99.5,0.0,3.2,78.1,32.1,2026-11-23,945
+41,UConn Huskies,Big East,99.3,39.7,3.5,73.0,31.7,2026-11-23,945
+2641,Texas Tech Red Raiders,Big 12,99.2,0.0,3.7,70.8,32.1,2026-11-23,945
+12,Arizona Wildcats,Big 12,99.2,0.0,3.7,69.8,31.5,2026-11-23,945
+251,Texas Longhorns,SEC,98.7,16.1,3.9,66.6,30.6,2026-11-23,945
+258,Virginia Cavaliers,ACC,98.0,13.8,5.1,48.2,27.4,2026-11-23,945
+130,Michigan Wolverines,Big Ten,97.4,12.9,4.0,64.4,31.0,2026-11-23,945
+26,UCLA Bruins,Big Ten,96.4,7.2,5.0,50.2,28.0,2026-11-23,945
+2250,Gonzaga Bulldogs,Pac-12,96.4,55.5,5.9,34.1,28.7,2026-11-23,945
+2599,St. John's Red Storm,Big East,96.0,24.5,5.0,48.1,27.8,2026-11-23,945
+238,Vanderbilt Commodores,SEC,95.6,8.6,5.4,42.6,27.7,2026-11-23,945
+158,Nebraska Cornhuskers,Big Ten,95.1,5.3,5.5,41.6,26.9,2026-11-23,945
+127,Michigan State Spartans,Big Ten,95.0,7.4,4.8,50.8,28.6,2026-11-23,945
+2390,Miami Hurricanes,ACC,94.7,16.9,6.1,32.0,27.9,2026-11-23,945
+2633,Tennessee Volunteers,SEC,93.2,7.9,5.2,44.7,27.0,2026-11-23,945
+333,Alabama Crimson Tide,SEC,92.9,11.0,4.8,49.2,27.4,2026-11-23,945
+2272,High Point Panthers,Big South,91.9,85.2,11.5,0.0,17.0,2026-11-23,945
+30,USC Trojans,Big Ten,91.0,3.7,6.4,29.0,25.1,2026-11-23,945
+252,BYU Cougars,Big 12,90.1,0.0,6.2,29.2,25.2,2026-11-23,945
+66,Iowa State Cyclones,Big 12,88.3,0.0,6.4,26.8,27.6,2026-11-23,945
+245,Texas A&M Aggies,SEC,87.7,3.7,6.8,24.2,23.8,2026-11-23,945
+84,Indiana Hoosiers,Big Ten,86.0,1.9,7.1,19.7,22.4,2026-11-23,945
+239,Baylor Bears,Big 12,84.9,0.0,6.9,20.0,25.4,2026-11-23,945
+142,Missouri Tigers,SEC,83.6,5.4,6.9,21.8,24.9,2026-11-23,945
+269,Marquette Golden Eagles,Big East,83.1,12.9,7.3,17.3,24.6,2026-11-23,945
+328,Utah State Aggies,Pac-12,81.2,25.1,8.4,7.3,22.7,2026-11-23,945
+2294,Iowa Hawkeyes,Big Ten,77.4,2.8,7.5,14.3,24.4,2026-11-23,945
+145,Ole Miss Rebels,SEC,75.9,3.8,7.4,16.0,22.7,2026-11-23,945
+97,Louisville Cardinals,ACC,75.8,6.8,7.3,15.9,23.0,2026-11-23,945
+2509,Purdue Boilermakers,Big Ten,74.8,2.3,7.3,15.2,23.9,2026-11-23,945
+2608,Saint Mary's Gaels,WCC,73.6,56.2,10.8,0.0,17.8,2026-11-23,945
+277,West Virginia Mountaineers,Big 12,73.4,0.0,8.0,9.1,22.4,2026-11-23,945
+139,Saint Louis Billikens,A-10,72.2,39.7,10.1,0.5,20.2,2026-11-23,945
+2,Auburn Tigers,SEC,70.9,4.1,7.9,10.1,23.8,2026-11-23,945
+2132,Cincinnati Bearcats,Big 12,70.9,0.0,8.1,8.2,22.0,2026-11-23,945
+2670,VCU Rams,A-10,70.1,34.9,10.1,0.4,19.8,2026-11-23,945
+235,Memphis Tigers,American,68.6,40.0,10.2,0.3,16.5,2026-11-23,945
+197,Oklahoma State Cowboys,Big 12,66.3,0.0,8.2,6.7,22.1,2026-11-23,945
+156,Creighton Bluejays,Big East,64.6,5.9,8.0,9.0,20.5,2026-11-23,945
+2750,Wright State Raiders,Horizon,62.6,58.8,13.0,0.0,8.8,2026-11-23,945
+2752,Xavier Musketeers,Big East,59.4,4.9,8.8,4.9,19.8,2026-11-23,945
+194,Ohio State Buckeyes,Big Ten,58.8,1.7,8.2,6.2,21.9,2026-11-23,945
+222,Villanova Wildcats,Big East,58.3,5.5,9.0,3.9,19.9,2026-11-23,945
+47,Howard Bison,MEAC,57.1,57.1,15.3,0.0,-3.4,2026-11-23,945
+61,Georgia Bulldogs,SEC,56.2,1.0,9.0,3.8,18.8,2026-11-23,945
+135,Minnesota Golden Gophers,Big Ten,56.1,0.5,9.2,2.8,17.1,2026-11-23,945
+99,LSU Tigers,SEC,53.3,0.8,8.5,5.3,18.2,2026-11-23,945
+152,NC State Wolfpack,ACC,52.7,1.9,9.2,2.7,18.6,2026-11-23,945
+93,Murray State Racers,MVC,52.3,42.4,12.0,0.0,12.6,2026-11-23,945
+2253,Grand Canyon Lopes,Mountain West,52.0,29.8,10.8,0.1,16.2,2026-11-23,945
+120,Maryland Terrapins,Big Ten,50.4,1.1,8.7,3.7,20.3,2026-11-23,945
+87,Notre Dame Fighting Irish,ACC,50.1,0.9,9.7,1.4,16.0,2026-11-23,945
+259,Virginia Tech Hokies,ACC,49.9,1.1,9.7,1.5,16.5,2026-11-23,945
+2724,Wichita State Shockers,American,48.9,28.7,11.0,0.0,14.3,2026-11-23,945
+2377,McNeese Cowboys,Southland,48.8,48.3,14.1,0.0,6.0,2026-11-23,945
+221,Pittsburgh Panthers,ACC,48.6,1.3,9.3,2.4,16.4,2026-11-23,945
+8,Arkansas Razorbacks,SEC,47.7,1.5,8.9,3.1,20.1,2026-11-23,945
+147,Montana State Bobcats,Big Sky,46.1,45.9,14.2,0.0,5.5,2026-11-23,945
+21,San Diego State Aztecs,Pac-12,44.0,8.4,9.6,0.8,16.0,2026-11-23,945
+261,Vermont Catamounts,America East,41.9,41.9,15.4,0.0,-2.4,2026-11-23,945
+167,New Mexico Lobos,Mountain West,40.7,25.9,11.4,0.0,15.2,2026-11-23,945
+305,DePaul Blue Demons,Big East,40.7,2.0,9.6,2.1,15.8,2026-11-23,945
+2507,Providence Friars,Big East,40.4,2.5,9.4,1.8,17.0,2026-11-23,945
+2900,St. Thomas-Minnesota Tommies,Summit,40.1,40.0,14.6,0.0,2.9,2026-11-23,945
+9,Arizona State Sun Devils,Big 12,39.0,0.0,9.3,1.7,16.9,2026-11-23,945
+2440,Nevada Wolf Pack,Mountain West,38.8,24.0,11.2,0.0,14.6,2026-11-23,945
+228,Clemson Tigers,ACC,38.4,1.7,9.5,1.2,17.0,2026-11-23,945
+2065,Bethune-Cookman Wildcats,SWAC,37.1,37.1,15.7,0.0,-4.8,2026-11-23,945
+2567,SMU Mustangs,ACC,36.9,1.0,9.6,1.2,16.2,2026-11-23,945
+96,Kentucky Wildcats,SEC,36.6,0.9,9.1,2.3,18.3,2026-11-23,945
+153,North Carolina Tar Heels,ACC,36.4,1.4,9.3,2.0,16.7,2026-11-23,945
+344,Mississippi State Bulldogs,SEC,36.4,0.6,9.5,1.4,16.3,2026-11-23,945
+2540,UC Santa Barbara Gauchos,Big West,35.0,29.8,12.7,0.0,8.2,2026-11-23,945
+44,American University Eagles,Patriot,34.5,34.3,15.0,0.0,-1.7,2026-11-23,945
+112358,Long Island University Sharks,NEC,32.9,32.9,15.9,0.0,-10.2,2026-11-23,945
+98,Western Kentucky Hilltoppers,CUSA,32.0,30.9,13.1,0.0,7.2,2026-11-23,945
+2634,Tennessee State Tigers,OVC,31.8,31.8,15.0,0.0,-5.3,2026-11-23,945
+2628,TCU Horned Frogs,Big 12,31.8,0.0,9.4,1.0,17.2,2026-11-23,945
+3084,Utah Valley Wolverines,Big West,31.4,25.6,12.6,0.0,6.9,2026-11-23,945
+232,Charleston Cougars,CAA,30.4,28.8,13.3,0.0,6.0,2026-11-23,945
+2511,Queens University Royals,ASUN,30.3,30.3,15.2,0.0,-3.6,2026-11-23,945
+52,Florida State Seminoles,ACC,29.8,1.0,10.0,0.5,15.8,2026-11-23,945
+2550,Seton Hall Pirates,Big East,29.5,1.0,10.0,0.6,13.5,2026-11-23,945
+193,Miami (OH) RedHawks,MAC,29.1,25.5,12.9,0.0,5.7,2026-11-23,945
+350,UNC Wilmington Seahawks,CAA,28.9,27.6,13.3,0.0,5.7,2026-11-23,945
+2630,UT Martin Skyhawks,OVC,28.8,28.8,15.4,0.0,-5.1,2026-11-23,945
+2110,Central Arkansas Bears,UAC,28.4,28.3,14.6,0.0,-0.3,2026-11-23,945
+231,Furman Paladins,SoCon,28.2,27.8,14.0,0.0,2.8,2026-11-23,945
+2571,South Dakota State Jackrabbits,Summit,27.9,27.4,14.3,0.0,-0.4,2026-11-23,945
+288,Lipscomb Bisons,ASUN,27.6,27.5,15.2,0.0,-3.4,2026-11-23,945
+2541,Santa Clara Broncos,WCC,27.0,20.0,12.0,0.0,9.7,2026-11-23,945
+275,Wisconsin Badgers,Big Ten,25.5,0.3,9.4,0.7,17.0,2026-11-23,945
+219,Pennsylvania Quakers,Ivy,25.1,25.0,14.0,0.0,1.3,2026-11-23,945
+201,Oklahoma Sooners,SEC,24.7,0.6,9.5,0.9,16.0,2026-11-23,945
+2534,Sam Houston Bearkats,CUSA,24.3,22.7,13.4,0.0,5.1,2026-11-23,945
+2142,Colgate Raiders,Patriot,24.2,24.2,15.4,0.0,-4.4,2026-11-23,945
+46,Georgetown Hoyas,Big East,23.7,1.0,10.4,0.3,12.6,2026-11-23,945
+2483,Oregon Ducks,Big Ten,22.6,0.4,9.3,1.0,15.2,2026-11-23,945
+183,Syracuse Orange,ACC,22.2,0.8,10.6,0.2,14.3,2026-11-23,945
+2617,Stephen F. Austin Lumberjacks,Southland,21.7,21.5,14.6,0.0,-0.2,2026-11-23,945
+314,Iona Gaels,MAAC,21.7,21.7,15.6,0.0,-5.4,2026-11-23,945
+2349,UMass Lowell River Hawks,America East,21.5,21.5,15.4,0.0,-7.2,2026-11-23,945
+331,Eastern Washington Eagles,Big Sky,21.3,21.0,14.8,0.0,-0.4,2026-11-23,945
+2006,Akron Zips,MAC,20.9,20.2,13.6,0.0,3.9,2026-11-23,945
+171,Columbia Lions,Ivy,19.7,19.4,14.1,0.0,0.1,2026-11-23,945
+300,UC Irvine Anteaters,Big West,19.6,19.2,13.9,0.0,5.0,2026-11-23,945
+256,James Madison Dukes,Sun Belt,19.4,19.2,14.2,0.0,1.4,2026-11-23,945
+250,UT Arlington Mavericks,UAC,19.4,19.3,14.8,0.0,-2.8,2026-11-23,945
+2561,Siena Saints,MAAC,18.2,18.1,15.4,0.0,-7.1,2026-11-23,945
+338,Kennesaw State Owls,CUSA,18.1,17.0,13.4,0.0,3.4,2026-11-23,945
+2046,Austin Peay Governors,UAC,18.0,18.0,15.1,0.0,-3.4,2026-11-23,945
+154,Wake Forest Demon Deacons,ACC,17.6,0.4,10.6,0.1,12.9,2026-11-23,945
+2751,Wyoming Cowboys,Mountain West,17.4,10.5,11.9,0.0,9.4,2026-11-23,945
+68,Boise State Broncos,Pac-12,17.3,4.4,10.5,0.0,12.7,2026-11-23,945
+526,Florida Gulf Coast Eagles,ASUN,16.5,16.5,15.5,0.0,-6.8,2026-11-23,945
+82,UIC Flames,MVC,16.5,15.5,13.3,0.0,6.0,2026-11-23,945
+2193,East Tennessee State Buccaneers,SoCon,16.4,16.2,14.6,0.0,-0.3,2026-11-23,945
+164,Rutgers Scarlet Knights,Big Ten,16.3,0.1,10.4,0.2,13.5,2026-11-23,945
+2546,Southeast Missouri State Redhawks,OVC,16.2,16.2,15.6,0.0,-9.1,2026-11-23,945
+43,Yale Bulldogs,Ivy,16.0,16.0,14.4,0.0,-0.8,2026-11-23,945
+2330,Le Moyne Dolphins,NEC,15.8,15.8,15.9,0.0,-14.9,2026-11-23,945
+2011,Alabama State Hornets,SWAC,15.6,15.6,15.8,0.0,-10.7,2026-11-23,945
+2681,Wagner Seahawks,NEC,15.2,15.2,15.8,0.0,-14.7,2026-11-23,945
+2287,Illinois State Redbirds,MVC,14.8,14.1,13.5,0.0,5.9,2026-11-23,945
+2115,Central Connecticut Blue Devils,NEC,14.4,14.4,15.8,0.0,-15.0,2026-11-23,945
+204,Oregon State Beavers,Pac-12,14.3,2.2,10.9,0.0,10.3,2026-11-23,945
+104,Boston University Terriers,Patriot,14.3,14.3,15.5,0.0,-7.3,2026-11-23,945
+2635,Tennessee Tech Golden Eagles,SoCon,14.1,14.0,14.6,0.0,-1.9,2026-11-23,945
+2771,Merrimack Warriors,MAAC,13.9,13.9,15.7,0.0,-8.3,2026-11-23,945
+2329,Lehigh Mountain Hawks,Patriot,13.6,13.6,15.4,0.0,-7.5,2026-11-23,945
+2755,Grambling Tigers,SWAC,13.5,13.5,15.6,0.0,-11.5,2026-11-23,945
+108,Harvard Crimson,Ivy,12.9,12.9,14.9,0.0,-2.1,2026-11-23,945
+163,Princeton Tigers,Ivy,12.7,12.7,14.7,0.0,-2.4,2026-11-23,945
+2450,Norfolk State Spartans,MEAC,12.5,12.5,16.0,0.0,-14.8,2026-11-23,945
+58,South Florida Bulls,American,12.3,10.6,12.8,0.0,8.6,2026-11-23,945
+2649,Toledo Rockets,MAC,12.3,12.1,14.4,0.0,1.6,2026-11-23,945
+2244,George Mason Patriots,A-10,12.2,6.3,11.7,0.0,9.9,2026-11-23,945
+2711,Western Michigan Broncos,MAC,12.2,11.7,13.8,0.0,1.6,2026-11-23,945
+2032,Arkansas State Red Wolves,Sun Belt,12.1,12.0,14.4,0.0,-2.2,2026-11-23,945
+295,Old Dominion Monarchs,Sun Belt,11.8,11.5,14.2,0.0,-1.3,2026-11-23,945
+2368,Marist Red Foxes,MAAC,11.8,11.8,15.7,0.0,-9.5,2026-11-23,945
+2627,Tarleton State Texans,UAC,11.5,11.5,15.0,0.0,-6.1,2026-11-23,945
+2335,Liberty Flames,CUSA,11.4,11.1,14.0,0.0,1.3,2026-11-23,945
+2217,Fairfield Stags,MAAC,11.0,11.0,15.5,0.0,-9.6,2026-11-23,945
+2565,SIU Edwardsville Cougars,OVC,10.9,10.9,15.6,0.0,-11.3,2026-11-23,945
+236,Chattanooga Mocs,SoCon,10.8,10.8,14.7,0.0,-2.7,2026-11-23,945
+326,Texas State Bobcats,Pac-12,10.7,2.0,11.4,0.0,9.3,2026-11-23,945
+276,Marshall Thundering Herd,Sun Belt,10.6,10.6,14.5,0.0,-1.7,2026-11-23,945
+2026,App State Mountaineers,Sun Belt,10.3,10.2,14.2,0.0,-2.2,2026-11-23,945
+45,George Washington Revolutionaries,A-10,10.0,5.8,11.8,0.0,9.7,2026-11-23,945
+103,Boston College Eagles,ACC,9.9,0.1,11.1,0.0,9.7,2026-11-23,945
+2449,North Dakota State Bison,Summit,9.8,9.8,15.6,0.0,-6.5,2026-11-23,945
+36,Colorado State Rams,Pac-12,9.7,1.8,10.7,0.0,10.0,2026-11-23,945
+2428,North Carolina Central Eagles,MEAC,9.5,9.5,15.9,0.0,-16.5,2026-11-23,945
+2247,Georgia State Panthers,Sun Belt,9.5,9.5,15.0,0.0,-2.6,2026-11-23,945
+2803,Bryant Bulldogs,America East,9.4,9.4,15.8,0.0,-12.2,2026-11-23,945
+2535,Samford Bulldogs,SoCon,9.3,9.3,14.9,0.0,-4.0,2026-11-23,945
+2582,Southern Jaguars,SWAC,9.2,9.2,15.9,0.0,-13.8,2026-11-23,945
+2439,UNLV Rebels,Mountain West,9.1,6.4,12.4,0.0,8.3,2026-11-23,945
+172,Cornell Big Red,Ivy,9.1,9.1,15.0,0.0,-4.4,2026-11-23,945
+2514,Quinnipiac Bobcats,MAAC,9.0,9.0,15.7,0.0,-10.2,2026-11-23,945
+195,Ohio Bobcats,MAC,8.8,8.6,14.0,0.0,-1.0,2026-11-23,945
+28,UC San Diego Tritons,Big West,8.6,8.5,14.1,0.0,0.4,2026-11-23,945
+294,Jacksonville Dolphins,ASUN,8.5,8.5,15.6,0.0,-10.1,2026-11-23,945
+119,Towson Tigers,CAA,8.3,8.3,14.8,0.0,0.1,2026-11-23,945
+56,Stetson Hatters,ASUN,8.3,8.3,15.7,0.0,-10.7,2026-11-23,945
+24,Stanford Cardinal,ACC,8.3,0.2,10.9,0.0,10.2,2026-11-23,945
+160,New Hampshire Wildcats,America East,8.2,8.2,15.9,0.0,-12.9,2026-11-23,945
+2504,Prairie View A&M Panthers,SWAC,8.2,8.2,15.8,0.0,-14.3,2026-11-23,945
+2569,South Carolina State Bulldogs,MEAC,8.1,8.1,15.9,0.0,-17.2,2026-11-23,945
+2116,UCF Knights,Big 12,8.1,0.0,10.5,0.1,12.0,2026-11-23,945
+2547,Seattle U Redhawks,WCC,8.1,7.6,13.3,0.0,4.4,2026-11-23,945
+2057,Belmont Bruins,MVC,7.9,7.3,13.6,0.0,2.2,2026-11-23,945
+161,Fairleigh Dickinson Knights,NEC,7.7,7.7,15.9,0.0,-18.4,2026-11-23,945
+2031,Little Rock Trojans,UAC,7.7,7.6,15.5,0.0,-7.6,2026-11-23,945
+198,Oral Roberts Golden Eagles,Summit,7.5,7.5,15.2,0.0,-8.0,2026-11-23,945
+2459,Northern Illinois Huskies,Horizon,7.4,7.4,15.2,0.0,-5.0,2026-11-23,945
+2729,William & Mary Tribe,CAA,7.4,7.2,14.4,0.0,-1.2,2026-11-23,945
+2502,Portland State Vikings,Big Sky,7.4,7.4,15.3,0.0,-6.3,2026-11-23,945
+2382,Mercer Bears,SoCon,7.4,7.4,15.4,0.0,-5.0,2026-11-23,945
+2181,Drake Bulldogs,MVC,7.3,7.2,13.9,0.0,2.0,2026-11-23,945
+140,Kansas City Roos,Summit,7.3,7.3,15.4,0.0,-8.3,2026-11-23,945
+357,Texas A&M-Corpus Christi Islanders,Southland,7.3,7.3,15.4,0.0,-6.0,2026-11-23,945
+2378,UMBC Retrievers,America East,7.3,7.3,15.9,0.0,-13.3,2026-11-23,945
+2130,Chicago State Cougars,NEC,7.2,7.2,16.0,0.0,-18.5,2026-11-23,945
+25,California Golden Bears,ACC,7.1,0.1,10.8,0.0,9.9,2026-11-23,945
+202,Tulsa Golden Hurricane,American,6.9,5.4,12.6,0.0,4.6,2026-11-23,945
+2717,Western Carolina Catamounts,SoCon,6.9,6.9,15.1,0.0,-5.1,2026-11-23,945
+284,Stonehill Skyhawks,NEC,6.6,6.6,16.0,0.0,-19.4,2026-11-23,945
+2523,Robert Morris Colonials,Horizon,6.6,6.6,15.3,0.0,-5.8,2026-11-23,945
+2739,Green Bay Phoenix,Horizon,6.5,6.5,15.4,0.0,-5.7,2026-11-23,945
+2320,Lamar Cardinals,Southland,6.3,6.3,15.4,0.0,-6.8,2026-11-23,945
+2579,South Carolina Gamecocks,SEC,6.3,0.1,10.7,0.0,9.2,2026-11-23,945
+249,North Texas Mean Green,American,6.2,5.5,12.8,0.0,4.8,2026-11-23,945
+2198,Eastern Kentucky Colonels,UAC,6.1,6.1,15.5,0.0,-9.5,2026-11-23,945
+2453,North Alabama Lions,UAC,6.1,6.1,15.4,0.0,-9.6,2026-11-23,945
+2674,Valparaiso Beacons,MVC,6.1,5.8,13.5,0.0,1.6,2026-11-23,945
+2529,Sacred Heart Pioneers,MAAC,6.0,6.0,15.8,0.0,-12.7,2026-11-23,945
+292,UT Rio Grande Valley Vaqueros,Southland,5.9,5.9,15.3,0.0,-6.9,2026-11-23,945
+264,Washington Huskies,Big Ten,5.9,0.0,10.0,0.1,8.6,2026-11-23,945
+70,Idaho Vandals,Big Sky,5.8,5.8,15.3,0.0,-7.7,2026-11-23,945
+2572,Southern Miss Golden Eagles,Sun Belt,5.7,5.7,15.0,0.0,-4.7,2026-11-23,945
+2653,Troy Trojans,Sun Belt,5.6,5.6,14.9,0.0,-4.4,2026-11-23,945
+2405,Monmouth Hawks,CAA,5.5,5.5,15.1,0.0,-3.2,2026-11-23,945
+6,South Alabama Jaguars,Sun Belt,5.5,5.5,14.9,0.0,-4.6,2026-11-23,945
+2473,Oakland Golden Grizzlies,Horizon,5.5,5.5,15.6,0.0,-6.0,2026-11-23,945
+166,New Mexico State Aggies,CUSA,5.4,5.4,14.8,0.0,-2.8,2026-11-23,945
+2275,Hofstra Pride,CAA,5.4,5.4,14.7,0.0,-3.0,2026-11-23,945
+2010,Alabama A&M Bulldogs,SWAC,5.4,5.4,15.8,0.0,-15.8,2026-11-23,945
+2296,Jackson State Tigers,SWAC,5.4,5.4,16.0,0.0,-16.0,2026-11-23,945
+2515,Radford Highlanders,Big South,5.3,5.3,15.2,0.0,-5.0,2026-11-23,945
+2306,Kansas State Wildcats,Big 12,5.1,0.0,10.4,0.0,10.5,2026-11-23,945
+2351,Loyola Marymount Lions,WCC,5.1,5.1,13.9,0.0,2.6,2026-11-23,945
+91,Bellarmine Knights,ASUN,5.1,5.1,15.8,0.0,-13.1,2026-11-23,945
+113,Massachusetts Minutemen,MAC,5.0,5.0,14.5,0.0,-2.9,2026-11-23,945
+322,Lafayette Leopards,Patriot,5.0,5.0,15.8,0.0,-12.7,2026-11-23,945
+88,Southern Indiana Screaming Eagles,OVC,4.9,4.9,15.8,0.0,-15.2,2026-11-23,945
+2309,Kent State Golden Flashes,MAC,4.6,4.6,14.5,0.0,-3.2,2026-11-23,945
+2226,Florida Atlantic Owls,American,4.5,3.5,12.8,0.0,2.6,2026-11-23,945
+2182,Drexel Dragons,CAA,4.4,4.4,14.8,0.0,-4.0,2026-11-23,945
+2199,Eastern Michigan Eagles,MAC,4.4,4.3,14.3,0.0,-3.5,2026-11-23,945
+2426,Navy Midshipmen,Patriot,4.4,4.4,15.8,0.0,-13.0,2026-11-23,945
+301,San Diego Toreros,WCC,4.4,3.8,13.1,0.0,2.0,2026-11-23,945
+3101,Utah Tech Trailblazers,Big Sky,4.2,4.2,15.6,0.0,-8.8,2026-11-23,945
+2815,Lindenwood Lions,OVC,4.2,4.2,15.8,0.0,-16.1,2026-11-23,945
+2229,Florida International Panthers,CUSA,4.2,4.1,14.4,0.0,-3.8,2026-11-23,945
+2430,UNC Greensboro Spartans,SoCon,4.1,4.1,15.1,0.0,-7.3,2026-11-23,945
+2463,Cal State Northridge Matadors,Big West,4.1,4.1,14.6,0.0,-3.4,2026-11-23,945
+2210,Elon Phoenix,CAA,4.1,4.1,14.9,0.0,-4.1,2026-11-23,945
+2393,Middle Tennessee Blue Raiders,CUSA,4.0,3.9,14.7,0.0,-3.4,2026-11-23,945
+2066,Binghamton Bearcats,America East,3.9,3.9,15.9,0.0,-16.8,2026-11-23,945
+233,South Dakota Coyotes,Summit,3.8,3.8,15.8,0.0,-11.4,2026-11-23,945
+2348,Louisiana Tech Bulldogs,Sun Belt,3.8,3.8,15.1,0.0,-6.9,2026-11-23,945
+2415,Morgan State Bears,MEAC,3.8,3.8,15.9,0.0,-20.4,2026-11-23,945
+2460,Northern Iowa Panthers,MVC,3.8,3.7,14.3,0.0,-1.1,2026-11-23,945
+2350,Loyola Chicago Ramblers,A-10,3.8,2.2,12.2,0.0,6.4,2026-11-23,945
+2454,North Florida Ospreys,ASUN,3.7,3.7,15.8,0.0,-13.7,2026-11-23,945
+2458,Northern Colorado Bears,Big Sky,3.7,3.6,15.3,0.0,-9.5,2026-11-23,945
+2277,Houston Christian Huskies,Southland,3.7,3.7,15.5,0.0,-10.2,2026-11-23,945
+2168,Dayton Flyers,A-10,3.6,2.9,12.7,0.0,7.4,2026-11-23,945
+2239,Cal State Fullerton Titans,Big West,3.6,3.4,14.4,0.0,-3.6,2026-11-23,945
+311,Maine Black Bears,America East,3.6,3.6,15.9,0.0,-16.4,2026-11-23,945
+149,Montana Grizzlies,Big Sky,3.5,3.5,15.4,0.0,-9.1,2026-11-23,945
+2870,Purdue Fort Wayne Mastodons,Horizon,3.5,3.5,15.3,0.0,-8.7,2026-11-23,945
+2640,Texas Southern Tigers,SWAC,3.4,3.4,16.0,0.0,-17.2,2026-11-23,945
+2097,Campbell Fighting Camels,CAA,3.4,3.4,15.1,0.0,-5.0,2026-11-23,945
+2754,Youngstown State Penguins,Horizon,3.4,3.4,15.4,0.0,-8.5,2026-11-23,945
+399,UAlbany Great Danes,America East,3.3,3.3,16.0,0.0,-16.5,2026-11-23,945
+213,Penn State Nittany Lions,Big Ten,3.3,0.0,11.0,0.0,8.8,2026-11-23,945
+324,Coastal Carolina Chanticleers,Sun Belt,3.2,3.2,14.9,0.0,-7.4,2026-11-23,945
+2169,Delaware State Hornets,MEAC,3.2,3.2,16.0,0.0,-21.8,2026-11-23,945
+2154,Coppin State Eagles,MEAC,3.2,3.2,16.0,0.0,-21.4,2026-11-23,945
+94,Northern Kentucky Norse,Horizon,3.1,3.1,15.4,0.0,-9.3,2026-11-23,945
+2344,Longwood Lancers,Big South,3.0,3.0,15.4,0.0,-7.7,2026-11-23,945
+2086,Butler Bulldogs,Big East,3.0,0.2,11.3,0.0,9.0,2026-11-23,945
+2000,Abilene Christian Wildcats,UAC,3.0,3.0,15.7,0.0,-12.9,2026-11-23,945
+189,Bowling Green Falcons,MAC,2.9,2.9,14.6,0.0,-4.3,2026-11-23,945
+13,Cal Poly Mustangs,Big West,2.9,2.8,14.8,0.0,-4.2,2026-11-23,945
+2166,Davidson Wildcats,A-10,2.9,2.0,12.2,0.0,5.0,2026-11-23,945
+116,Mount St. Mary's Mountaineers,MAAC,2.8,2.8,15.9,0.0,-15.5,2026-11-23,945
+270,Milwaukee Panthers,Horizon,2.7,2.7,15.6,0.0,-9.5,2026-11-23,945
+159,Dartmouth Big Green,Ivy,2.7,2.7,15.3,0.0,-11.0,2026-11-23,945
+2539,San Francisco Dons,WCC,2.7,2.5,13.7,0.0,-0.4,2026-11-23,945
+2619,Stony Brook Seawolves,CAA,2.7,2.7,14.9,0.0,-5.4,2026-11-23,945
+2464,Northern Arizona Lumberjacks,Big Sky,2.6,2.6,15.6,0.0,-11.2,2026-11-23,945
+2379,Maryland Eastern Shore Hawks,MEAC,2.5,2.5,16.0,0.0,-22.9,2026-11-23,945
+27,UC Riverside Highlanders,Big West,2.5,2.5,14.8,0.0,-5.0,2026-11-23,945
+2747,Wofford Terriers,SoCon,2.5,2.5,15.2,0.0,-8.8,2026-11-23,945
+2692,Weber State Wildcats,Big Sky,2.4,2.4,15.7,0.0,-12.0,2026-11-23,945
+2084,Buffalo Bulls,MAC,2.3,2.3,14.9,0.0,-5.9,2026-11-23,945
+225,Brown Bears,Ivy,2.3,2.3,15.7,0.0,-10.0,2026-11-23,945
+2413,Morehead State Eagles,OVC,2.3,2.3,15.8,0.0,-18.8,2026-11-23,945
+218,Temple Owls,American,2.2,2.2,13.6,0.0,1.2,2026-11-23,945
+79,Southern Illinois Salukis,MVC,2.2,2.2,14.9,0.0,-2.4,2026-11-23,945
+315,Niagara Purple Eagles,MAAC,2.2,2.2,15.9,0.0,-16.3,2026-11-23,945
+279,Pacific Tigers,WCC,2.1,2.0,13.8,0.0,-1.4,2026-11-23,945
+2437,Omaha Mavericks,Summit,2.1,2.1,15.6,0.0,-14.1,2026-11-23,945
+16,Sacramento State Hornets,Big West,2.1,2.0,15.0,0.0,-6.2,2026-11-23,945
+253,Southern Utah Thunderbirds,Big Sky,2.1,2.1,15.6,0.0,-12.0,2026-11-23,945
+155,North Dakota Fighting Hawks,Summit,2.1,2.1,15.8,0.0,-14.0,2026-11-23,945
+227,Rhode Island Rams,A-10,2.0,1.2,12.5,0.0,4.0,2026-11-23,945
+2506,Presbyterian Blue Hose,Big South,2.0,2.0,15.4,0.0,-9.8,2026-11-23,945
+2050,Ball State Cardinals,MAC,2.0,2.0,15.0,0.0,-6.8,2026-11-23,945
+55,Jacksonville State Gamecocks,CUSA,1.9,1.9,15.0,0.0,-7.0,2026-11-23,945
+349,Army Black Knights,Patriot,1.9,1.9,15.9,0.0,-17.5,2026-11-23,945
+38,Colorado Buffaloes,Big 12,1.8,0.0,10.6,0.0,9.0,2026-11-23,945
+2429,Charlotte 49ers,American,1.8,1.6,13.4,0.0,0.4,2026-11-23,945
+2230,Fordham Rams,A-10,1.8,1.2,12.5,0.0,3.5,2026-11-23,945
+179,St. Bonaventure Bonnies,A-10,1.8,1.1,12.5,0.0,2.9,2026-11-23,945
+2737,Winthrop Eagles,Big South,1.8,1.8,15.7,0.0,-9.2,2026-11-23,945
+2466,Northwestern State Demons,Southland,1.8,1.8,15.7,0.0,-12.6,2026-11-23,945
+309,Louisiana Ragin' Cajuns,Sun Belt,1.7,1.7,15.4,0.0,-9.9,2026-11-23,945
+2545,SE Louisiana Lions,Southland,1.7,1.7,15.8,0.0,-12.3,2026-11-23,945
+77,Northwestern Wildcats,Big Ten,1.7,0.0,10.9,0.0,8.2,2026-11-23,945
+2623,Missouri State Bears,CUSA,1.7,1.7,14.4,0.0,-6.9,2026-11-23,945
+257,Richmond Spiders,A-10,1.7,1.3,12.9,0.0,4.2,2026-11-23,945
+2492,Pepperdine Waves,WCC,1.6,1.5,14.3,0.0,-2.8,2026-11-23,945
+2083,Bucknell Bison,Patriot,1.5,1.5,15.9,0.0,-17.6,2026-11-23,945
+2427,UNC Asheville Bulldogs,Big South,1.5,1.5,15.7,0.0,-10.8,2026-11-23,945
+2184,Duquesne Dukes,A-10,1.5,0.7,12.5,0.0,1.7,2026-11-23,945
+2638,UTEP Miners,Mountain West,1.5,1.1,13.2,0.0,0.5,2026-11-23,945
+290,Georgia Southern Eagles,Sun Belt,1.5,1.5,15.6,0.0,-10.0,2026-11-23,945
+304,Idaho State Bengals,Big Sky,1.5,1.5,15.7,0.0,-13.0,2026-11-23,945
+2363,Manhattan Jaspers,MAAC,1.4,1.4,16.0,0.0,-18.6,2026-11-23,945
+48,Delaware Blue Hens,CUSA,1.3,1.3,14.9,0.0,-7.6,2026-11-23,945
+85,IU Indianapolis Jaguars,Horizon,1.3,1.3,15.6,0.0,-11.9,2026-11-23,945
+2447,Nicholls Colonels,Southland,1.3,1.3,15.8,0.0,-13.1,2026-11-23,945
+111,Northeastern Huskies,CAA,1.3,1.3,15.5,0.0,-8.0,2026-11-23,945
+62,Hawai'i Rainbow Warriors,Mountain West,1.3,1.1,13.1,0.0,-0.3,2026-11-23,945
+2603,Saint Joseph's Hawks,A-10,1.3,0.6,12.1,0.0,1.9,2026-11-23,945
+2612,Saint Peter's Peacocks,MAAC,1.3,1.3,15.9,0.0,-18.2,2026-11-23,945
+2837,East Texas A&M Lions,Southland,1.1,1.1,15.5,0.0,-12.9,2026-11-23,945
+71,Bradley Braves,MVC,1.0,1.0,15.0,0.0,-5.5,2026-11-23,945
+2443,New Orleans Privateers,Southland,1.0,1.0,15.7,0.0,-14.4,2026-11-23,945
+265,Washington State Cougars,Pac-12,1.0,0.5,12.4,0.0,5.1,2026-11-23,945
+2934,Cal State Bakersfield Roadrunners,Big West,1.0,1.0,15.0,0.0,-7.9,2026-11-23,945
+23,San José State Spartans,Mountain West,1.0,0.9,13.9,0.0,-0.4,2026-11-23,945
+2261,Hampton Pirates,CAA,1.0,1.0,15.1,0.0,-10.1,2026-11-23,945
+2885,NJIT Highlanders,America East,1.0,1.0,16.0,0.0,-21.5,2026-11-23,945
+299,Long Beach State Beach,Big West,0.9,0.9,15.2,0.0,-7.7,2026-11-23,945
+2127,Charleston Southern Buccaneers,Big South,0.9,0.9,15.7,0.0,-11.4,2026-11-23,945
+5,UAB Blazers,American,0.9,0.9,14.1,0.0,-0.8,2026-11-23,945
+325,Cleveland State Vikings,Horizon,0.9,0.9,15.5,0.0,-12.6,2026-11-23,945
+2016,Alcorn State Braves,SWAC,0.9,0.9,16.0,0.0,-22.2,2026-11-23,945
+2117,Central Michigan Chippewas,MAC,0.9,0.9,15.2,0.0,-9.3,2026-11-23,945
+2172,Denver Pioneers,WCC,0.7,0.7,15.3,0.0,-6.6,2026-11-23,945
+50,Florida A&M Rattlers,SWAC,0.7,0.7,16.0,0.0,-23.4,2026-11-23,945
+242,Rice Owls,American,0.6,0.6,13.9,0.0,-5.6,2026-11-23,945
+2352,Loyola Maryland Greyhounds,Patriot,0.6,0.6,15.9,0.0,-20.7,2026-11-23,945
+2678,VMI Keydets,SoCon,0.6,0.6,15.8,0.0,-14.7,2026-11-23,945
+2400,Mississippi Valley State Delta Devils,SWAC,0.6,0.6,15.9,0.0,-25.7,2026-11-23,945
+2520,Rider Broncs,MAAC,0.5,0.5,15.9,0.0,-20.7,2026-11-23,945
